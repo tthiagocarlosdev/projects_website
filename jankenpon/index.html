@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/videogame_asset.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title> Jankenpon </title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_jankenpon">
+            <h1 id="title_jankenpon"> 
+                Jankenpon 
+                <i class="fa-solid fa-hand-fist"></i>
+                <i class="fa-solid fa-hand"></i>
+                <i class="fa-solid fa-hand-scissors"></i>
+            </h1>
+            <div class="buttons_jankenpon">
+                <button class="buttons" id="stone" onclick="handleStone()" > <i class="fa-solid fa-hand-fist"></i> Stone </button>
+                <button class="buttons" id="paper" onclick="handlePaper()" > <i class="fa-solid fa-hand"></i> Paper </button>
+                <button class="buttons" id="scissors" onclick="handlScissors()" > <i class="fa-solid fa-hand-scissors"></i> Scissors </button>
+            </div>
+            <div class="scoreboard_jankenpon">
+                <p> Human - <span id="human_play"> ****** </span> x <span id="computer_play"> ****** </span> - Computer </p>
+                <p> Winner: <span id="score_winner"> ****** </span> </p>
+                <p> ScoreBoard: Human <span id="score_human"> 0 </span> x <span id="score_computer"> 0 </span> Computer </p>
+                <p> Number of Games: <span id="number_of_games"> 0 </span> </p>
+            </div>
+            
+        </div>
+        
+        <button id="reset_button" onclick="handleReset()"> Reset </button>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
+</body>
+</html>
