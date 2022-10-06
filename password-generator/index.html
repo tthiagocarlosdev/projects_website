@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="https://iconape.com/wp-content/files/wp/258575/svg/258575.svg">
+		<link rel="stylesheet" href="style.css">
+		<title> password generator </title>
+	</head>
+<body>
+	<div class="container">
+
+		<header class="header">
+			<h1> PASSWORD GENERATOR </h1>
+		</header>
+
+		<div class="sub-titles">
+			<h2 id="title-instructions"> Instruções </h2>
+			<h2 id="title-generator">Gerar Senha</h2>
+		</div>
+
+		<main class="main">
+			<div class="box-instructions">
+				<p> Este sistema foi desenvolvido para gerar senhas seguras.</p>
+				<p> Para uma senha ser considerada segura, ela deve apresentar: </p>
+				<ul>
+					<li> <i class="fa-solid fa-key"></i> Mínimo de 8 caracteres; </li>
+					<li> <i class="fa-solid fa-key"></i> Letras maiúsculas; </li>
+					<li> <i class="fa-solid fa-key"></i> Letras minusculas; </li>
+					<li> <i class="fa-solid fa-key"></i> Números; </li>
+					<li> <i class="fa-solid fa-key"></i> Símbolos. </li>
+				</ul>
+			</div>
+
+			<div class="box-input-generator">
+				<p> Digite a quantidade de caracteres de sua senha: </p>
+				<p> [ATENÇÃO]! Digite valores de 8 a 40.</p>
+				<input type="number" name="number-of-characters" id="number_of_characters_typed" placeholder="Digite aqui">
+				<button value="generate" onclick="passwordGenerator()"> Gerar senha </button>
+			</div>
+
+		</main>
+
+		<footer class="box-footer">
+			<p class="footer-title"> Desenvolvido por tthiagocarlosdev <p>
+			<ul class="links-social-media">
+				<li> <a href="https://github.com/tthiagocarlosdev" target="_blank"> GitHub </a></li>
+				<li> <a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank"> Gmail </a></li>
+				<li> <a href="https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw" target="_blank"> YouTube </a></li>
+				<li> <a href="https://www.instagram.com/tthiagocarlos.dev/" target="_blank"> Instagram </a></li>
+				<li> <a href="https://www.linkedin.com/in/thiago-carlos-80a480244" target="_blank"> LinkedIn </a></li>
+			</ul>
+		</footer>
+
+		<div class="modal-password">
+			<div class="box-modal-password">
+				<div class="header-modal">
+					<h1 class="title-modal-password"> Senha Gerada </h1>
+					<button class="botton-close-modal" onclick="closeModalPassword()" > X </button>
+				</div>
+
+				<div class="text-modal-password">
+					<p> Sua senha tem <span id="number_of_characters_modal"></span> caracteres, sendo: </p>
+					<ul>
+						<li> <span id="symbols_modal"></span> símbolos;</li>
+						<li> <span id="numbers_modal"></span> números;</li>
+						<li> <span id="capital_letters_modal"></span> letras maiúsculas;</li>
+						<li> <span id="small_letters_modal"></span> letras minúsculas.</li>
+					</ul>
+					<div class="result-password">
+						<p>Sua senha é:</p>	
+						<button id="copy-password-button" onclick="copyToClipboard()"> <i class="fa-regular fa-copy"></i> </button>	
+					</div>
+					<p id="password_modal" > {'0137z$\PyaW`2bQldL.4M!6t5UGCVi8c9?p*rN </p>
+				
+				</div>
+				
+			</div>
+		
+		</div>
+
+		<div id="open-modal" class="modal">
+			<div class="box-modal">
+			  <div class="header-modal">        
+				<h2> Password Generator </h2>
+				<button class="botton_close_modal" onclick="closeModal()" > Close </button>
+			  </div>
+			  <div class="text_modal">
+				<p>
+					Este é a 2ª versão do site gerador de senha segura!
+				</p>
+				<p>
+					O funcionameno é o mesmo da 1ª versão.
+				</p>
+				<p>
+					Agora após o usuário informar a quantidade de caractres, uma janela abre com a sua nova senha, as informaões sobre as caracteristicas da sua senha e um botão copiar, para o usuário copiar a sua senha para a área de transferência, sem precisar selecionar a senha.
+				</p>
+			  </div>
+			</div>
+		</div>
+
+	</div>
+	<script src="scripts.js"></script>
+	<script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
+</body>
+</html>

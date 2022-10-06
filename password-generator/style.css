@@ -1,0 +1,423 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+	--grey-A: rgb(122, 139, 150);
+	--grey-B:rgb(118, 186, 232);
+	--grey-C:rgb(184, 210, 227);
+	--grey-D:rgb(51, 80, 99);
+	--grey-E: rgb(143, 163, 176);
+	--white-color: #dbdbdb;
+	--black-color: #000;
+	--white: #ffffff;
+	--modal-button: rgb(242, 129, 129);
+	--modal-button-hover: rgb(0, 128, 0);
+    --background-model: rgba(0,0,0,0.8);
+    --background-box-model:rgb(68, 103, 246);
+}
+
+@media(max-width:1080px){
+	html{
+		font-size: 93.75%;
+	}
+}
+
+@media(max-width:720px){
+	html{
+		font-size: 87.5%;
+	}
+}
+
+@media(max-width:500px){
+	html{
+		font-size: 82.5%;
+	}
+}
+
+@media(max-width:300px){
+	html{
+		font-size: 75.5%;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color:--black-color;
+}
+
+/* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
+.header {
+	background-color: var(--grey-A);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	order: 1;
+	flex: 1;
+}
+
+.header h1 {		
+	font-size: 3rem;
+	width: auto;
+	padding: 1.5rem;
+}
+
+/* SUB-TITLES SUB-TITLES SUB-TITLES SUB-TITLES SUB-TITLES SUB-TITLES SUB-TITLES */
+.sub-titles {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	order: 2;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--grey-C);
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+}
+
+.sub-titles h2 {
+	font-size: 2rem;
+}
+
+
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+.main {
+	display: flex;
+	flex-direction: row;
+	order: 3;
+	flex: 4;
+	border-bottom: 2px solid var(--black-color);
+	background: var(--grey-C);
+}
+
+/* BOX INSTRUCTIONS BOX INSTRUCTIONS BOX INSTRUCTIONS BOX INSTRUCTIONS BOX INSTRUCTIONS */
+.main .box-instructions {
+	order: 1;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	/* background-color: brown; */
+}
+
+.main .box-instructions p,
+.main .box-instructions li {
+	font-size: 1.5rem;
+	padding: 0.7rem 3rem;
+}
+
+.main .box-instructions li {
+	list-style: none;
+}
+
+/* BOX INPUT GENERATOR BOX INPUT GENERATOR BOX INPUT GENERATOR BOX INPUT GENERATOR */
+.main .box-input-generator {
+	order: 2;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width:100%;
+}
+
+.main .box-input-generator p {
+	padding: 1rem;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+
+.main .box-input-generator input {    
+	height: 2.5rem;
+	padding: 0 1.5rem;
+	border-radius: 5px;
+	margin-top: 1.5rem;
+}
+
+.main .box-input-generator input::-webkit-input-placeholder {
+	color: grey;
+	font-size: 0.9rem;
+	text-align: center;
+}   
+
+.main .box-input-generator button {
+	border: 0;
+	height: 2.5rem;
+	padding: 0 1.5rem;
+	font-size: 1.5rem;
+	margin-top: 2.5rem;
+	text-align:center;
+	color:var(--white);
+	text-shadow: 1px 1px 1px var(--black-color);
+	border-radius: 5px;
+	background-color: var(--grey-D);
+	box-shadow: 1px 1px 1px 1px black;
+	cursor:pointer;
+}
+
+.main .box-input-generator button:hover {
+	background-color: var(--grey-A);
+}
+
+/* MODAL PASSWORD  MODAL PASSWORD MODAL PASSWORD MODAL PASSWORD MODAL PASSWORD */
+
+.modal-password {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 1;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+}
+
+.openModalPassword {
+	display: block;
+}
+
+.closeModalPassword {
+	display: none;
+}
+
+
+.container .modal-password .box-modal-password {
+  width: 31.25rem;
+  position: relative;
+  margin: 10% auto;
+  padding: 1rem 1.25rem;
+  background-color:var(--grey-E);
+  border-radius: 5px;
+}
+
+.container .modal-password .box-modal-password .header-modal {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--black-color);
+	padding-bottom: 1rem;
+}
+
+.container .modal-password .box-modal-password .header-modal .title-modal-password {
+	font-size: 2rem;
+}
+
+/* button close modal */
+.container .modal-password .box-modal-password .header-modal .botton-close-modal {
+	text-decoration: none;
+	border: none;
+	width: 5rem;
+	padding: 0.5rem;
+	background-color: var(--modal-button);
+	color: var(--black);
+	font-size: 1.2rem;
+	font-weight: bold;
+	border-radius: 5px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.container .modal-password .box-modal-password .header-modal .botton-close-modal:hover {
+	background-color: var(--modal-button-hover);
+}
+
+
+.container .modal-password .box-modal-password .text-modal-password {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container .modal-password .box-modal-password .text-modal-password p {
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+}
+
+.container .modal-password .box-modal-password .text-modal-password li {
+	list-style: none;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+}
+
+.container .modal-password .box-modal-password .result-password {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: 1rem;
+}
+
+/* button copy */
+.container .modal-password .box-modal-password .result-password #copy-password-button {
+	text-decoration: none;
+  border: none;
+  width: 5rem;
+  padding: 0.5rem;
+  background-color: var(--modal-button);
+  color: var(--black-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container .modal-password .box-modal-password .result-password #copy-password-button:hover {
+	background-color: var(--modal-button-hover);
+}
+
+#number_of_characters_modal, 
+#symbols_modal,
+#numbers_modal, 
+#small_letters_modal, 
+#capital_letters_modal {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+/* password */
+.container .modal-password .box-modal-password .text-modal-password #password_modal {
+	margin-top: 0.7rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+/* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
+.box-footer {
+	background-color: var(--grey-A);
+	display: flex;
+	flex-direction: row;
+	order: 4;
+	flex: 0.65;
+	flex-flow: wrap;
+}
+
+.box-footer .footer-title {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+    padding:1rem;
+}
+
+.box-footer .links-social-media {
+	list-style: none;
+	flex: 1.5;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding:0.5rem;
+    flex-flow: wrap;
+}
+
+.box-footer .links-social-media a {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	padding: 0.5rem;
+	border: 1px solid var(--black-color);
+	border-radius: 5px;
+	margin-left:0.5rem;
+	width: 7rem;
+}
+
+.box-footer .links-social-media a:hover {
+	background-color: var(--white-color);	
+}
+
+/*MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    background-color: var(--background-model);
+    z-index: 99999;
+    opacity: 1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.closeModal {
+    display: none;
+}
+  
+.modal .box-modal {
+    width: 31.25rem;
+    position: relative;
+    margin: 10% auto;
+    padding: 1rem 1.25rem;
+    background-color: var(--background-box-model);
+    border-radius: 5px;
+}
+  
+.modal .box-modal .header-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+    padding: 0.5rem;
+  }
+
+.modal .box-modal .header-modal h2 {
+    font-size: 1.5rem;
+}
+
+.modal .box-modal .text_modal {
+    padding: 0.5rem;
+}
+
+.modal .box-modal .text_modal p {
+    font-size: 1.5rem;
+}
+  
+.modal .box-modal .header-modal .botton_close_modal {
+    text-decoration: none;
+    border: none;
+    width: 5rem;
+    padding: 0.5rem;
+    background-color: var(--modal-button);
+    color: var(--black-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal .box-modal .header-modal .botton_close_modal:hover {
+    background-color: var(--modal-button-hover);
+}

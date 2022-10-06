@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>snake_case</title>
+  </head>
+  <body>
+    
+    <div class="main">
+      
+      <h1>snake_case</h1>
+
+      <div class="input_text">
+        <h2>Type the text:</h2>
+        <input type="text" class="typed-text" id="typed-text" value=""/>
+        <button class="buttons" onclick="snakeCase()">load</button>
+      </div>
+
+      <div class="final-result">
+        <div class="final_string">
+          <h2>Final String:</h2>
+          <input class="string_final" id="texto_final"> </input>
+          <button class="buttons" id="idButton" onclick="copyToClipboard()" > Copy </button>
+        </div>
+
+        <div class="final_size">
+          <h2>String Size:</h2>
+          <p class="string_size">...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="open-modal" class="modal">
+      <div class="box-modal">
+        <div class="header-modal">        
+          <h2> SNAKE_CASE </h2>
+          <button class="botton_close_modal" onclick="closeModal()" > Close </button>
+        </div>
+        <div class="text_modal">
+          <p>
+              Este projeto recebe um texto qualquer e retorna uma string no formado snake_case.
+            </p>
+            <p>
+              Também informa ao final, o tamanho da string, ou seja, a sua quantidade de caracteres.
+            </p>
+            <p>
+              Criei esssa aplicação, para facilitar na hora de colocar os nomes de algumas aulas nos arquivos do GitHub.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
