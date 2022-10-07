@@ -227,7 +227,7 @@ body {
     width: 5rem;
     padding: 0.5rem;
     background-color: var(--modal-button);
-    color: var(black);
+    color: var(--black);
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 5px;

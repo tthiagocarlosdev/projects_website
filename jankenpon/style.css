@@ -3,6 +3,11 @@
 :root {
     --grey: #444;
     --chartreuse: chartreuse;
+    --black: rgb(0, 0, 0);
+    --background-model: rgba(0,0,0,0.8);
+    --background-box-model:rgb(68, 103, 246);
+    --modal-button: rgb(242, 129, 129);
+    --modal-button-hover: rgb(0, 128, 0);
 }
 
 @media(max-width:1080px){
@@ -136,4 +141,75 @@
 #reset_button:hover {
     color: var(--grey);
     background-color: var(--chartreuse);
+}
+
+/*MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */
+.modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    background-color: var(--background-model);
+    z-index: 99999;
+    opacity: 1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.closeModal {
+    display: none;
+}
+  
+.box-modal {
+    width: 31.25rem;
+    position: relative;
+    margin: 10% auto;
+    padding: 1rem 1.25rem;
+    background-color: var(--background-box-model);
+    border-radius: 5px;
+}
+  
+.header-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--black);
+    padding: 0.5rem;
+  }
+
+.header-modal h2 {
+    font-size: 1.5rem;
+}
+
+.text_modal {
+    padding: 0.5rem;
+}
+
+.text_modal p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+  
+.botton_close_modal {
+    text-decoration: none;
+    border: none;
+    width: 5rem;
+    padding: 0.5rem;
+    background-color: var(--modal-button);
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.botton_close_modal:hover {
+    background-color: var(--modal-button-hover);
 }

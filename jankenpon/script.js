@@ -124,3 +124,11 @@ const handleReset = () => {
   scoreComputer.innerHTML = score_computer
   handleNumberOfGames(counter)
 }
+
+
+/* MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */
+const modal = document.querySelector('.modal')
+
+function closeModal() {
+  modal.classList.add('closeModal')
+}
