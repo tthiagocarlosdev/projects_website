@@ -120,53 +120,55 @@ body {
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
 .box-footer {
-	background-color: var(--dark-blue);
-	display: flex;
+    display: flex;
 	flex-direction: row;
 	order: 3;
-	flex: 0.3;
-	flex-flow: wrap;
+	flex: 0.5;
+	background-color:var(--dark-blue);
 }
 
 .box-footer .footer-title {
-    font-size: 1.2rem;
     color: var(--white);
 	flex: 1;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-    padding: 1rem;
+	padding: 1rem;
 }
 
 .box-footer .links-social-media {
-	list-style: none;
-	flex: 1.5;
+    list-style: none;
+	flex: 1.2;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 0.5rem;
-    flex-flow: wrap;
+	padding:0.5rem;
+	flex-flow: wrap;
 }
 
 .box-footer .links-social-media a {
-    font-size: 1.25rem;
-    font-weight: 600;
-	text-decoration: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: var(--white);
-	padding: 0.5rem;
+    display: flex;
+    width: 4rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left:1rem;
     background-color: var(--blue);
-	border-radius: 5px;
-	margin-left:0.5rem;
-	width: 7rem;
+    color: var(--white);
+    border-radius: 5px;
+    box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
 }
 
 .box-footer .links-social-media a:hover {
 	background-color: var(--modal-button-hover);
+}
+
+.fa-brands, .fa-solid {
+	font-size: 1.5rem;
 }
 
 /*MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */
