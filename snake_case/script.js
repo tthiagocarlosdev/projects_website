@@ -150,6 +150,7 @@ function snakeCase() {
 function copyToClipboard(){
   navigator.clipboard.writeText(string_final.value).then(() => {
     alert(`Copied text: ${string_final.value}`)
+    typed_text.value = ``
   }) 
 }
 
