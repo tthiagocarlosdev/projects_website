@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light_gray:#b8bfc4;
+  --light_blue: #9ED2F7;
+  --very_light_blue: #E6EFF5;
+  --dark_grey:#4B6475;
+  --gray:#B6BDC2;
+  --whitesmoke: #f5f5f5;
+  --black: #000000;
+  --blue: rgb(71, 148, 236 );
+  --dark-blue: rgb(0, 75, 161);
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --background-model: rgba(0,0,0,0.8);
+  --background-box-model:rgb(68, 103, 246);
+  --modal-button: rgb(242, 129, 129);
+  --modal-button-hover: rgb(0, 128, 0);
+}
+
+@media(max-width:1080px){
+	html{
+		font-size: 93.75%;
+	}
+}
+
+@media(max-width:720px){
+	html{
+		font-size: 87.5%;
+	}
+}
+
+@media(max-width:500px){
+	html{
+		font-size: 82.5%;
+	}
+}
+
+@media(max-width:300px){
+	html{
+		font-size: 75.5%;
+	}
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  background: var(--light_gray);
+  background: linear-gradient(90deg, var(--light_gray) 0%, var(--light_blue) 16%, var(--dark_grey) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  background-color: var(--whitesmoke);
+  border-radius: 10px;
+}
+
+.main h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding:  1rem;
+}
+
+.input_text,
+.final_string,
+.final_size {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input_text input,
+.final_string input {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  width: 30rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px var(--black);
+  text-align: center;
+}
+
+.buttons {
+  border: 0;
+	height: 2.5rem;
+  width: 7rem;
+	padding: 0 1.5rem;
+	font-size: 1.5rem;
+	text-align:center;
+  background-color: var(--gray);
+	color:var(--black);
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px var(--black);
+	cursor:pointer;
+  margin: 1rem;
+}
+
+.buttons:hover {
+  background-color: var(--dark_grey);
+  color:var(--whitesmoke);
+}
+
+.final_size p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 4rem;
+}
+
+/*MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: var(--background-model);
+  z-index: 99999;
+  opacity: 1;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+}
+
+.modal:target {
+  opacity: 1;
+}
+
+.closeModal {
+  display: none;
+}
+
+.modal .box-modal {
+  width: 43.75rem;
+  position: relative;
+  margin: 10% auto;
+  padding: 1rem 1.25rem;
+  background-color: var(--background-box-model);
+  border-radius: 5px;
+}
+
+.modal .box-modal .header-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--black);
+  padding: 0.5rem;
+}
+
+.modal .box-modal .header-modal h2 {
+  font-size: 1.5rem;
+}
+
+.modal .box-modal .text_modal {
+  padding: 0.5rem;
+}
+
+.modal .box-modal .text_modal p {
+  font-size: 1.3rem;
+  text-indent: 3rem;
+  text-align: justify;
+}
+
+#linkCamelCaseWikipedia{
+    color: #000000;
+    font-weight: 600;
+}
+
+#linkCamelCaseWikipedia:hover{
+    background-color: var(--modal-button);
+    padding: 0.125rem;
+    border-radius: 0.313rem;
+}
+
+.modal .box-modal .header-modal .botton_close_modal {
+  text-decoration: none;
+  border: none;
+  width: 5rem;
+  padding: 0.5rem;
+  background-color: var(--modal-button);
+  color: var(black);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.modal .box-modal .header-modal .botton_close_modal:hover {
+  background-color: var(--modal-button-hover);
+}

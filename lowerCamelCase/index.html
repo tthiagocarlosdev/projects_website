@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <title>snake_case</title>
+    <title>lowerCamelCase</title>
   </head>
   <body>
     
     <div class="main">
       
-      <h1>snake_case</h1>
+      <h1>lowerCamelCase</h1>
 
       <div class="input_text">
         <h2>Type the text:</h2>
         <input type="text" class="typed-text" id="typed-text" value=""/>
-        <button class="buttons" onclick="snakeCase()">load</button>
+        <button class="buttons" onclick="lowerCamelCase()">load</button>
       </div>
 
       <div class="final-result">
@@ -37,18 +37,24 @@
     <div id="open-modal" class="modal">
       <div class="box-modal">
         <div class="header-modal">        
-          <h2> SNAKE_CASE </h2>
+          <h2> lowerCamelCase </h2>
           <button class="botton_close_modal" onclick="closeModal()" > Close </button>
         </div>
         <div class="text_modal">
           <p>
-              Este projeto recebe um texto qualquer e retorna uma string no formato snake_case.
+              Este projeto recebe um texto qualquer e retorna uma string no formato lowerCamelCase.
             </p>
             <p>
-              Também informa ao final, o tamanho da string, ou seja, a sua quantidade de caracteres.
+                <a id="linkCamelCaseWikipedia" href="https://pt.wikipedia.org/wiki/CamelCase" target="_blank">CamelCase</a> é a denominação em inglês para a prática de escrever as palavras compostas ou frases, onde cada palavra é iniciada com maiúsculas e unidas sem espaços.
             </p>
             <p>
-              Criei esssa aplicação, para facilitar na hora de colocar os nomes de algumas aulas nos arquivos do GitHub.
+                A primeira letra de uma palavra composta por CamelCase pode ou não ser capitalizada, não há consenso sobre a maneira certa de sua utilização. Existem duas formas de classificá-la: a primeira é conhecida como UpperCamelCase (de letra inicial maiúscula, também conhecida como PascalCase) e a segunda lowerCamelCase (de letra inicial minúscula).
+            </p>
+            <p>
+              Esta aplicação também informa ao final, o tamanho da string, ou seja, a sua quantidade de caracteres.
+            </p>
+            <p>
+              Criei esssa aplicação, para facilitar na hora de colocar os nomes de algums arquivos do GitHub.
             </p>
         </div>
       </div>
