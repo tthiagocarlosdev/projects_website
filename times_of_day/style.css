@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --blue: rgb(71, 148, 236 );
+    --dark-blue: rgb(0, 75, 161);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --background-model: rgba(0,0,0,0.8);
+    --background-box-model:rgb(68, 103, 246);
+    --modal-button: rgb(242, 129, 129);
+    --modal-button-hover: rgb(0, 128, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
+.header {
+	background-color: var(--dark-blue);
+    color: var(--white);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	order: 1;
+	flex: 0.5;
+}
+
+.header h1 {		
+	font-size: 3rem;
+	width: auto;
+	padding: 1.5rem;
+}
+
+/* MAIN - MAIN - MAIN - MAIN - MAIN - MAIN - MAIN - MAIN - MAIN - */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    flex: 3;
+    order: 2;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
+
+.image img{
+    height: 250px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+/* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
+.box-footer {
+    display: flex;
+	flex-direction: row;
+	order: 3;
+	flex: 0.5;
+	background-color:var(--dark-blue);
+}
+
+.footer-title {
+    color: var(--white);
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1rem;
+}
+
+.links-social-media {
+    list-style: none;
+	flex: 1.2;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding:0.5rem;
+	flex-flow: wrap;
+}
+
+.links-social-media a {
+    display: flex;
+    width: 4rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left:1rem;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
+}
+
+.links-social-media a:hover {
+	background-color: var(--modal-button-hover);
+}
+
+.fa-brands, .fa-solid {
+	font-size: 1.5rem;
+}
