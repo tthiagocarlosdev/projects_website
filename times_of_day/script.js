@@ -3,6 +3,11 @@ const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 const images = document.getElementById('photo');
 let counter = 0;
+const modal = document.querySelector('.modal')
+
+function closeModal() {
+  modal.classList.add('closeModal')
+}
 
 const myImages = {
     morning:[
@@ -31,12 +36,12 @@ const myImages = {
 const counterTime = setInterval(function cT(){
     counter++;
     if(counter == 5) counter = 0;
-},1000)
+}, 300000)
 
 const relogio = setInterval(function time(){
     let dateToday = new Date();
     let hours = dateToday.getHours();
-    // hours = 19
+    hours = 19
     let minutes = dateToday.getMinutes();
     let seconds = dateToday.getSeconds();
 
@@ -48,12 +53,15 @@ const relogio = setInterval(function time(){
     minutos.textContent = minutes;
     segundos.textContent = seconds;
 
-    if(hours >= 19){
+    if(hours >= 19 || hours < 5){
         images.src = myImages.nights[counter];
+        document.body.style.background = 'rgb(60, 0, 138)';
     } else if(hours >= 12){
         images.src = myImages.afternoon[counter];
+        document.body.style.background = 'rgb(255, 86, 2)';
     } else if (hours >= 5){
         images.src = myImages.morning[counter];
+        document.body.style.background = 'rgb(0, 199, 253)';
     }
 
 })
