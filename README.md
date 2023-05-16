@@ -11,5 +11,5 @@ Neste repositório estão alguns dos projetos que eu desenvolvi. Basta clicar no
 - JANKENPON :video_game: - Jogo Jankenpon.
 - SYSTEM LINKS :link: - Site concentrador de links usados no dia-a-dia no meu trabalho.
 - LOWERCAMELCASE :camel: - Site que transforma uma string para o formato lowerCamelCase.
-- TIMES OF DAY - :mantelpiece_clock: :sunrise: :city_sunset: :night_with_stars: - - Site que mostra a hora do dia altera seu layout conforme o horário.
+- TIMES OF DAY :mantelpiece_clock: :sunrise: :city_sunset: :night_with_stars: - Site que mostra a hora do dia e altera seu layout conforme o horário.
 
