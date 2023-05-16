@@ -41,7 +41,6 @@ const counterTime = setInterval(function cT(){
 const relogio = setInterval(function time(){
     let dateToday = new Date();
     let hours = dateToday.getHours();
-    hours = 19
     let minutes = dateToday.getMinutes();
     let seconds = dateToday.getSeconds();
 
