@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_page_view.css">
+    <title>Visualizar Relatório</title>
+</head>
+<body>
+    <div class="container" id="dados">
+        <header class="header">
+
+            <div class="sub-header">
+                <div class="containers-images">
+                    <img src="./images/bandeira_policia_civil.png" alt="brasao da policia civil de pe">
+                </div>
+                
+                <div class="header_title">
+                    <h1>POLÍCIA CIVIL DE PERNAMBUCO</h1>
+                    <h2>Diretoria de Tecnologia da Informação</h2>
+                    <h2>Relatório de Serviços Externos</h2>        
+                </div>
+    
+                <div class="containers-images">
+                    <img src="./images/bandeira_pernambuco.jpg" alt="bandeira de pernambuco" id="bandeira-pernambuco">    
+                </div>
+            </div>
+
+        </header>
+
+        <div class="view">
+            <div class="container_title">
+                <h2>Controle de atendimento</h2>
+            </div>
+
+            <div class="container_date_time_and_place_of_care">
+                <div class="date_and_time">
+                    <h3>Data:</h3>
+                    <p id="date_and_time">SEXTA-FEIRA, 7 DE JULHO DE 2023 ÀS 21:51</p>
+                </div>
+
+                <div class="place_of_care">
+                    <h3>Unidade Policial:</h3>
+                    <p id="place_of_care"> DELEGACIA DE POLÍCIA DA 015ª CIRCUNSCRIÇÃO - ALTO DO PASCOAL - DIM/5ªDESEC</p>
+                </div>
+            </div>
+
+            <div class="container_services">
+
+                <div class="reported_defect">
+                    <h3>Defeito Informado:</h3>
+                    <p id="reported_defect">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, vitae.</p>
+                </div>
+                <div class="performed_services">
+                    <h3>Serviços Executados:</h3>
+                    <p id="performed_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, molestiae.</p>
+                </div>
+            </div>
+
+            <div class="container_technician">
+                <h3>Técnico(s) da DTI:</h3>
+                <p id="list_of_technicians"></p>
+            </div>
+
+            <div class="container_user">
+                <h3>Usuário da Unidade Policial:</h3>
+                <p>Nome: <label id="user_name">Lorem Ipsum</label>,  Matrícula: <label id="user_registration">321.321.3</label></p>
+                <p id="signature">Assinatura:<label>_______________________________________</label></p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./script_page_view.js"></script>
+</body>
+</html>

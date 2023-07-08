@@ -1,0 +1,163 @@
+:root{
+    --black-color: black;
+}
+
+
+@media(max-width:1080px){
+	html{
+		font-size: 90%;
+	}
+}
+
+@media(max-width:720px){
+	html{
+		font-size: 75%;
+	}
+}
+
+@media(max-width:600px){
+	html{
+		font-size: 60%;
+	}
+}
+
+@media(max-width:300px){
+	html{
+		font-size: 40%;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+}
+
+.container {
+    width: 1024px;
+    border: 2px solid var(--black-color);
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+/* header - header - header - header - header - header - header - header - header - header - header - header - header */
+
+.header {
+    height: 10rem;
+    width: 100%;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.sub-header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containers-images {
+    display: flex;
+}
+
+
+.header img {
+    height: 10rem;
+    width: 15rem;
+}
+
+#bandeira-pernambuco {
+    border: 1px solid var(--black-color);
+}
+
+.header_title {
+    width: 100%;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.header_title h1 {
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.header_title h2 {
+    font-size: 1.5rem;
+    padding-top: 0.6rem;
+}
+
+/* view view view view view view view view view view view*/
+.view{
+    order:2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.container_title{
+    width: 100%;
+    text-align: center;
+}
+
+.container_title h2{
+    font-size: 2rem;
+    border-bottom: 1px solid var(--black-color);
+    padding: 1rem 0.5rem 0.3rem 0.5rem;
+    margin-bottom: 1.5rem;    
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.container_services{
+    border-bottom: 1px solid var(--black-color);
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.container_technician{
+    border-bottom: 1px solid var(--black-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* #list_of_technicians{
+    font-size: 1rem;
+} */
+
+.container_user p{
+    font-weight: bold;
+}
+
+.container_user label{
+    font-weight: normal;
+}
+
+
+#signature label{
+    margin-left: 0.5rem;
+}

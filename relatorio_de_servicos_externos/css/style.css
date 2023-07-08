@@ -1,0 +1,474 @@
+:root{
+    --black-color: black;
+    --hover-color: lightgray;
+    --container-color: whitesmoke;
+    
+    --container-color: blueviolet;
+    --header-color: brown;
+    --sub-header-color: greenyellow;
+    --containers-images-color: blue;
+    --header_title_color: forestgreen;
+    --attendance_control_color: darkorange;
+    --container-title-color: deeppink;
+    --container-date-time-color: cadetblue;
+    --place_of_care-color: chartreuse;
+    --reported_defect-color: blue;
+    --container-services-color: burlywood;
+    --container-technician-and-user-color: crimson;
+    --sub-title-technician-and-registration-color: tomato;
+    --technician-color: darkolivegreen;
+    --registration-color: darkseagreen;
+}
+
+@media(max-width:1080px){
+	html{
+		font-size: 90%;
+	}
+}
+
+@media(max-width:720px){
+	html{
+		font-size: 75%;
+	}
+}
+
+@media(max-width:600px){
+	html{
+		font-size: 60%;
+	}
+}
+
+@media(max-width:300px){
+	html{
+		font-size: 40%;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+}
+
+.container {
+    width: 1080px;
+    border: 2px solid black;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* background-color: var(--container-color); */
+}
+
+/* header - header - header - header - header - header - header - header - header - header - header - header - header */
+
+.header {
+    background-color: var(--hover-color);
+    height: 10rem;
+    width: 67.25rem;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.sub-header{
+    /* background-color: var(--sub-header-color); */
+    height: 10rem;
+    width: 67.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containers-images {
+    /* background-color: var(--containers-images-color); */
+    display: flex;
+}
+
+
+.header img {
+    height: 10rem;
+    width: 15rem;   
+}
+
+#bandeira-pernambuco {
+    border: 1px solid var(--black-color);
+}
+
+.header_title {
+    /* background-color: var(--header_title_color); */
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.header_title h1 {
+    font-size: 1.7rem;
+    padding: 0.6rem;
+}
+
+.header_title h2 {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+/* container - container - container - container - container - container - container - container - container - container */
+
+.attendance_control {
+    /* background-color: var(--attendance_control_color); */
+    order: 2;
+    width: 100%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-title {
+    /* background-color: var(--container-title-color); */
+    /* order: 1; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title h2 {
+    font-size: 1.5rem;
+    width: auto;
+    border-bottom: 1px solid var(--black-color);
+    padding: 1rem 0.5rem 0 0.5rem;
+    margin-bottom: 1.5rem;
+}
+ 
+.container-form {
+    width: 100%;
+    order: 2;
+    /* background-color: pink; */
+}
+
+.container-date-time {
+    /* background-color: var(--container-date-time-color); */
+    order: 1;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.place_of_care,
+.date_and_time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+}
+
+.place_of_care {
+    /* background-color: var(--place_of_care-color); */
+}
+
+.date_and_time label {
+    /* background-color: brown; */
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.place_of_care label{
+    /* background-color: brown; */
+    width: 18%;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.date_and_time input {
+    /* background-color: yellowgreen; */
+    width: 15rem;
+    border: 0.063rem solid black;
+    border-radius: 0.63rem;
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 0.5rem 0.3rem;
+    margin-left: 1rem;
+
+}
+
+.place_of_care select{
+    width: 82%;
+    margin-right: 0.5rem;
+
+    border: 0.063rem solid black;
+    border-radius: 0.63rem;
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 0.5rem 0.3rem;
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.container-services {
+    /* background-color: var(--container-services-color); */
+    order: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.reported_defect,
+.performed_services {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reported_defect {
+    /* background-color: var(--reported_defect-color); */
+}
+
+.reported_defect label,
+.performed_services label {
+    /* background-color: bisque; */
+    width: 25%;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.reported_defect textarea,
+.performed_services textarea {
+    display: flex;
+    width: 74.3%;
+    height: 7rem;
+    border-radius: 0.625rem;
+    border: 0.063rem solid var(--black-color);
+
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-left: -2rem;
+}
+
+
+.container-technician-and-user {
+    /* background-color: var(--container-technician-and-user-color); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title-technician-and-registration {
+    /* background-color: var(--sub-title-technician-and-registration-color); */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.sub-title-technician-and-registration label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.technician {
+    /* background-color: var(--technician-color); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_input{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.box_list_of_technicians{
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.box_list_of_technicians p{
+    font-size: 1.2rem;
+}
+
+.technician_input,
+.registration_input {
+    width: 30rem;
+    height: 2.5rem;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    margin: 0.5rem 0 0.5rem 2.5rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.technician_input{
+    margin-left: 6.5rem;
+}
+
+.registration_input{
+    width: 15rem;
+}
+
+.user {
+    /* background-color: blueviolet; */
+    margin-top: 0.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.box_user_name,
+.box_user_registragion {
+    display: flex;    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6rem;
+}
+
+.user label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.box_user_name input,
+.box_user_registragion input{
+    width: 30rem;
+    height: 2.5rem;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    margin: 0.5rem 0 0.5rem 2.5rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box_user_registragion input{
+    width: 15rem;
+}
+
+
+.box-button{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+
+.button {
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+/* footer - footer -  footer -  footer -  footer -  footer  footer -  footer -  footer -  footer -  footer - */
+
+.footer {
+    background-color: var(--hover-color);
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5rem;
+    border-top: 1px solid var(--black-color);
+    margin-top: 1rem;
+}
+
+.footer-title {
+    background-color: var(--footer-title-color);
+    color: var(--black);
+    flex: 1;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links-social-media {
+    flex: 1.2;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap;
+
+}
+
+.links-social-media a {
+    display: flex;
+    width: 4rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left:1rem;
+    color: var(--black-color);
+    border-radius: 10px;
+    border: 1px solid var(--black-color);
+}
+
+.fa-brands, .fa-solid {
+	font-size: 1.5rem;
+}
+
+/* hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover*/
+.reported_defect textarea:hover,
+.performed_services textarea:hover,
+.place_of_care select:hover,
+.date_and_time input:hover,
+.technician_input:hover,
+.registration_input:hover,
+#user_name:hover,
+#user_registration:hover {
+    background-color: var(--hover-color);
+}
+
+.links-social-media a:hover,
+.button:hover {
+    background-color: var(--container-color);
+}
