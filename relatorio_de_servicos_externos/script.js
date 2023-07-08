@@ -12,12 +12,12 @@ function addTechnicians(){
 
     if(containsInTheList(name, technical.names) || containsInTheList(registration, technical.enrollment)){
         alert('Técnico já está na lista!')
-    } else if( !regex_registration.test(registration) ){
-        alert("Informe uma matrícula correta!")
-    } else if(registration.length == 0){
-        alert("Por favor, informe a matrícula do técnico!")
     } else if(name.length == 0){
-        alert("Por favor, informe o nome do técnico!")
+        alert("Informe o nome do técnico!")
+    } else if(registration.length == 0){
+        alert("Informe a matrícula do técnico!")
+    } else if(!regex_registration.test(registration)){
+        alert("Informe uma matrícula correta!")
     } else {
         technical.names.push(name);
         technical.enrollment.push(registration);
@@ -48,19 +48,19 @@ function toView(){
     let validUserRegistration = regex_registration.test(pageData.userRegistration)
    
     if(pageData.serviceLocation.length == 0){
-        alert("Por favor, adicione o Local de Atendimento!")
+        alert("ATENÇÃO! Adicione o Local de Atendimento!")
     } else if (pageData.reportedDefect.length == 0) {
-        alert("Por favor, informe o defeito!")
+        alert("ATENÇÃO! Informe o defeito!")
     } else if (pageData.performedServices.length == 0) {
-        alert("Por favor, informe o serviço executado!")
+        alert("ATENÇÃO! Informe o serviço executado!")
     } else if (pageData.techniciansData.names == 0) {
-        alert("Por favor, informe pelo menos um técnico!")
+        alert("ATENÇÃO! Informe pelo menos um técnico!")
     } else if (pageData.userName.length == 0) {
-        alert("Por favor, informe o nome completo do usuário!")
+        alert("ATENÇÃO! Informe o nome completo do usuário!")
     } else if (pageData.userRegistration.length == 0) {
-        alert("Por favor, informe o número de matrícula do usuário!")
+        alert("ATENÇÃO! Informe o número de matrícula do usuário!")
     } else if (!validUserRegistration) {
-        alert("Por favor, informe um número válido de matrícula do usuário!")
+        alert("ATENÇÃO! Informe um número válido de matrícula do usuário!")
     } else {
         var dados_str = JSON.stringify(pageData);
         window.location.href = "page_view.html?pageData=" + encodeURIComponent(dados_str);

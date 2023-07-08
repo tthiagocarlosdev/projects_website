@@ -38,7 +38,7 @@
 }
 
 .container {
-    width: 1024px;
+    width: 67.5rem;
     border: 2px solid var(--black-color);
     margin: 4rem auto;
     display: flex;
@@ -145,10 +145,6 @@ label{
     margin-bottom: 1.5rem;
 }
 
-/* #list_of_technicians{
-    font-size: 1rem;
-} */
-
 .container_user p{
     font-weight: bold;
 }
@@ -156,7 +152,6 @@ label{
 .container_user label{
     font-weight: normal;
 }
-
 
 #signature label{
     margin-left: 0.5rem;
