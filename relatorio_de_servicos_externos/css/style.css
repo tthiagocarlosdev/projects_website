@@ -57,19 +57,10 @@
     width: 67.25rem;
     order: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid var(--black-color);
-}
-
-.sub-header{
-    height: 10rem;
-    width: 67.5rem;
-    display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--black-color);
 }
 
 .containers-images {
@@ -127,18 +118,14 @@
     padding: 1rem 0.5rem 0 0.5rem;
     margin-bottom: 1.5rem;
 }
- 
-.container-form {
-    width: 100%;
-    order: 2;
-}
 
-.container-date-time {
-    order: 1;
+/* container_date_time_and_place_of_care container_date_time_and_place_of_care container_date_time_and_place_of_care */
+.container_date_time_and_place_of_care {
+    /* order: 1;
     width: 100%;
     display:flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; */
 }
 
 .place_of_care,
@@ -194,11 +181,12 @@
     background-color: var(--white-color);
 }
 
-.container-services {
-    order: 2;
+/* container_services container_services container_services container_services container_services container_services */
+.container_services {
+    /* order: 2;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .reported_defect,
@@ -234,15 +222,17 @@
     margin-left: -2rem;
 }
 
-.container-technician-and-user {
-    display: flex;
+/* container_technician_and_user container_technician_and_user container_technician_and_user container_technician_and_user */
+.container_technician_and_user {
+    /* display: flex;
+    order:3;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.sub-title-technician-and-registration {
+.sub_title_technician_and_registration {
     width: 100%;
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -250,7 +240,7 @@
     margin-top: 0.5rem;
 }
 
-.sub-title-technician-and-registration label {
+.sub_title_technician_and_registration label {
     font-size: 1.3rem;
     font-weight: 600;
     padding: 0.5rem 0;
@@ -341,7 +331,7 @@
 }
 
 
-.box-button{
+.box_button{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -372,7 +362,7 @@
     margin-top: 1rem;
 }
 
-.footer-title {
+.footer_title {
     flex: 1;
     display: flex;
     flex-flow: wrap;
@@ -383,7 +373,7 @@
     padding: 1rem;
 }
 
-.links-social-media {
+.links_social_media {
     flex: 1.2;
     list-style: none;
     display: flex;
@@ -393,7 +383,7 @@
 
 }
 
-.links-social-media a {
+.links_social_media a {
     display: flex;
     width: 4rem;
     height: 1rem;
@@ -423,7 +413,7 @@
     background-color: var(--hover-color);
 }
 
-.links-social-media a:hover,
+.links_social_media a:hover,
 .button:hover {
     background-color: var(--blue-buttons-hover);
 }

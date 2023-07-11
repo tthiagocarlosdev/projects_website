@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>relatorio_de_servicos_externos</title>
-    <link rel="stylesheet" href="./css/style.css">
     <meta name="description" content="Relatório de serviços externos da DTI">
+    <title>Relatorio de Serviços Externos</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -14,20 +14,18 @@
 
         <header class="header">
 
-            <div class="sub-header">
-                <div class="containers-images">
-                    <img src="./images/bandeira_policia_civil.png" alt="brasao da policia civil de pe">
-                </div>
-                
-                <div class="header_title">
-                    <h1>POLÍCIA CIVIL DE PERNAMBUCO</h1>
-                    <h2>Diretoria de Tecnologia da Informação</h2>
-                    <h2>Relatório de Serviços Externos</h2>        
-                </div>
-    
-                <div class="containers-images">
-                    <img src="./images/bandeira_pernambuco.jpg" alt="bandeira de pernambuco" id="bandeira-pernambuco">    
-                </div>
+            <div class="containers-images">
+                <img src="./images/bandeira_policia_civil.png" alt="brasao da policia civil de pe">
+            </div>
+            
+            <div class="header_title">
+                <h1>POLÍCIA CIVIL DE PERNAMBUCO</h1>
+                <h2>Diretoria de Tecnologia da Informação</h2>
+                <h2>Relatório de Serviços Externos</h2>        
+            </div>
+
+            <div class="containers-images">
+                <img src="./images/bandeira_pernambuco.jpg" alt="bandeira de pernambuco" id="bandeira-pernambuco">    
             </div>
 
         </header>
@@ -38,9 +36,9 @@
                 <h2>Controle de atendimento</h2>
             </div>
 
-            <form class="container-form" action="">
+            <div class="container-form">
 
-                <div class="container-date-time">
+                <div class="container_date_time_and_place_of_care">
 
                     <div class="date_and_time">
                         <label>Data e Hora: </label>
@@ -481,12 +479,11 @@
                             <option value="7ª DELEGACIA DE POLICIA DE PLANTAO DA GPCA - 7ªDPPLANGPCA">7ª DELEGACIA DE POLICIA DE PLANTAO DA GPCA - 7ªDPPLANGPCA</option>
                             <option value="9º DEREPOL - DEPARTAMENTO REGIONAL DE POLICIA CIVIL">9º DEREPOL - DEPARTAMENTO REGIONAL DE POLICIA CIVIL</option>
                         </select>
-                        <!-- <input type="text" class="place_of_care_input"> -->
                     </div>
                     
                 </div>
 
-                <div class="container-services">
+                <div class="container_services">
 
                     <div class="reported_defect">
                         <label>Defeito Informado:</label>
@@ -498,21 +495,20 @@
                     </div>
                 </div>
 
-                <div class="container-technician-and-user">
+                <div class="container_technician_and_user">
 
-                    <div class="sub-title-technician-and-registration">
-                        <label id="x">Técnico(s): </label>
+                    <div class="sub_title_technician_and_registration">
+                        <label>Técnico(s): </label>
                         <label>Matrícula: </label>
                     </div>
 
                     <div class="technician">
                         <div class="box_input">
-                            <input type="text" name="technician" class="technician_input input-1" id="name_technician" >
-                            <input type="text" name="technician" class="registration_input input-2" id="registration_technician" placeholder="000.000-0">
+                            <input type="text" class="technician_input" id="name_technician" >
+                            <input type="text" class="registration_input" id="registration_technician" placeholder="000.000-0">
                         </div>
                         <div class="box_list_of_technicians">
-                            <p id="list_of_technicians">
-                            </p>
+                            <p id="list_of_technicians"></p>
                         </div>
                         <button type="button" class="button" onclick="addTechnicians()">Adicionar</button>
                         
@@ -530,19 +526,19 @@
                         </div>
                     </div>
 
-                    <div class="box-button">
+                    <div class="box_button">
                         <button type="button" class="button" onclick="toView()">Visualizar</button>
                     </div>
 
                 </div>  
 
-            </form>
+            </div>
 
         </section>
 
         <footer class="footer">
-            <h2 class="footer-title"> Desenvolvido por tthiagocarlosdev </h2>
-            <ul class="links-social-media">
+            <h2 class="footer_title"> Desenvolvido por tthiagocarlosdev </h2>
+            <ul class="links_social_media">
               <li> <a href="https://github.com/tthiagocarlosdev" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
               <li> <a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank"> <i class="fa-sharp fa-solid fa-g"></i> </a></li>
               <li> <a href="https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw" target="_blank"> <i class="fa-brands fa-youtube"></i> </a></li>
