@@ -1,32 +1,23 @@
-const typed_text = document.querySelector('.typed-text')
-const athlete_name = document.querySelector('#athleteName')
-
-// let teste = {
-//     nomeDoAtleta:"",
-// }
-
-let teste = '';
-
-function dados(data){
-    return data
-}
-
 function registrationFunction(){
-    // if(dataAthlete.athleteName.value == ''){
-    //     alert('Please text athelte name');
-    // }
+    const athlete_name = document.querySelector('#athleteName');
+    const athlete_test  = document.querySelector('#athleteTest');
+    const kettlebell_weight = document.querySelector('#kettlebellWeight');
+    const time_test = document.querySelector('#timeTest');
 
     const dataAthlete = {
         athleteName: athlete_name.value,
+        athleteTest: athlete_test.value,
+        kettlebellWeight: kettlebell_weight.value,
+        timeTest: time_test.value,
     };
 
-    teste.nomeDoAtleta = dataAthlete.athleteName.value
-
-    console.log(dataAthlete)
-
-    teste = dados(dataAthlete.athleteName)    
-    
-} 
-
-
-console.log(teste)
+    if(dataAthlete.athleteName.length == 0 || 
+        dataAthlete.athleteTest.length == 0 || 
+        dataAthlete.kettlebellWeight.length == 0 ||
+        dataAthlete.timeTest.length == 0){
+        alert('Preencha todos os dados');
+    }else{
+        const dados_str = JSON.stringify(dataAthlete);
+        window.location.href = "./pages/page_start.html?dataAthlete=" + encodeURIComponent(dados_str);
+    }
+}

@@ -16,5 +16,4 @@ window.onload = function() {
     }
     document.getElementById('user_name').innerHTML = dados.userName.toUpperCase();
     document.getElementById('user_registration').innerHTML = dados.userRegistration.toUpperCase();
-
 }
