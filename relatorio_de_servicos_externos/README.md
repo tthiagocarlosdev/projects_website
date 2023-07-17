@@ -15,7 +15,7 @@ Abaixo segue documentação do projeto:
   - Pasta imagens
     - Arquivo bandeira_pernambuco.jpg
     - Arquivo bandeira_policia_civil.png
-  - Arquivo index.html
+  - **Arquivo index.html**
   - Arquivo page_view.html
   - script.js
   - script_page_view.js
@@ -826,11 +826,215 @@ Clique [aqui](https://github.com/tthiagocarlosdev/projects_website/blob/main/rel
 
 ##  Arquivo style.css - estilização da página index.html
 
+## Cores do projeto
+
+```css
+:root{
+    --black-color: black;
+    --white-color: white;
+    --hover-color: lightgray;
+    --container-color: whitesmoke;
+    --blue-buttons-hover: rgb(0, 132, 255);
+}
+```
+
+Esse código CSS define variáveis personalizadas usando a sintaxe `--nome-da-variavel: valor;` dentro do seletor `:root`. Essas variáveis personalizadas serão usadas posteriormente em outras partes do código CSS, permitindo uma fácil personalização e reutilização de cores em todo o documento.
+
+- `:root` é um seletor especial que representa o elemento raiz (normalmente o elemento `<html>`) em um documento HTML.
+- `--black-color: black;` define uma variável chamada `--black-color` com o valor preto.
+- `--white-color: white;` define uma variável chamada `--white-color` com o valor branco.
+- `--hover-color: lightgray;` define uma variável chamada `--hover-color` com o valor cinza claro.
+- `--container-color: whitesmoke;` define uma variável chamada `--container-color` com o valor branco esfumaçado.
+- `--blue-buttons-hover: rgb(0, 132, 255);` define uma variável chamada `--blue-buttons-hover` com o valor de um tom de azul.
+
+### Responsividade - @media
+
+```css
+@media(max-width:1080px){
+	html{
+		font-size: 90%;
+	}
+}
+
+@media(max-width:720px){
+	html{
+		font-size: 75%;
+	}
+}
+
+@media(max-width:600px){
+	html{
+		font-size: 60%;
+	}
+}
+
+@media(max-width:300px){
+	html{
+		font-size: 40%;
+	}
+}
+```
+
+`@media` é uma regra de mídia do CSS que permite aplicar estilos diferentes com base nas características e capacidades do dispositivo de exibição. É usado para criar layouts responsivos, adaptando o design e a aparência do conteúdo com base nas propriedades da tela, como largura, altura, densidade de pixels, orientação, entre outros.
+
+A regra `@media` é usada em conjunto com um ou mais seletores de mídia, que especificam as condições em que os estilos devem ser aplicados. As condições são definidas usando consultas de mídia, que consistem em uma ou mais expressões de mídia, como largura máxima, largura mínima, orientação, etc.
+
+Dentro de um bloco `@media`, você pode definir estilos CSS específicos para o contexto especificado pela consulta de mídia. Isso permite que você ajuste a aparência e o layout do seu conteúdo com base nas características do dispositivo e nas necessidades de design responsivo.
+
+Por exemplo, podemos definir estilos diferentes para telas pequenas e grandes, alterando o tamanho da fonte, o layout das colunas, a visibilidade de elementos, entre outros aspectos. Isso permite que o conteúdo seja exibido de forma adequada e otimizada em uma ampla variedade de dispositivos, desde telas de desktop até dispositivos móveis.
+
+Esse código CSS usa as regras `@media` para aplicar estilos diferentes com base na largura da tela:
+
+- `@media (max-width: 1080px)` define uma regra de mídia para telas com uma largura máxima de 1080 pixels.
+- `html { font-size: 90%; }` define um estilo para o elemento `<html>` quando a largura da tela é menor ou igual a 1080 pixels. Nesse caso, o tamanho da fonte é definido como 90% do tamanho padrão.
+
+- `@media (max-width: 720px)` define uma regra de mídia para telas com uma largura máxima de 720 pixels.
+- `html { font-size: 75%; }` define um estilo para o elemento `<html>` quando a largura da tela é menor ou igual a 720 pixels. Nesse caso, o tamanho da fonte é definido como 75% do tamanho padrão.
+
+- `@media (max-width: 600px)` define uma regra de mídia para telas com uma largura máxima de 600 pixels.
+- `html { font-size: 60%; }` define um estilo para o elemento `<html>` quando a largura da tela é menor ou igual a 600 pixels. Nesse caso, o tamanho da fonte é definido como 60% do tamanho padrão.
+
+- `@media (max-width: 300px)` define uma regra de mídia para telas com uma largura máxima de 300 pixels.
+- `html { font-size: 40%; }` define um estilo para o elemento `<html>` quando a largura da tela é menor ou igual a 300 pixels. Nesse caso, o tamanho da fonte é definido como 40% do tamanho padrão.
+
+## Configurações gerais
+
+```css
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+}
+
+.container {
+    width: 67.5rem;
+    border: 2px solid var(--black-color);
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+```
+
+Essas regras CSS estabelecem um conjunto de estilos básicos para todos os elementos da página e definem o estilo de um contêiner específico com bordas, largura fixa, alinhamento centralizado e uma disposição de coluna para os itens dentro dele.
+
+- A primeira regra `*` seleciona todos os elementos da página e define algumas propriedades comuns para eles.
+  - `padding: 0;` remove o preenchimento interno dos elementos.
+  - `margin: 0;` remove as margens externas dos elementos.
+  - `box-sizing: border-box;` define o modelo de caixa como "border-box", o que significa que o tamanho total do elemento inclui o preenchimento e a borda, em vez de ser adicionado a eles.
+  - `font-family: Arial, Helvetica, sans-serif;` define a família de fontes padrão para ser Arial, Helvetica ou uma fonte genérica do tipo sans-serif.
+  - `-webkit-font-smoothing: antialiased;` melhora a suavização das fontes em navegadores WebKit (como Chrome e Safari).
+  - `-moz-osx-font-smoothing: grayscale;` melhora a suavização das fontes em navegadores Firefox no macOS.
+  - `font-size: 16px;` define o tamanho da fonte padrão para 16 pixels.
+
+- Em seguida, temos uma regra para a classe `.container`.
+  - `.container` é uma classe usada para estilizar um elemento que representa um contêiner na página.
+  - `width: 67.5rem;` define a largura do contêiner como 67.5 rem, uma unidade de medida relativa ao tamanho da fonte raiz.
+  - `border: 2px solid var(--black-color);` define uma borda sólida de 2 pixels com a cor definida pela variável `--black-color`.
+  - `margin: 4rem auto;` define margens superior e inferior de 4 rem e margens esquerda e direita automáticas, centralizando o contêiner horizontalmente na página.
+  - `display: flex;` define o contêiner como um contêiner flexível.
+  - `flex-wrap: nowrap;` impede que os itens dentro do contêiner sejam quebrados em várias linhas quando não couberem em uma única linha.
+  - `flex-direction: column;` define a direção dos itens dentro do contêiner como uma coluna, empilhando-os verticalmente.
+
+
+### Estilização do Header
+
+```css
+/* header - header - header - header - header - header - header - header - header - header - header - header - header */
+
+.header {
+    background-color: var(--hover-color);
+    height: 10rem;
+    width: 67.25rem;
+    order: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.containers-images {
+    display: flex;
+}
+
+.header img {
+    height: 10rem;
+    width: 15rem;   
+}
+
+#bandeira-pernambuco {
+    border: 1px solid var(--black-color);
+}
+
+.header_title {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.header_title h1 {
+    font-size: 1.7rem;
+    padding: 0.6rem;
+}
+
+.header_title h2 {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+```
+
+Essas regras CSS estabelecem estilos para o cabeçalho da página, incluindo cor de fundo, altura, largura, alinhamento de itens, bordas, estilos de imagem e estilos de texto para os títulos:
+
+- A primeira seção é um comentário que descreve a seção do código relacionada ao cabeçalho.
+
+- Em seguida, temos uma regra para a classe `.header`, que estiliza o cabeçalho da página.
+  - `background-color: var(--hover-color);` define a cor de fundo do cabeçalho como a cor definida pela variável `--hover-color`.
+  - `height: 10rem;` define a altura do cabeçalho como 10 rem.
+  - `width: 67.25rem;` define a largura do cabeçalho como 67.25 rem.
+  - `order: 1;` define a ordem do cabeçalho em relação a outros elementos flexíveis.
+  - `display: flex;` define o cabeçalho como um contêiner flexível.
+  - `flex-wrap: nowrap;` impede que os itens dentro do cabeçalho sejam quebrados em várias linhas quando não couberem em uma única linha.
+  - `justify-content: space-between;` alinha os itens dentro do cabeçalho ao longo do eixo principal, com espaçamento igual entre eles.
+  - `align-items: center;` alinha os itens dentro do cabeçalho ao longo do eixo transversal, centralizando-os verticalmente.
+  - `border-bottom: 1px solid var(--black-color);` adiciona uma borda inferior de 1 pixel sólida com a cor definida pela variável `--black-color`.
+
+- A regra `.containers-images` estiliza um contêiner flexível que contém as imagens no cabeçalho.
+  - `display: flex;` define o contêiner como um contêiner flexível.
+
+- A regra `header img` estiliza as imagens dentro do cabeçalho.
+  - `height: 10rem;` define a altura das imagens como 10 rem.
+  - `width: 15rem;` define a largura das imagens como 15 rem.
+
+- A regra `#bandeira-pernambuco` estiliza uma imagem específica com o ID `bandeira-pernambuco`.
+  - `border: 1px solid var(--black-color);` adiciona uma borda de 1 pixel sólida com a cor definida pela variável `--black-color` à imagem.
+
+- A regra `.header_title` estiliza o título do cabeçalho.
+  - `width: 100%;` define a largura do título como 100% do contêiner pai.
+  - `text-align: center;` centraliza o texto horizontalmente dentro do título.
+  - `line-height: 1.5rem;` define a altura da linha do texto como 1.5 rem.
+  - `padding: 1rem;` adiciona preenchimento interno de 1 rem ao redor do título.
+
+- A regra `.header_title h1` estiliza o elemento `h1` dentro do título do cabeçalho.
+  - `font-size: 1.7rem;` define o tamanho da fonte do `h1` como 1.7 rem.
+  - `padding: 0.6rem;` adiciona preenchimento interno de 0.6 rem ao redor do `h1`.
+
+- A regra `.header_title h2` estiliza o elemento `h2` dentro do título do cabeçalho.
+  - `font-size: 1.3rem;` define o tamanho da fonte do `h2` como 1.3 rem.
+  - `padding: 0.3rem;` adiciona preenchimento interno de 0.3 rem ao redor do `h2`.
+
+###  Seção attendance_control
 
 
 
 
 
+## Script.js
 
 ### Function dateTime()
 
