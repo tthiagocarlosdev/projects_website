@@ -4,19 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start</title>
+    <link rel="stylesheet" href="../styles/page-start.css">
 </head>
 <body>
 
     <header>
         <h1>Start</h1>
     </header>
+
+    <div class="container-time-and-reps">
+        <header class="header">
+          Campeonato Kettlebell - 2022
+        </header>
     
-    <div class="page_start">
-        <p class="nome_do_atleta"></p>
-        <p class="nome_da_prova"></p>
-        <p class="peso_do_kettlebell"></p>
-        <p class="tempo_da_prova"></p>
-    </div>
+        <div class="box-time-reps">
+          <div class="box-athlete-name">
+            <h2 id="show_athlete_name"> Nome do atleta </h2>
+          </div>
+    
+          <div class="athleteTest">
+            <h2 id="show_athleteTest">Nome da prova</h2>
+          </div>
+    
+          <div class="kettlebellWeight">
+            <h2 id="show_kettlebellWeight"> Peso do Kettlebell</h2>
+          </div>
+    
+          <div class="relogio">
+            <div>
+              <span id="minutos">00</span>
+              <span class="tempo">Minutos</span>
+            </div>
+    
+            <div>
+              <span id="segundos">00</span>
+              <span class="tempo">Segundos</span>
+            </div>
+          </div>
+          
+          <div class="box-repetitions">
+            <h1 id="repetations" > 0 </h1>
+            <button id="startButton" class="button" onclick="start()" > start </button>
+            <button id="botao" class="button" onclick="atualizarValor()" > + 1 rep </button>
+          </div>
+          
+        </div>
+    
+        <footer class="footer" >
+          Desenvolvido por Thiago Carlos
+        </footer>
+      </div>
     <script src="../src/page_start.js"></script>
 </body>
 </html>
