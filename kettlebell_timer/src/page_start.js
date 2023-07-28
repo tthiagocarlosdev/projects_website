@@ -4,15 +4,11 @@ window.onload = function() {
     const dados_str = urlParams.get('dataAthlete');
     const dados = JSON.parse(decodeURIComponent(dados_str));
 
-    // const nomeDoAtleta = document.querySelector('.nome_do_atleta');
-    // const nomeDaProva = document.querySelector('.nome_da_prova')
-    // const pesoDoKettlebell = document.querySelector('.peso_do_kettlebell');
-    // const tempoDaProva = document.querySelector('.tempo_da_prova');
     console.log(dados)
 
     document.getElementById('show_athlete_name').innerHTML = dados.athleteName;
     document.getElementById('show_athleteTest').innerHTML = dados.athleteTest;
-    document.getElementById('show_kettlebellWeight').innerHTML = `${dados.kettlebellWeight} Kg`;
+    document.getElementById('show_kettlebellWeight').innerHTML = `${dados.kettlebellWeight}Kg`;
     if(dados.timeTest < 10){
         document.getElementById('minutos').innerHTML = `0${dados.timeTest}`;
     }else{
@@ -22,13 +18,9 @@ window.onload = function() {
 
     // CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK
     // Define a quantidade de minutos que o cronômetro deve contar
-    // const minutos = dados.timeTest;
-    const minutos = 1
+    const minutos = dados.timeTest;
     let intervalId;
-
-    // Converte os minutos em segundos
-    // let segundos = (minutos * 60) - 1;
-    let segundos = 10
+    let segundos = (minutos * 60) - 1; // Converte os minutos em segundos
 
     // Define uma função que atualiza o cronômetro a cada segundo
     const atualizarCronometro = () => {
