@@ -7,11 +7,11 @@
 }
 
 body {
-    margin: 0;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: rgb(0, 108, 232);
+    font-size: 16px;
 }
 
 :root {
@@ -47,46 +47,134 @@ body {
     }
 }
 
-.container-time-and-reps {
+.container {
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 100vh;
 }
 
+
+/* ===================================== */
 .header {
     display: flex;
-    flex-direction: column;
-    flex: 1;
     order: 1;
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
+    width: 100%;
+    height: 8rem;
+}
+
+h1{
     color: var(--dark-blue);
     font-size: 4rem;
     font-weight: bold;
-    line-height: 8.5rem;
 }
 
+
+/* ===================================== */
 .footer {
     display: flex;
     flex-direction: row;
-    flex: 0.5;
-    order: 4;
+    order: 5;
     justify-content: center;
     align-items: center;
     background-color: var(--dark-blue);
-    color: var(--white);
     width: 100%;
-    line-height: 1rem;
+    height: 2.5rem;
 }
 
-.box-time-reps {
-  display: flex;
-  flex-direction: column;
-  flex: 4;
-  order: 2;
-  justify-content: center;
-  align-items: center;
+.footer p {
+    color: var(--white);
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer a:hover{
+    font-weight: bold;
+}
+
+
+/* ===================================== */
+.box-name{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    order: 2;
+}
+
+.box-name p{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 6rem;
+    padding-left: 1rem;
+    letter-spacing: -0.313rem;
+    word-spacing: -0.625rem;
+}
+
+
+/* ===================================== */
+.box-main{
+    display: flex;
+    justify-content: space-between;
+    order: 3;
+}
+
+/* ===================================== */
+.box-clock-repetitions{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2.5;
+    /* margin-left: 10rem; */
+}
+
+.box-bottons{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-repetitions{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.box-repetitions p{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20rem;
+    margin-left: -13rem;
+    margin-bottom: -4rem;
+}
+
+.box-clock{
+    flex: 1;
+}
+
+.box-clock p{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+/* ===================================== */
+
+
+.box-athleteTest-kettlebellWeight{
+    display: flex;
+    order: 4;
 }
 
 .button {
@@ -116,36 +204,8 @@ body {
     background-color: var(--dark-blue)
   }
 
-  .relogio{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 550px;
-    background: transparent;
-    border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
-}
+  #incrementButton{
+    display: none;
+  }
 
-.relogio div{
-    height: 170px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background-color: rgba(5, 5, 5, 0.9);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    border-radius: 7px;
-    letter-spacing: 3px;
-}
-
-.relogio span{
-    font-weight: bolder;
-    font-size: 60px;
-}
-
-.relogio span.tempo{
-    font-size: 10px;
-}
+ 

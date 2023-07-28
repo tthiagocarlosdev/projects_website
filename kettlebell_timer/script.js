@@ -5,8 +5,8 @@ function registrationFunction(){
     const time_test = document.querySelector('#timeTest');
 
     const dataAthlete = {
-        athleteName: athlete_name.value,
-        athleteTest: athlete_test.value,
+        athleteName: athlete_name.value.toUpperCase(),
+        athleteTest: athlete_test.value.toUpperCase(),
         kettlebellWeight: kettlebell_weight.value,
         timeTest: time_test.value,
     };
