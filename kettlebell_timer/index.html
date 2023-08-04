@@ -4,76 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kettlebell_timer</title>
+    <link rel="stylesheet" href="./styles/style_index.css">
+    <title>kettlebell-timer</title>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Kettlebell Timer</h1>
+        <header class="header">
+            <h1>kettlebell-timer</h1>
         </header>
-        <main>
-            <h2>Registro</h2>
-            <div class="inputs">
-                <div class="form-control">
-                    <label for="athleteName" > Nome do Atleta: </label>
-                    <input type="text" id="athleteName" class="input" placeholder="...">
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small>TESTE</small>
+
+        <div class="box-registration">
+            <h2 class="title-registration"> Registro do atleta: </h2>
+            
+            <form id="form" class="form">
+                <div class="section-inputs">
+                    <div class="form-control">
+                        <label for="athleteName" > Nome do Atleta: </label>
+                        <input type="text" id="athleteName" class="input" placeholder="...">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <small></small>
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="athleteTest"> Nome da Prova: </label>
+                        <select class="input" name="select" id="athleteTest">
+                            <option value="" class="optionChoose" selected > ... </option>
+                            <option value="talc" > TALC </option>
+                            <option value="jerk" > JERK </option>
+                            <option value="snatch" > SNATCH </option>
+                        </select>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <small></small>
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="kettlebellWeight"> Peso do Kettlebell: </label>
+                        <select class="input" name="select" id="kettlebellWeight">
+                            <option value="" class="optionChoose" selected > ... </option>
+                            <option value="12" > 12 kg </option>
+                            <option value="16" > 16 kg </option>
+                            <option value="20" > 20 kg </option>
+                            <option value="24" > 24 kg </option>
+                            <option value="28" > 28 kg </option>
+                            <option value="32" > 32 kg </option>
+                        </select>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <small></small>
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="timeTest"> Tempo da Prova: </label>
+                        <select class="input" name="select" id="timeTest">
+                            <option value="" class="optionChoose" selected > ... </option>
+                            <option value="1" > 1 min </option>
+                            <option value="5" > 5 min </option>
+                            <option value="10" > 10 min </option>
+                            <option value="30" > 30 min </option>
+                        </select>
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <small></small>
+                    </div> 
                 </div>
 
-                <div class="form-control">
-                    <label for="athleteTest"> Nome da Prova: </label>
-                    <select class="input" name="select" id="athleteTest">
-                        <option value="" class="optionChoose" selected > ... </option>
-                        <option value="talc" > TALC </option>
-                        <option value="jerk" > JERK </option>
-                        <option value="snatch" > SNATCH </option>
-                    </select>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small>TESTE</small>
+                <div class="section-button">
+                        <button id="button" type="submit" > Começar </button>
                 </div>
 
-                <div class="form-control">
-                    <label for="kettlebellWeight"> Peso do Kettlebell: </label>
-                    <select class="input" name="select" id="kettlebellWeight">
-                        <option value="" class="optionChoose" selected > ... </option>
-                        <option value="12" > 12 kg </option>
-                        <option value="16" > 16 kg </option>
-                        <option value="20" > 20 kg </option>
-                        <option value="24" > 24 kg </option>
-                        <option value="28" > 28 kg </option>
-                        <option value="32" > 32 kg </option>
-                    </select>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small>TESTE</small>
-                </div>
+            </form> 
 
-                <div class="form-control">
-                    <label for="timeTest"> Tempo da Prova: </label>
-                    <select class="input" name="select" id="timeTest">
-                        <option value="" class="optionChoose" selected > ... </option>
-                        <option value="1" > 1 min </option>
-                        <option value="5" > 5 min </option>
-                        <option value="10" > 10 min </option>
-                        <option value="30" > 30 min </option>
-                    </select>
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small>TESTE</small>
-                </div>
-                <div class="button">
-                    <button class="buttons" id="idButton" onclick="registrationFunction()" > Registrar </button>
-                </div>
-            </div>
-        </main>
+        </div>
 
-        <footer>
-            <p>Desenvolvido por Thiago Carlos</p>
+        <footer class="footer" >
+            <p>Desenvolvido por <a href="https://github.com/tthiagocarlosdev" target="_blank" >tthiagocarlosdev</a> </p>
         </footer>
     </div>
+    <script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
