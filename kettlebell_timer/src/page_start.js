@@ -18,10 +18,8 @@ window.onload = function() {
 
     // CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK
     // Define a quantidade de minutos que o cronômetro deve contar
-    // const minutos = dados.timeTest;
-    // let segundos = (minutos * 60) - 1; // Converte os minutos em segundos
-    const minutos = 0;
-    let segundos = 10;
+    const minutos = dados.timeTest;
+    let segundos = (minutos * 60) - 1; // Converte os minutos em segundos
     let intervalId;
 
     // Define uma função que atualiza o cronômetro a cada segundo
