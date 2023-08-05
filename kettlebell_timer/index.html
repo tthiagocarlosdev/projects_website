@@ -31,6 +31,7 @@
                         <select class="input" name="select" id="athleteTest">
                             <option value="" class="optionChoose" selected > ... </option>
                             <option value="talc" > TALC </option>
+                            <option value="talc" > OALC </option>
                             <option value="jerk" > JERK </option>
                             <option value="snatch" > SNATCH </option>
                         </select>
@@ -41,15 +42,7 @@
     
                     <div class="form-control">
                         <label for="kettlebellWeight"> Peso do Kettlebell: </label>
-                        <select class="input" name="select" id="kettlebellWeight">
-                            <option value="" class="optionChoose" selected > ... </option>
-                            <option value="12" > 12 kg </option>
-                            <option value="16" > 16 kg </option>
-                            <option value="20" > 20 kg </option>
-                            <option value="24" > 24 kg </option>
-                            <option value="28" > 28 kg </option>
-                            <option value="32" > 32 kg </option>
-                        </select>
+                        <input type="number" class="input" name="select" id="kettlebellWeight" placeholder="...">
                         <i class="fa-solid fa-circle-exclamation"></i>
                         <i class="fa-solid fa-circle-check"></i>
                         <small></small>
@@ -60,9 +53,12 @@
                         <select class="input" name="select" id="timeTest">
                             <option value="" class="optionChoose" selected > ... </option>
                             <option value="1" > 1 min </option>
+                            <option value="3" > 3 min </option>
                             <option value="5" > 5 min </option>
                             <option value="10" > 10 min </option>
+                            <option value="12" > 12 min </option>
                             <option value="30" > 30 min </option>
+                            <option value="60" > 60 min </option>
                         </select>
                         <i class="fa-solid fa-circle-exclamation"></i>
                         <i class="fa-solid fa-circle-check"></i>
@@ -83,6 +79,6 @@
         </footer>
     </div>
     <script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="./src/script.js"></script>
 </body>
 </html>

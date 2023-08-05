@@ -18,9 +18,11 @@ window.onload = function() {
 
     // CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK - CLOCK
     // Define a quantidade de minutos que o cronômetro deve contar
-    const minutos = dados.timeTest;
+    // const minutos = dados.timeTest;
+    // let segundos = (minutos * 60) - 1; // Converte os minutos em segundos
+    const minutos = 0;
+    let segundos = 10;
     let intervalId;
-    let segundos = (minutos * 60) - 1; // Converte os minutos em segundos
 
     // Define uma função que atualiza o cronômetro a cada segundo
     const atualizarCronometro = () => {
@@ -34,8 +36,14 @@ window.onload = function() {
         
         if(minutosExibicao === "00" && segundosExibicao <= 0){
             clearInterval(intervalId); // Para o cronômetro quando atingir zero
+            //Faz com que os botões +1 rep e -1 rep não apareçam na tela quan o cronometro zerar
             const incrementButton = document.getElementById('incrementButton');
-            incrementButton.style.display = 'none'
+            incrementButton.style.display = 'none';
+            const decrementButton = document.getElementById('decrementButton');
+            decrementButton.style.display = 'none';
+            //Faz com que a mensagem final apareça na tela após o cronometro zerar
+            const finalMessage = document.getElementById('final-message');
+            finalMessage.style.display = 'block';
         }
         // Decrementa o número de segundos restantes
         segundos--;
@@ -43,9 +51,11 @@ window.onload = function() {
 
     // Adicione um evento de clique ao botão
     document.getElementById('startButton').addEventListener('click', () => {
-        //Faz com que o botão +1 rep apareça na tela
+        //Faz com que os botões +1 rep e -1 rep apareçam na tela
         const incrementButton = document.getElementById('incrementButton');
-        incrementButton.style.display = 'flex'
+        incrementButton.style.display = 'flex';
+        const decrementButton = document.getElementById('decrementButton');
+        decrementButton.style.display = 'flex';
         
         // Chama a função atualizarCronometro a cada segundo
         intervalId = setInterval(atualizarCronometro, 1000);
@@ -61,12 +71,18 @@ window.onload = function() {
     let contador = 0;
 
     // Função para atualizar o número na tela
-    const atualizarNumero = () => {
+    const incrementNumber = () => {
         contador++;
         document.getElementById('repetations').innerHTML = contador;
     };
 
+    const decrementNumber = () => {
+        contador <= 0 ? contador = 0 : contador--;
+        document.getElementById('repetations').innerHTML = contador;
+    };
+    
     // Adicione um evento de clique ao botão
-    document.getElementById('incrementButton').addEventListener('click', atualizarNumero);
-
+    document.getElementById('incrementButton').addEventListener('click', incrementNumber);
+    document.getElementById('decrementButton').addEventListener('click', decrementNumber);
+    
 };

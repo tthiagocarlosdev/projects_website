@@ -8,7 +8,7 @@ function checkInputs(){
   const form = document.querySelector('form#form')
   const athleteName = document.querySelector('input#athleteName')
   const athleteTest = document.querySelector('select#athleteTest')
-  const kettlebellWeight = document.querySelector('select#kettlebellWeight')
+  const kettlebellWeight = document.querySelector('input#kettlebellWeight')
   const timeTest = document.querySelector('select#timeTest')
 
   const dataAthlete = {

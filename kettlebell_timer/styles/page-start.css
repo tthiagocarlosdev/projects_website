@@ -137,10 +137,21 @@ h1{
 }
 
 .box-bottons{
-    flex: 1;
+    flex: 1.5;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#final-message{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: bold;
+    display: none;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid var(--white);
+    border-top: 2px solid var(--white);
 }
 
 .box-repetitions{
@@ -153,8 +164,9 @@ h1{
 .box-repetitions p{
     color: var(--white);
     font-weight: bold;
-    font-size: 20rem;
-    margin-bottom: -4rem;
+    font-size: 27rem;
+    margin-bottom: -6rem;
+    margin-top: -4rem;
 }
 
 .box-clock{
@@ -164,7 +176,7 @@ h1{
 .box-clock p{
     color: var(--blue);
     font-weight: bold;
-    font-size: 10rem;
+    font-size: 13rem;
 }
 
 /* ===================================== */
@@ -215,7 +227,15 @@ h1{
     background-color: var(--dark-blue)
   }
 
-  #incrementButton{
+  #incrementButton:hover{
+    background-color: var(--green);
+  }
+
+  #decrementButton:hover {
+    background-color: var(--red);
+  }
+
+  #incrementButton, #decrementButton {
     display: none;
   }
 
