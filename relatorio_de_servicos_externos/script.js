@@ -3,11 +3,10 @@ let technical = {
     enrollment:[],
 }
 
-
 function addTechnicians(){
     let name = document.querySelector('#name_technician').value;
     let registration = document.querySelector('#registration_technician').value;
-    let lista = document.querySelector('#list_of_technicians')
+    let lista = document.querySelector('#list_of_technicians')    
     const regex_registration = /(^[0-9]{3}.[0-9]{3}-[0-9])/
 
     if(containsInTheList(name, technical.names) || containsInTheList(registration, technical.enrollment)){
@@ -25,10 +24,18 @@ function addTechnicians(){
     
     let content = '';
     for (let i = 0; i < technical.names.length; i++) {
-        content += `<span style="font-weight: bold;">Nome:</span> ${technical.names[i]}, <span style="font-weight: bold;">Matrícula:</span> ${technical.enrollment[i]}<br>`;
+        content += `<p class="list-technical-and-registration" > <span>Nome:</span> ${technical.names[i]}, <span>Matrícula:</span> ${technical.enrollment[i]} <a onclick="removeTechnical(this,${i})"> <i class="fa-solid fa-rectangle-xmark"></i> </a> </p> <br>`;
         lista.innerHTML = content;
     }
 }
+
+function removeTechnical(item, index) {
+    const technicalItem = item.parentElement;
+    technicalItem.remove();
+    technical.names.splice(index, 1); // remove o nome correspondente
+    technical.enrollment.splice(index, 1); // remove a matrícula correspondente
+}
+
 
 function toView(){
     const pageData = {}

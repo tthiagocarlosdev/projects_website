@@ -262,7 +262,7 @@
 
 .box_list_of_technicians{
     width: 100%;
-    text-align: center;
+    text-align: initial;
     padding: 1.5rem;
 }
 
@@ -289,6 +289,19 @@
 
 .registration_input{
     width: 15rem;
+}
+
+i{
+    margin-left: 0.938rem;
+}
+
+.list-technical-and-registration{
+    font-size: 2rem;
+    margin-left: 12.5rem;
+}
+.list-technical-and-registration span{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .user {
