@@ -127,11 +127,11 @@ form{
     width: 95%;
 }
 
-
 /* section-date-and-time section-date-and-time  */
 /* section-police-unit section-police-unit */
-.section-police-unit,
-.section-date-and-time {
+
+.section-date-and-time,
+.section-police-unit{
     width: 100%;
     display: flex;
     align-items: center;
@@ -141,9 +141,9 @@ form{
 
 .section-date-and-time label,
 .section-police-unit label{
-    padding: 0.5rem;
     font-size: 1.3rem;
     font-weight: 600;
+    width: 13%;
 }
 
 .section-police-unit label{
@@ -177,54 +177,50 @@ form{
 }
 
 
-/* container_services container_services container_services container_services container_services container_services */
-.container_services {
-    /* order: 2;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column; */
+/* section-demand-and-procedure section-demand-and-procedure */
+.section-demand-and-procedure{
+    width: 100%;
+    position: relative;
 }
 
-.reported_defect,
-.performed_services {
-    flex: 1;
+.div-requested-demand,
+.div-performed-procedure{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    padding: 1rem 0 1rem 1rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    position: relative;
 }
 
-.reported_defect label,
-.performed_services label {
-    width: 25%;
-    padding: 0.5rem;
-    margin-left: 2rem;
+.div-requested-demand label,
+.div-performed-procedure label{
+    font-weight: bold;
     font-size: 1.3rem;
-    font-weight: 600;
+    position: absolute;
+    top: -1rem;
+    left: 0;
 }
 
-
-.reported_defect textarea,
-.performed_services textarea {
-    display: flex;
-    width: 74.3%;
+.div-requested-demand textarea,
+.div-performed-procedure textarea{
+    width: 100%;
     height: 7rem;
     border-radius: 0.625rem;
     border: 0.063rem solid var(--black-color);
 
     font-size: 1rem;
     font-weight: 600;
+    margin-left: 1.5rem;
     padding: 0.5rem;
-    margin: 0.5rem 0;
-    margin-left: -2rem;
 }
+
 
 /* section technician section technician section technician section technician section technician  */
 .section-technician{
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
-    padding: 1rem;
-    height: 7rem;
     width: 100%;
     margin-top: 1.5rem;
 }
@@ -241,7 +237,8 @@ form{
     width: 100%;
 }
 
-.names-inputs, .registrations-inputs{
+.names-inputs,
+.registrations-inputs{
     width: 30rem;
     height: 2.5rem;
     border: 1px solid var(--black-color);
@@ -268,16 +265,15 @@ form{
 }
 
 /* section show-technician section show-technician section show-technician  */
-.show-technician{
+.section-show-technician{
     width: 100%;
-    padding: 1rem;
-    margin-left: 3rem;
+    padding: 0.5rem 0 0 1rem;
 }
 
 .list_of_technicians,
 .list-technical-and-registration,
 .list-technical-and-registration span{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .list-technical-and-registration span{
@@ -294,90 +290,33 @@ form{
     font-size: 2rem;
 }
 
-
-/* container_technician_and_user container_technician_and_user container_technician_and_user container_technician_and_user */
-.container_technician_and_user {
-    /* display: flex;
-    order:3;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center; */
-}
-
-.sub_title_technician_and_registration {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    text-align: center;
-    margin-top: 0.5rem;
-}
-
-.sub_title_technician_and_registration label {
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0.5rem 0;
-}
-
-.technician {
-    width: 100%;
+/* section-user section-user section-user section-user section-user */
+.section-user{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.box_input{
     width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    margin-top: 1.5rem;
 }
 
-.technician_input,
-.registration_input {
-    width: 30rem;
-    height: 2.5rem;
-    border: 1px solid var(--black-color);
-    border-radius: 10px;
-    margin: 0.5rem 0 0.5rem 2.5rem;
-
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
+.div-user-name,
+.div-user-registragion{
+    position: relative;
+    width: 50%;
 }
 
-.technician_input{
-    margin-left: 6.5rem;
+.div-user-name{
+    width: 52%;
 }
 
-.registration_input{
-    width: 15rem;
-}
-
-.user {
-    margin-top: 0.5rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-}
-
-.box_user_name,
-.box_user_registragion {
-    display: flex;    
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 6rem;
-}
-
-.user label {
+.div-user-name label,
+.div-user-registragion label{
+    font-weight: bold;
     font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0.5rem 0;
+    position: absolute;
+    top: -1.5rem;
 }
-
-.box_user_name input,
-.box_user_registragion input{
+.div-user-name input,
+.div-user-registragion input{
     width: 30rem;
     height: 2.5rem;
     border: 1px solid var(--black-color);
@@ -389,11 +328,11 @@ form{
     text-align: center;
 }
 
-.box_user_registragion input{
+.div-user-registragion input{
     width: 15rem;
 }
 
-
+/* section-button section-button section-button section-button section-button */
 .section-button{
     width: 100%;
     display: flex;
@@ -467,16 +406,12 @@ form{
 /* hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover*/
 .section-date-and-time input:hover,
 .section-police-unit input:hover,
-.reported_defect textarea:hover,
-.performed_services textarea:hover,
-.place_of_care select:hover,
-.date_and_time input:hover,
+.div-requested-demand textarea:hover,
+.div-performed-procedure textarea:hover,
 .names-inputs:hover,
 .registrations-inputs:hover,
-.technician_input:hover,
-.registration_input:hover,
-#user_name:hover,
-#user_registration:hover {
+.div-user-name input:hover,
+.div-user-registragion input:hover{
     background-color: var(--hover-color);
 }
 

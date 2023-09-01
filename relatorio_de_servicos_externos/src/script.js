@@ -71,7 +71,7 @@ function removeTechnical(item, index) {
 function toView(){
     const pageData = {}
 
-    pageData.serviceLocation = document.querySelector('.place-of-care-input').value
+    pageData.serviceLocation = document.querySelector('#search-input').value
     pageData.dateAndTime = document.querySelector('#date_and_time_input').value
     console.log(pageData.dateAndTime)
     pageData.dateAndTimeInBrazilianFormat = dateTime(pageData.dateAndTime)

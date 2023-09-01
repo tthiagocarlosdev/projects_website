@@ -49,17 +49,17 @@
                     <datalist id="options-list"></datalist>
                 </section>
 
-                <div class="container_services">
+                <section class="section-demand-and-procedure">
 
-                    <div class="reported_defect">
+                    <div class="div-requested-demand">
                         <label>Demanda Solicitada:</label>
-                        <textarea name="reported_defect" id="reported_defect" cols="30" rows="10" ></textarea>
+                        <textarea placeholder="Digite a demanda solicitada..." name="reported_defect" id="reported_defect" cols="30" rows="10" ></textarea>
                     </div>
-                    <div class="performed_services">
-                        <label>Serviços Executados:</label>
-                        <textarea name="performed_services" id="performed_services" cols="30" rows="10" ></textarea>
+                    <div class="div-performed-procedure">
+                        <label>Procedimentos Executados:</label>
+                        <textarea placeholder="Digite os procedimentos executados..." name="performed_services" id="performed_services" cols="30" rows="10" ></textarea>
                     </div>
-                </div>
+                </section>
                 
                 <section class="section-technician">
                     <div class="div-technician-name">
@@ -75,29 +75,24 @@
                     </div>
                 </section>
 
-                <section class="show-technician">
+                <section class="section-show-technician">
                     <p id="list_of_technicians"></p>
                 </section>
 
-                <div class="container_technician_and_user">
-
-                    <div class="user">
-
-                        <div class="box_user_name">
-                            <label>Nome do usuário:</label>
-                            <input type="text" name="user_name" id="user_name">
-                        </div>
-                        <div class="box_user_registragion">
-                            <label>Matrícula do usuário:</label>
-                            <input type="text" name="user_registration" id="user_registration" placeholder="000.000-0">
-                        </div>
+                <section class="section-user">
+                    <div class="div-user-name">
+                        <label>Nome do usuário:</label>
+                        <input type="text" name="user_name" id="user_name" placeholder="Digite o nome do usuário">
                     </div>
+                    <div class="div-user-registragion">
+                        <label>Matrícula do usuário:</label>
+                        <input type="text" name="user_registration" id="user_registration" placeholder="000.000-0">
+                    </div>
+                </section>
 
-                    <section class="section-button">
-                        <button class="button" type="submit" > Visualizar </button>
-                    </section>
-
-                </div>  
+                <section class="section-button">
+                    <button class="button" type="submit" > Visualizar </button>
+                </section>
 
             </form>
 
