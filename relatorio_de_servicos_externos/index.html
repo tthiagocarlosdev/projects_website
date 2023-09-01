@@ -30,29 +30,24 @@
 
         </header>
 
-        <section class="attendance_control">
+        <main>
 
-            <div class="container-title">
+            <section class="section-sub-title">
                 <h2>Controle de atendimento</h2>
-            </div>
+            </section>
 
             <form id="form" class="form container-form">
 
-                <div class="container_date_time_and_place_of_care">
+                <section class="section-date-and-time">
+                    <label>Data e Hora: </label>
+                    <input type="datetime-local" name="date_and_time" id="date_and_time_input">
+                </section>
 
-                    <div class="date_and_time">
-                        <label>Data e Hora: </label>
-                        <input type="datetime-local" name="date_and_time" id="date_and_time_input">
-                    </div>
-
-                    <section class="place_of_care" action="/search" method="get">
-                        <label for="search-input">Unidade Policial:</label>
-                        <input type="search" id="search-input" list="options-list" name="q" class="place-of-care-input" placeholder="Digite/Pesquise a unidade">
-                        <datalist id="options-list"></datalist>
-                    </section>
-
-                    
-                </div>
+                <section class="section-police-unit" action="/search" method="get">
+                    <label for="search-input">Unidade Policial:</label>
+                    <input type="search" id="search-input" list="options-list" name="q" placeholder="Digite/Pesquise a unidade">
+                    <datalist id="options-list"></datalist>
+                </section>
 
                 <div class="container_services">
 
@@ -106,7 +101,7 @@
 
             </form>
 
-        </section>
+        </main>
 
         <footer class="footer">
             <h2 class="footer_title"> Desenvolvido por tthiagocarlosdev </h2>
