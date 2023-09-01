@@ -3,6 +3,7 @@ window.onload = function() {
     var urlParams = new URLSearchParams(queryString);
     var dados_str = urlParams.get('pageData');
     var dados = JSON.parse(decodeURIComponent(dados_str));
+    console.log(dados)
     document.getElementById('place_of_care').innerHTML = dados.serviceLocation.toUpperCase();
     document.getElementById('date_and_time').innerHTML = dados.dateAndTimeInBrazilianFormat.toUpperCase();
     document.getElementById('reported_defect').innerHTML = dados.reportedDefect.toUpperCase();

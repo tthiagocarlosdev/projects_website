@@ -130,6 +130,7 @@
 
 .place_of_care,
 .date_and_time {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -165,7 +166,8 @@
 
 }
 
-.place_of_care select{
+.place_of_care select,
+.place-of-care-input{
     width: 82%;
     margin-right: 0.5rem;
 
@@ -222,6 +224,83 @@
     margin-left: -2rem;
 }
 
+/* section technician section technician section technician section technician section technician  */
+.section-technician{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    height: 7rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.section-technician label{
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: absolute;
+    top: -1.5rem;
+}
+
+.div-technician-name{
+    position: relative;
+    width: 100%;
+}
+
+.names-inputs, .registrations-inputs{
+    width: 30rem;
+    height: 2.5rem;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    margin: 0.5rem 0 0.5rem 2.5rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.registrations-inputs{
+    width: 15rem;
+}
+
+.div-registration{
+    position: relative;
+    width: 100%;
+}
+
+.div-add-button{
+    width: 100%;
+    text-align: center;
+}
+
+/* section show-technician section show-technician section show-technician  */
+.show-technician{
+    width: 100%;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+.list_of_technicians,
+.list-technical-and-registration,
+.list-technical-and-registration span{
+    font-size: 1.5rem;
+}
+
+.list-technical-and-registration span{
+    font-weight: bold;
+}
+
+.list-technical-and-registration i{
+    margin-left: 0.938rem;
+    font-size: 1.7rem;
+}
+
+.list-technical-and-registration i:hover{
+    color: red;
+    font-size: 2rem;
+}
+
+
 /* container_technician_and_user container_technician_and_user container_technician_and_user container_technician_and_user */
 .container_technician_and_user {
     /* display: flex;
@@ -260,16 +339,6 @@
     grid-template-columns: 2fr 1fr;
 }
 
-.box_list_of_technicians{
-    width: 100%;
-    text-align: initial;
-    padding: 1.5rem;
-}
-
-.box_list_of_technicians p{
-    font-size: 1.2rem;
-}
-
 .technician_input,
 .registration_input {
     width: 30rem;
@@ -289,19 +358,6 @@
 
 .registration_input{
     width: 15rem;
-}
-
-i{
-    margin-left: 0.938rem;
-}
-
-.list-technical-and-registration{
-    font-size: 2rem;
-    margin-left: 12.5rem;
-}
-.list-technical-and-registration span{
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .user {
@@ -344,7 +400,7 @@ i{
 }
 
 
-.box_button{
+.section-button{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -419,6 +475,8 @@ i{
 .performed_services textarea:hover,
 .place_of_care select:hover,
 .date_and_time input:hover,
+.names-inputs:hover,
+.registrations-inputs:hover,
 .technician_input:hover,
 .registration_input:hover,
 #user_name:hover,

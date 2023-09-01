@@ -1,7 +1,32 @@
+import { options } from './unidades_policiais.js';
+
+const form = document.getElementById('form');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    toView()
+});
+
+function loadOptions() {
+    const optionsList = document.getElementById('options-list');
+
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        optionsList.appendChild(optionElement);
+    });
+}
+
+loadOptions(); // Chama a função para carregar as opções quando a página carrega
+
 let technical = {
     names:[],
     enrollment:[],
 }
+
+const addTechniciansButton = document.getElementById('addTechniciansButton');
+addTechniciansButton.addEventListener('click', addTechnicians);
+
 
 function addTechnicians(){
     let name = document.querySelector('#name_technician').value;
@@ -24,7 +49,12 @@ function addTechnicians(){
     
     let content = '';
     for (let i = 0; i < technical.names.length; i++) {
-        content += `<p class="list-technical-and-registration" > <span>Nome:</span> ${technical.names[i]}, <span>Matrícula:</span> ${technical.enrollment[i]} <a onclick="removeTechnical(this,${i})"> <i class="fa-solid fa-rectangle-xmark"></i> </a> </p> <br>`;
+        content += `<p class="list-technical-and-registration" > 
+        <span>Nome:</span> ${technical.names[i]}, 
+        <span>Matrícula:</span> ${technical.enrollment[i]} 
+        <a onclick="removeTechnical(this,${i})"> 
+        <i class="fa-solid fa-rectangle-xmark"></i> 
+        </a> </p> <br>`;
         lista.innerHTML = content;
     }
 }
@@ -34,13 +64,14 @@ function removeTechnical(item, index) {
     technicalItem.remove();
     technical.names.splice(index, 1); // remove o nome correspondente
     technical.enrollment.splice(index, 1); // remove a matrícula correspondente
+    console.log(technical)
 }
 
 
 function toView(){
     const pageData = {}
 
-    pageData.serviceLocation = document.querySelector('.place_of_care_select').value
+    pageData.serviceLocation = document.querySelector('.place-of-care-input').value
     pageData.dateAndTime = document.querySelector('#date_and_time_input').value
     console.log(pageData.dateAndTime)
     pageData.dateAndTimeInBrazilianFormat = dateTime(pageData.dateAndTime)
@@ -57,9 +88,9 @@ function toView(){
     if(pageData.serviceLocation.length == 0){
         alert("ATENÇÃO! Adicione o Local de Atendimento!")
     } else if (pageData.reportedDefect.length == 0) {
-        alert("ATENÇÃO! Informe o defeito!")
+        alert("ATENÇÃO! Informe a demanda solicitada!")
     } else if (pageData.performedServices.length == 0) {
-        alert("ATENÇÃO! Informe o serviço executado!")
+        alert("ATENÇÃO! Informe os serviços executados!")
     } else if (pageData.techniciansData.names == 0) {
         alert("ATENÇÃO! Informe pelo menos um técnico!")
     } else if (pageData.userName.length == 0) {
