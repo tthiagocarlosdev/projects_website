@@ -150,7 +150,7 @@ function toView(){
         alert("ATENÇÃO! Informe um número válido de matrícula do usuário!")
     } else {
         var dados_str = JSON.stringify(pageData);
-        window.location.href = "page_view.html?pageData=" + encodeURIComponent(dados_str);
+        window.location.href = "./pages/page_view.html?pageData=" + encodeURIComponent(dados_str);
     }
 }
 

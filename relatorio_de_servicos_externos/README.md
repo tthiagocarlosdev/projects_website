@@ -1,6 +1,6 @@
 # Relatório de Serviços Externos
 
-Projeto desenvolvido para a página Relatório de Serviços Externos que gera um relatório de atendimento realizados pelas equipes da Diretoria da Tecnologia da Informação - DTI da Polícia Civil de Pernambuco.
+Projeto desenvolvido para a página Relatório de Serviços Externos que gera um relatório dos atendimentos realizados pelas equipes da Diretoria da Tecnologia da Informação - DTI da Polícia Civil de Pernambuco.
 
 Acesse a página clicando [aqui]()
 
