@@ -54,15 +54,15 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 /* HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER */
 .header {
+    width: 100%;
 	background-color: var(--dark-blue);
     color: var(--white);
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	order: 1;
@@ -77,8 +77,9 @@ body {
 
 /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
 .main {
-	display: flex;
-	flex-direction: row;
+    width: 100%;
+	padding: 1rem;
+    display: flex;
     justify-content: center;
     align-items: center;
 	order: 2;
@@ -87,7 +88,7 @@ body {
 }
 
 
-.main .button-links {
+.buttonLinks {
     text-decoration: none;
     width: 20rem;
     height: 5rem;
@@ -108,47 +109,61 @@ body {
 
     font-size: 2rem;
     font-weight: 600;
+    text-transform: uppercase;
 
     transition: background-color 0.5s;
     cursor: pointer;
 }
   
-.main .button-links:hover {
+.buttonLinks:hover {
     background-color: var(--modal-button-hover)
 }
 
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
-.box-footer {
+.boxFooter {
     display: flex;
-	flex-direction: row;
-	order: 3;
-	flex: 0.5;
-	background-color:var(--dark-blue);
-}
-
-.footer-title {
+    order: 3;
+    flex: 0.5 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color:var(--dark-blue);
     color: var(--white);
-	flex: 1;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-	padding: 1rem;
 }
 
-.links-social-media {
+.boxTitleFooter {
+    flex: 1 1 21.875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footerTitle {
+    font-size: 1.3rem;
+}
+
+.footerTitle span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.linksSocialMedia {
     list-style: none;
-	flex: 1.2;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	padding:0.5rem;
-	flex-flow: wrap;
+    flex: 1 1 21.875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* flex-flow: wrap; */
 }
 
-.links-social-media a {
+.buttonsSocialMedia {
+    margin: 0.5rem;
+    cursor: pointer;
     display: flex;
     width: 4rem;
     height: 1rem;
@@ -163,8 +178,9 @@ body {
     box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
 }
 
-.links-social-media a:hover {
-	background-color: var(--modal-button-hover);
+.buttonsSocialMedia:hover {
+    background-color: var(--modal-button-hover);
+    color: var(--white-color);
 }
 
 .fa-brands, .fa-solid {
