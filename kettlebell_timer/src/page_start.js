@@ -87,5 +87,5 @@ window.onload = function() {
 
 
 document.getElementById('backButton').addEventListener('click', function() {
-    window.location.href = '../index.html'; // Substitua 'URL_DA_TELA_DE_CADASTRO' pela URL da tela de cadastro
+    window.location.href = '../index.html';
 });
