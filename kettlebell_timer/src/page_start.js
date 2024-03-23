@@ -41,7 +41,7 @@ window.onload = function() {
             decrementButton.style.display = 'none';
             //Faz com que a mensagem final apareça na tela após o cronometro zerar
             const finalMessage = document.getElementById('final-message');
-            finalMessage.style.display = 'block';
+            finalMessage.style.display = 'flex';
         }
         // Decrementa o número de segundos restantes
         segundos--;
@@ -84,3 +84,8 @@ window.onload = function() {
     document.getElementById('decrementButton').addEventListener('click', decrementNumber);
     
 };
+
+
+document.getElementById('backButton').addEventListener('click', function() {
+    window.location.href = '../index.html'; // Substitua 'URL_DA_TELA_DE_CADASTRO' pela URL da tela de cadastro
+});

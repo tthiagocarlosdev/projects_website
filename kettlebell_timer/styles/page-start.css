@@ -147,11 +147,17 @@ h1{
 #final-message{
     color: var(--white);
     font-size: 3rem;
+    width: 25rem;
     font-weight: bold;
     display: none;
-    padding: 0.5rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
     border-bottom: 2px solid var(--white);
     border-top: 2px solid var(--white);
+    /* background-color: palevioletred; */
 }
 
 .box-repetitions{
@@ -223,6 +229,11 @@ h1{
     cursor: pointer;
   }
   
+  .backButton {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
   .button:hover {
     background-color: var(--dark-blue)
   }
@@ -237,6 +248,11 @@ h1{
 
   #incrementButton, #decrementButton {
     display: none;
+  }
+  
+  .backButton:hover {
+    background-color: var(--white);
+    color: var(--blue);
   }
 
  
