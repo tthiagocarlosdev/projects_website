@@ -28,8 +28,15 @@ html, body {
 
 .largura_da_pagina {
     width: 1280px;
-    margin: 0 auto;
     /* border: 1px solid greenyellow; */
+}
+
+main {
+    /* background-color: #FF1301; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -38,6 +45,7 @@ header {
     height: 162px;
 
     display: flex;
+    justify-content: center;
 }
 
 header div {
@@ -59,14 +67,16 @@ header div {
     margin-left: 16px;
 }
 
-form {
+.formulario {
     /* background-color: #049934; */
-    padding: 42px 0 42px 0;
+    /* padding: 16px 0; */
+    margin: 42px 0;
 }
 
 .section-police-unit {
     /* background-color: palegreen; */
 
+    width: 100%;
     padding: 16px;
     display: flex;
     justify-content: space-between;
@@ -188,6 +198,7 @@ form {
 }
 
 .box_iframe {
+    width: 100%;
     padding: 32px 0;
     border-bottom: 1px solid var(--black);
     /* background-color: purple; */
@@ -196,6 +207,7 @@ form {
 .box_botao_copiar_tudo {
     /* background-color: #FFCB02; */
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -254,12 +266,38 @@ form {
     box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
 }
 
-/* .fa-brands, .fa-solid {
-    font-size: 24px;
-} */
-
 .buttonsSocialMedia:hover {
     background-color: var(--blue);
     color: var(--white);
     /* border: 1px solid var(--white); */
+}
+
+@media (min-width: 769px) and (max-width: 1279px){
+    .largura_da_pagina {
+        min-width: 769px;
+        max-width: 1279px;
+        padding: 0 8px;
+    }
+
+    .bandeiras {
+        height: 65px;
+    }
+
+    .titulo {
+        font-size: 34px;
+    }
+
+    #search-form {
+        width: 100%;
+    }
+
+    .secao_resultado {
+        width: 100%;
+    }
+
+    .secao_resultado h2 {
+        font-size: 28px;
+        padding: 8px 0 8px 0;
+        /* background-color: aqua; */
+    }
 }
