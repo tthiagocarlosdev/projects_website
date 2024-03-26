@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --white-color: #dbdbdb;
+    --red: #FF1301;
+    --blue: rgb(0, 95, 152);
+    --yellow: #FFCB02;
+    --green: #049934;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #bdbdbd;
+    --card-color: #005F98;
+    --card-background-color: rgb(245, 245, 245);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.largura_da_pagina {
+    width: 1280px;
+    margin: 0 auto;
+    /* border: 1px solid greenyellow; */
+}
+
+header {
+    background-color: var(--blue);
+    color: var(--white);
+    height: 162px;
+
+    display: flex;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 38px;
+}
+
+.bandeiras {
+    height: 85px;
+    border: 0.5px solid var(--black);
+}
+
+#bandeira_pernambuco {
+    margin-left: 16px;
+}
+
+form {
+    /* background-color: #049934; */
+    padding: 42px 0 42px 0;
+}
+
+.section-police-unit {
+    /* background-color: palegreen; */
+
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--black);
+}
+
+.section-police-unit input { 
+    /* background-color: plum; */
+    width: 85%;
+
+    border: 0.063rem solid var(--black);
+    border-radius: 3px;
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+
+    padding: 0.5rem 0.3rem;
+}
+
+.section-police-unit input::placeholder {
+    color: var(--black);
+}
+
+.buttons, .botao_copiar {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+
+    border: 1px solid var(--black);
+    border-radius: 3px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons:hover, .botao_copiar:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+
+/* SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO  */
+.secao_resultado {
+    /* background-color: palevioletred; */
+    padding: 42px 0 42px 0;
+    margin-bottom: 42px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--black);
+}
+
+.secao_resultado h2 {
+    /* background-color: palegreen; */
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+}
+
+.boxs_resultado {
+    /* background-color: peru; */
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin-top: 16px;
+}
+
+.boxs_resultado p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.boxs_resultado span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.box_secao_telefone {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    /* padding: 8px 0; */
+}
+
+.box_telefone {
+    /* border: none; */
+}
+
+
+.lista_numeros_de_telefones {
+    /* background-color: powderblue; */
+    width: 100%;
+    margin-top: 16px;
+    border-bottom: 1px solid var(--black);
+}
+
+.lista_numeros_de_telefones li {
+    /* background-color: #049934; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.lista_numeros_de_telefones li span {
+    font-size: 20px;
+}
+
+.box_iframe {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--black);
+    /* background-color: purple; */
+}
+
+.box_botao_copiar_tudo {
+    /* background-color: #FFCB02; */
+    justify-content: center;
+}
+
+
+/* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
+.rodape {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0.5 1;
+    background-color:var(--blue);
+    padding: 16px 0;
+}
+
+.boxTextoRodape {
+    /* background-color: purple; */
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 50%;
+    padding: 16px 0;
+}
+
+.boxTextoRodape span {
+    font-weight: bold;
+}
+
+.boxLinksSocialMedia {
+    /* background-color: plum; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+    padding: 16px 0;
+}
+
+.buttonsSocialMedia {
+    display: flex;
+    width: 80px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 16px;
+    margin-left: 16px;
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 5px;
+    box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
+}
+
+/* .fa-brands, .fa-solid {
+    font-size: 24px;
+} */
+
+.buttonsSocialMedia:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    /* border: 1px solid var(--white); */
+}

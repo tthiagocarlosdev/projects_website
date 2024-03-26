@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Unidades PCPE</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="largura_da_pagina">
+            <figure>
+                <img class="bandeiras" src="./img/bandeira_pcpe.png" alt="bandeira da pcpe" title="bandeira da pcpe">
+                <img class="bandeiras" id="bandeira_pernambuco" src="./img/Bandeira_de_Pernambuco.svg.png" alt="bandeira de pernambuco" title="bandeira de pernambuco">
+            </figure>
+            <h1 class="titulo">Endereços e Telefones PCPE</h1>
+        </div>
+    </header>
+    <main>
+        <form id="search-form" class="largura_da_pagina">
+            <fieldset class="section-police-unit" action="/search" method="get">
+    
+                <input type="search" id="search-input" list="options-list" name="q" placeholder="Pesquise a unidade policial" required>
+                <datalist id="options-list"></datalist>
+    
+                <button type="button" id="botao_carregar" class="buttons">Carregar <i class="fa-solid fa-eye"></i></button>
+    
+            </fieldset>
+        </form>
+
+        <section class="secao_resultado largura_da_pagina">
+            <h2>Endereços e Telefones</h2>
+            <div class="box_unidade_policial boxs_resultado">
+                <p>Unidade Policial: <span id="nome_da_unidade">Escolha a unidade</span></p>
+                <!-- <button id="copy-address-button" class="botao_copiar">Copiar <i class="fa-regular fa-copy"></i> </button> -->
+            </div>
+    
+            <div class="box_endereco boxs_resultado">
+                <p>Endereço: <span id="endereco_da_unidade">Escolha a unidade</span></p>
+                <!-- <button id="copy-address-button" class="botao_copiar">Copiar <i class="fa-regular fa-copy"></i> </button> -->
+            </div>
+            
+            <div class="box_secao_telefone" id="box_secao_telefone">
+                <div class="box_telefone boxs_resultado">
+                    <p>Telefone(s): <span id="telefones_da_unidade">Escolha a unidade</span></p>
+                    <!-- <button class="botao_copiar" id="copy-address-button">Copiar Todos <i class="fa-regular fa-copy"></i> </button> -->
+                </div>
+                <!-- <ul class="lista_numeros_de_telefones">
+                    <li class="numero_de_telefone"> 
+                        <span>(81) 3184-3802</span> 
+                        <button class="botao_copiar">Copiar <i class="fa fa-regular fa-copy" aria-hidden="true"></i></button> 
+                    </li> 
+                    <li class="numero_de_telefone"> 
+                        <span>(81) 3184-3803</span> 
+                        <button class="botao_copiar">Copiar <i class="fa fa-regular fa-copy" aria-hidden="true"></i></button> 
+                    </li> 
+                    <li class="numero_de_telefone"> 
+                        <span>(81) 3184-3800</span> 
+                        <button class="botao_copiar">Copiar <i class="fa fa-regular fa-copy" aria-hidden="true"></i></button> 
+                    </li>
+                    <li class="numero_de_telefone"> 
+                        <span>(81) 3184-3805</span> 
+                        <button class="botao_copiar">Copiar <i class="fa fa-regular fa-copy" aria-hidden="true"></i></button> 
+                    </li>
+                </ul> -->
+            </div>
+        
+            <div class="box_localizacao boxs_resultado">
+                <p>Localização: <span id="latitude_longitude_da_unidade">Escolha a unidade</span></p>
+                <!-- <button class="botao_copiar" id="copy-address-button">Copiar <i class="fa-regular fa-copy"></i> </button> -->
+            </div>
+
+            <div class="box_iframe">
+                <iframe id="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4058240.75215817!2d-39.50934462849578!3d-6.6313021556049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7007c9d931c86c5%3A0x1de0196a93401726!2sPernambuco!5e0!3m2!1spt-BR!2sbr!4v1710516559473!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="box_botao_copiar_tudo ">
+                <!-- <button id="copy-address-button" class="botao_copiar">Copiar Tudo <i class="fa-regular fa-copy"></i> </button> -->
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="boxTextoRodape">
+            <p class="textoRodape"> Desenvolvido por <span>tthiagocarlosdev</span></p>
+        </div>
+        <ul class="boxLinksSocialMedia">
+            <li> <a class="buttonsSocialMedia" href="https://github.com/tthiagocarlosdev" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
+            <li> <a class="buttonsSocialMedia" href="mailto:tthiagocarlos.dev@gmail.com" target="_blank"> <i class="fa-sharp fa-solid fa-g"></i> </a></li>
+            <li> <a class="buttonsSocialMedia" href="https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw" target="_blank"> <i class="fa-brands fa-youtube"></i> </a></li>
+            <li> <a class="buttonsSocialMedia" href="https://www.instagram.com/tthiagocarlos.dev/" target="_blank"> <i class="fa-brands fa-instagram"></i>  </a></li>
+            <li> <a class="buttonsSocialMedia" href="https://www.linkedin.com/in/thiago-carlos-80a480244" target="_blank"> <i class="fa-brands fa-linkedin"></i>  </a></li>
+        </ul>
+      </footer>
+
+    
+    
+    
+    <script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
