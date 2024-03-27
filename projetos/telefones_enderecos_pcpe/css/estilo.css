@@ -32,7 +32,7 @@ html, body {
 }
 
 main {
-    /* background-color: #FF1301; */
+    background-color: #FF1301;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,6 +46,7 @@ header {
 
     display: flex;
     justify-content: center;
+
 }
 
 header div {
@@ -54,8 +55,24 @@ header div {
     align-items: center;
 }
 
+figure {
+    background-color: peru;
+    
+    width:30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
 .titulo {
+    background-color: palevioletred;
+    
     font-size: 38px;
+    /* width: 50%; */
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .bandeiras {
@@ -124,7 +141,7 @@ header div {
 
 /* SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO  */
 .secao_resultado {
-    /* background-color: palevioletred; */
+    background-color: palevioletred;
     padding: 42px 0 42px 0;
     margin-bottom: 42px;
 
@@ -205,7 +222,7 @@ header div {
 }
 
 .box_botao_copiar_tudo {
-    /* background-color: #FFCB02; */
+    background-color: #FFCB02;
     justify-content: center;
     width: 100%;
 }
@@ -219,20 +236,23 @@ header div {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex: 0.5 1;
+    flex: 1 1 100%;
     background-color:var(--blue);
-    padding: 16px 0;
+    /* padding: 16px 0; */
+    /* background-color: palegreen; */
 }
 
 .boxTextoRodape {
     /* background-color: purple; */
     color: var(--white);
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     flex: 1 1 50%;
     padding: 16px 0;
+    background-color: var(--blue);
 }
 
 .boxTextoRodape span {
@@ -241,14 +261,15 @@ header div {
 
 .boxLinksSocialMedia {
     /* background-color: plum; */
+    background-color: var(--blue);
     list-style: none;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex: 1 1 50%;
-    flex-wrap: wrap;
-    padding: 16px 0;
+    padding: 16px 8px;
 }
 
 .buttonsSocialMedia {
@@ -272,6 +293,8 @@ header div {
     /* border: 1px solid var(--white); */
 }
 
+
+/* media  media  media  media  media  media  media  media  media  media  media */
 @media (min-width: 769px) and (max-width: 1279px){
     .largura_da_pagina {
         min-width: 769px;
@@ -293,11 +316,80 @@ header div {
 
     .secao_resultado {
         width: 100%;
+        padding: 42px 0 42px 0;
     }
 
     .secao_resultado h2 {
         font-size: 28px;
         padding: 8px 0 8px 0;
-        /* background-color: aqua; */
+    }
+}
+
+
+@media (max-width: 991px){
+    .bandeiras {
+        height: 55px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+    
+    .boxTextoRodape {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .boxLinksSocialMedia {
+        justify-content: center;
+        background-color: var(--blue);
+    }
+}
+
+
+@media (max-width: 529px){
+    header div {
+        flex-wrap: wrap;
+    }
+
+    figure, .titulo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .largura_da_pagina {
+        min-width: 481px;
+        max-width: 768px;
+        padding: 0 8px;
+    }
+
+    
+    .bandeiras {
+        height: 45px;
+    }
+
+    .titulo {
+        font-size: 26px;
+        text-align: end;
+        /* background-color: #FF1301; */
+        /* width: 80%; */
+    }
+
+    #search-form {
+        width: 100%;
+    }
+
+    .secao_resultado {
+        width: 100%;
+        padding: 42px 0 42px 0;
+    }
+
+    .secao_resultado h2 {
+        font-size: 28px;
+        padding: 8px 0 8px 0;
     }
 }
