@@ -28,11 +28,9 @@ html, body {
 
 .largura_da_pagina {
     width: 1280px;
-    /* border: 1px solid greenyellow; */
 }
 
 main {
-    /* background-color: #FF1301; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,8 +54,6 @@ header div {
 }
 
 figure {
-    /* background-color: peru; */
-    
     height: 50%;
     display: flex;
     align-items: center;
@@ -66,8 +62,6 @@ figure {
 }
 
 .titulo {
-    /* background-color: palevioletred; */
-    
     font-size: 38px;
     height: 50%;
     display: flex;
@@ -83,14 +77,10 @@ figure {
 }
 
 .formulario {
-    /* background-color: #049934; */
-    
     margin: 42px 0;
 }
 
 .section-police-unit {
-    /* background-color: palegreen; */
-
     width: 100%;
     padding: 16px;
     display: flex;
@@ -100,17 +90,13 @@ figure {
 }
 
 .section-police-unit input { 
-    /* background-color: plum; */
     width: 85%;
-
-    border: 0.063rem solid var(--black);
+    border: 1px solid var(--black);
     border-radius: 3px;
-    
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
-
-    padding: 0.5rem 0.3rem;
+    padding: 8px 4.8px;
 }
 
 .section-police-unit input::placeholder {
@@ -140,10 +126,8 @@ figure {
 
 /* SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO SEÇÃO RESULTADO  */
 .secao_resultado {
-    background-color: palevioletred;
-    padding: 42px 0 42px 0;
+    padding: 42px 0;
     margin-bottom: 42px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,7 +135,6 @@ figure {
 }
 
 .secao_resultado h2 {
-    /* background-color: palegreen; */
     width: 100%;
     text-align: center;
     font-size: 32px;
@@ -160,7 +143,6 @@ figure {
 }
 
 .boxs_resultado {
-    /* background-color: peru; */
     width: 100%;
     padding: 8px 16px;
     display: flex;
@@ -185,19 +167,16 @@ figure {
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    /* padding: 8px 0; */
 }
 
 
 .lista_numeros_de_telefones {
-    /* background-color: powderblue; */
     width: 100%;
     margin-top: 16px;
     border-bottom: 1px solid var(--black);
 }
 
 .lista_numeros_de_telefones li {
-    /* background-color: #049934; */
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -214,11 +193,9 @@ figure {
     height: 450px;
     padding: 32px 16px;
     border-bottom: 1px solid var(--black);
-    /* background-color: purple; */
 }
 
 .box_botao_copiar_tudo {
-    background-color: #FFCB02;
     justify-content: center;
     width: 100%;
 }
@@ -231,15 +208,11 @@ figure {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     flex: 1 1 100%;
     background-color:var(--blue);
-    
-    /* background-color: palegreen; */
 }
 
 .boxTextoRodape {
-    /* background-color: purple; */
     color: var(--white);
     height: 100%;
     display: flex;
@@ -256,7 +229,6 @@ figure {
 }
 
 .boxLinksSocialMedia {
-    /* background-color: plum; */
     background-color: var(--blue);
     list-style: none;
     height: 100%;
@@ -271,7 +243,6 @@ figure {
 
 .buttonsSocialMedia {
     display: flex;
-    /* width: 80px; */
     height: 16px;
     justify-content: center;
     align-items: center;
@@ -280,18 +251,18 @@ figure {
     background-color: var(--white);
     color: var(--blue);
     border-radius: 5px;
-    box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
+    box-shadow: var(--black) 3.2px 3.2px 8px;
 }
 
 .buttonsSocialMedia:hover {
     background-color: var(--blue);
     color: var(--white);
-    /* border: 1px solid var(--white); */
 }
 
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 769px e 1279px */
 @media (min-width: 769px) and (max-width: 1279px){
     .largura_da_pagina {
         max-width: 1080px;
@@ -332,8 +303,6 @@ figure {
     }
 }
 
-
-
 /* Para telas com largura entre 481px e 768px */
 /* Para telas com largura entre 481px e 768px */
 /* Para telas com largura entre 481px e 768px */
@@ -341,6 +310,7 @@ figure {
 @media (min-width: 481px) and (max-width: 768px){
     .largura_da_pagina {
         max-width: 768px;
+        min-width: 481px;
         padding: 0 8px;
     }
 
@@ -350,7 +320,6 @@ figure {
 
     figure {
         justify-content: center;
-        padding-top: 16px;
     }
 
     .bandeiras {
@@ -363,8 +332,9 @@ figure {
         /* background-color: #FF1301; */
     }
 
-    #search-form {
+    .formulario {
         width: 100%;
+        padding: 16px;
     }
 
     .section-police-unit {
@@ -378,19 +348,35 @@ figure {
         height: 48px;
     }
 
-    #botao_carregar {
-        width: 100%;
+    .buttons, .botao_copiar {
+        width: 90%;
         justify-content: center;
+        height: 46px;
     }
 
     .secao_resultado {
         width: 100%;
-        padding: 42px 0 42px 0;
+        padding: 20px 0;
     }
 
     .secao_resultado h2 {
         font-size: 28px;
-        padding: 8px 0 8px 0;
+        padding: 0 8px 8px 8px;
+    }
+
+    .boxs_resultado {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .boxs_resultado p {
+        text-align: center;
+    }
+
+    .numero_de_telefone button {
+        width: 35%;
+        height: 40px;
     }
 
     .box_iframe {
@@ -438,18 +424,13 @@ figure {
         justify-content: center;
     }
 
-    .titulo {
-        font-size: 28px;
-        text-align: center;
-    }
-
     .bandeiras {
         height: 65px;
     }
 
     .titulo {
-        font-size: 30px;
-        justify-content: center;
+        font-size: 28px;
+        text-align: center;
     }
 
     .formulario {
@@ -485,7 +466,7 @@ figure {
     }
 
     .secao_resultado h2{
-        font-size: 28px;
+        font-size: 26px;
         padding: 0 8px 8px 8px;
     }
 
