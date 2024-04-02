@@ -62,6 +62,7 @@ figure {
     display: flex;
     align-items: center;
     flex: 1 1 30%;
+    gap: 16px;
 }
 
 .titulo {
@@ -81,15 +82,10 @@ figure {
     border: 0.5px solid var(--black);
 }
 
-#bandeira_pernambuco {
-    margin: 0 16px;
-}
-
 .formulario {
     /* background-color: #049934; */
-
+    
     margin: 42px 0;
-    gap: 16px;
 }
 
 .section-police-unit {
@@ -100,6 +96,7 @@ figure {
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--black);
+    gap: 16px;
 }
 
 .section-police-unit input { 
@@ -274,12 +271,12 @@ figure {
 
 .buttonsSocialMedia {
     display: flex;
-    width: 80px;
+    /* width: 80px; */
     height: 16px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 16px;
+    padding: 16px 32px;
     background-color: var(--white);
     color: var(--blue);
     border-radius: 5px;
@@ -337,6 +334,10 @@ figure {
 
 
 
+/* Para telas com largura entre 481px e 768px */
+/* Para telas com largura entre 481px e 768px */
+/* Para telas com largura entre 481px e 768px */
+/* Para telas com largura entre 481px e 768px */
 @media (min-width: 481px) and (max-width: 768px){
     .largura_da_pagina {
         max-width: 768px;
@@ -418,10 +419,14 @@ figure {
 }
 
 
-
-@media (max-width: 480px){
+/* Para telas com largura entre 320px e 480px */
+/* Para telas com largura entre 320px e 480px */
+/* Para telas com largura entre 320px e 480px */
+/* Para telas com largura entre 320px e 480px */
+@media screen and (min-width: 320px) and (max-width: 480px){
     .largura_da_pagina {
         max-width: 480px;
+        min-width: 320px;
         padding: 0 8px;
     }
 
@@ -431,7 +436,11 @@ figure {
 
     figure {
         justify-content: center;
-        padding-top: 16px;
+    }
+
+    .titulo {
+        font-size: 28px;
+        text-align: center;
     }
 
     .bandeiras {
@@ -443,9 +452,55 @@ figure {
         justify-content: center;
     }
 
+    .formulario {
+        padding: 16px;
+        width: 100%;
+    }
+
+    .section-police-unit {
+        flex-wrap: wrap;
+    }
+
+    .section-police-unit input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-police-unit input::placeholder {
+        font-size: 12px;
+        width: 100%;
+        font-weight: 550;
+    }
+
+    .buttons, .botao_copiar {
+        width: 100%;
+        justify-content: center;
+    }
+
     .secao_resultado {
         width: 100%;
-        padding: 42px 0;
+        padding: 20px 0;
+    }
+
+    .secao_resultado h2{
+        font-size: 28px;
+        padding: 0 8px 8px 8px;
+    }
+
+    .boxs_resultado {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .boxs_resultado p {
+        text-align: center;
+    }
+
+    .numero_de_telefone button {
+        width: 35%;
     }
 
     .box_iframe {
@@ -470,6 +525,6 @@ figure {
     }
 
     .buttonsSocialMedia {
-        min-width: 64px;
+        padding: 12px 18px;
     }
 }
