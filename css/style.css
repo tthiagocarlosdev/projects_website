@@ -136,7 +136,7 @@ body {
     flex: 1 1 21.875rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 1rem;
 }
@@ -155,23 +155,21 @@ body {
     flex: 1 1 21.875rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 1.5rem;
     padding: 1rem;
-    /* flex-flow: wrap; */
 }
 
 .buttonsSocialMedia {
-    margin: 0.5rem;
     cursor: pointer;
-    display: flex;
     width: 4rem;
     height: 1rem;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     padding: 1rem;
-    margin-left:1rem;
     background-color: var(--blue);
     color: var(--white);
     border-radius: 5px;
@@ -255,4 +253,25 @@ body {
 
 .modal .box-modal .header-modal .botton_close_modal:hover {
     background-color: var(--modal-button-hover);
+}
+
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 320px e 1279px */
+/* Para telas com largura entre 320px e 1279px */
+/* Para telas com largura entre 320px e 1279px */
+/* Para telas com largura entre 320px e 1279px */
+@media (min-width: 320px) and (max-width: 1279px){
+    .boxTitleFooter {
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .linksSocialMedia {
+        justify-content: center;
+        padding: 1rem;
+        flex-flow: wrap;
+    }
 }

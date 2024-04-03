@@ -11,14 +11,14 @@
 :root {
     --white-color: #dbdbdb;
     --red: #FF1301;
-    --blue: rgb(0, 95, 152);
+    --blue: #005f98;
     --yellow: #FFCB02;
     --green: #049934;
     --black: #000000;
     --white: #ffffff;
     --gray: #bdbdbd;
     --card-color: #005F98;
-    --card-background-color: rgb(245, 245, 245);
+    --card-background-color: #f5f5f5;
 }
 
 html, body {
@@ -329,7 +329,6 @@ figure {
     .titulo {
         font-size: 32px;
         justify-content: center;
-        /* background-color: #FF1301; */
     }
 
     .formulario {
