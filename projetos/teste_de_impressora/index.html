@@ -4,32 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de impressora</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://cdn.baconipsum.com/api/jquery-BaconIpsum.js"></script>
+    <link rel="shortcut icon" href="./imgs/icons/print-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Teste de impressora</h1>
+    <header class="cabecalho display_flex">
+        <h1>Teste de Impressora</h1>
     </header>
-    <main>
-        <section class="section_data_atual">
+    <main class="principal largura_da_pagina display_flex">
+        <section class="secao_data_atual display_flex">
             <h2>Data:</h2>
             <p class="data_atual">QUARTA-FEIRA, 3 DE ABRIL DE 2024 ÀS 14:35</p>
         </section>
-        <section class="section_texto_data_lorem">
-            <p id="lorem">Bacon ipsum dolor amet biltong rump turkey drumstick. Chislic filet mignon t-bone pancetta pork loin landjaeger, ham hock shank frankfurter jowl porchetta boudin doner shankle. Kielbasa pork belly brisket t-bone andouille, filet mignon doner shoulder alcatra capicola. Strip steak salami picanha andouille, swine sausage pork loin corned beef ground round flank frankfurter boudin bresaola pig fatback. Sausage shankle chicken alcatra ball tip short ribs bresaola porchetta shank. 
-                <span class="data_atual">quarta-feira, 3 de abril de 2024 às 14:35</span>
-            </p>
-        </section>
-        <figure>
-            <img src="./img/grafico_01_fundo_transparente.png" alt="grafico de cores 1">
-            <img src="./img/grafico_02_fundo_transparente.png" alt="grafico de cores 2">
-            <img src="./img/grafico_03_fundo_transparente.png" alt="grafico de cores 3">
+        <section class="secao_texto_data"></section>
+        <figure class="secao_figure display_flex">
+            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_01_fundo_transparente.png" alt="grafico de cores 1">
+            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_02_fundo_transparente.png" alt="grafico de cores 2">
+            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_03_fundo_transparente.png" alt="grafico de cores 3">
         </figure>
+        <section class="secao_texto_data"></section>
     </main>
-    <footer>
-        <p>Desenvolvido por <span>tthiagocarlosdev</span></p>
+    <footer class="rodape display_flex">
+        <p>Desenvolvido por <a href="https://github.com/tthiagocarlosdev" target="_blank">tthiagocarlosdev</a></p>
     </footer>
     <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/bec2f6bc88.js" crossorigin="anonymous"></script>
 </body>
 </html>
