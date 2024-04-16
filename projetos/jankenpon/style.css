@@ -110,6 +110,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1.5rem;
 }
 
@@ -118,6 +119,14 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--chartreuse);
+}
+
+.container_botao {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #reset_button {
@@ -133,9 +142,6 @@
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: bold;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
 }
 
 #reset_button:hover {
