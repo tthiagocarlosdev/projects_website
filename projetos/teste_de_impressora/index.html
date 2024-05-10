@@ -12,17 +12,23 @@
         <h1>Teste de Impressora</h1>
     </header>
     <main class="principal largura_da_pagina display_flex">
-        <section class="secao_data_atual display_flex">
-            <h2>Data:</h2>
-            <p class="data_atual">QUARTA-FEIRA, 3 DE ABRIL DE 2024 ÀS 14:35</p>
+        <div id="content">
+            <section class="secao_data_atual display_flex">
+                <h2>Data:</h2>
+                <p class="data_atual">QUARTA-FEIRA, 3 DE ABRIL DE 2024 ÀS 14:35</p>
+            </section>
+            <section class="content secao_texto_data"></section>
+            <figure class="secao_figure display_flex">
+                <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_01_fundo_transparente.png" alt="grafico de cores 1">
+                <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_02_fundo_transparente.png" alt="grafico de cores 2">
+                <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_03_fundo_transparente.png" alt="grafico de cores 3">
+            </figure>
+            <section class="content secao_texto_data"></section>
+        </div>
+        <section class="section_buttons display_flex">
+            <button id="botao_imprimir" onclick="window.print()">Imprimir</button>
         </section>
-        <section class="secao_texto_data"></section>
-        <figure class="secao_figure display_flex">
-            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_01_fundo_transparente.png" alt="grafico de cores 1">
-            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_02_fundo_transparente.png" alt="grafico de cores 2">
-            <img class="imagens" src="./imgs/imagens_fundo_transparente/grafico_03_fundo_transparente.png" alt="grafico de cores 3">
-        </figure>
-        <section class="secao_texto_data"></section>
+        
     </main>
     <footer class="rodape display_flex">
         <p>Desenvolvido por <a href="https://github.com/tthiagocarlosdev" target="_blank">tthiagocarlosdev</a></p>
