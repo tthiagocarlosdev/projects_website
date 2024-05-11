@@ -1,82 +1,117 @@
-
+// Declaração de variáveis
 const dataAtual = document.querySelector('.data_atual');
+const informacoesPrincipais = {};
 
-// Função para formatar a primeira letra em maiúsculo
+
+// Declaração de funções
+// Função para Deixar a primeira Letra da string em maiúsculo
 function primeiraLetraEmMaiusculo(texto) {
-    return texto.charAt(0).toUpperCase() + texto.slice(1);
+  return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
 
-// Função para obter a data atual formatada
+// Função para obter a data e hora atual
 function dataHora() {
-    const formatter = new Intl.DateTimeFormat("pt-br", {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-        hour: "numeric",
-        minute: "numeric"
-    });
+  const formatter = new Intl.DateTimeFormat("pt-br", {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+      hour: "numeric",
+      minute: "numeric"
+  });
 
-    const dataDoComputador = new Date();
-    return primeiraLetraEmMaiusculo(formatter.format(dataDoComputador));
-
+  const dataDoComputador = new Date();
+  return primeiraLetraEmMaiusculo(formatter.format(dataDoComputador));
 }
 
-dataAtual.innerHTML = dataHora();
+// Função para obter informações sobre o sistema operacional
+function obterSistemaOperacional() {
+  return window.navigator.platform;
+}
 
-let enderecoIpPublico = ''; 
+// Função para obter informações sobre o navegador
+function obterNomeDoNavegador() {
+  const userAgentString = window.navigator.userAgent;
+  const agentesConhecidos = [
+      { nome: 'Chrome', string: 'Chrome' },
+      { nome: 'Firefox', string: 'Firefox' },
+      { nome: 'Safari', string: 'Safari' },
+      { nome: 'Edge', string: 'Edg' },
+      { nome: 'Internet Explorer', string: 'Trident' }
+  ];
+
+  for (const agente of agentesConhecidos) {
+      if (userAgentString.includes(agente.string)) {
+          return agente.nome;
+      }
+  }
+
+  return 'Desconhecido';
+}
+
+// Função para obter a resolução da tela
+function obterResolucaoDaTela() {
+  const larguraTela = window.screen.width;
+  const alturaTela = window.screen.height;
+
+  return `${larguraTela} x ${alturaTela}`;
+}
 
 // Função para obter o endereço IP público
 function obterEnderecoIpPublico() {
-    // Retornar a promessa da chamada fetch
-    return fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-            const enderecoIP = data.ip;
-            enderecoIpPublico = `<span>${enderecoIP}</span>`;
-             
-            // Chamar a função criarElementos() aqui, dentro do bloco then(), garantindo que só seja chamada após a obtenção do endereço IP
-            criarElementos();
-        })
-        .catch(error => {
-            console.error('Erro ao obter o endereço IP:', error);
-        });
+  return fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+          const enderecoIP = data.ip;
+          return `${enderecoIP}`;
+      })
+      .catch(error => {
+          console.error('Erro ao obter o endereço IP:', error);
+          return `Erro ao obter o endereço IP`
+      });
 }
 
-// Chamar a função para obter o endereço IP público
-obterEnderecoIpPublico();
 
- // Função para criar o elemento <p> com o texto "Teste de impressora" e um <span> com a data atualizada
- function criarElementos() {
-    // Obter a data atual
-    const span = `<span class="data_atual">${dataHora()}</span>`;
-    // Obter informações sobre o sistema operacional
-    const sistemaOperacional = `<span>${window.navigator.platform}</span>`;
-    // Obter informações sobre o navegador
-    const navegador = `<span>${window.navigator.userAgent}</span>`;
-    // Obter resolução da tela
-    const larguraTela = window.screen.width;
-    const alturaTela = window.screen.height;
-    const resolucaoDaTela = `<span> ${larguraTela} x ${alturaTela}</span>`
+// Função para criar os elementos HTML com as informações fornecidas
+function criarElementos(informacoesPrincipais) {
+  
+  let conteudo = '';
 
-    let conteudo = '';
+  for (let i = 0; i < 4; i++) {
+      conteudo += `Teste de Impressora: <span>${informacoesPrincipais.dataAtualFormatada}</span> - 
+                  Sitema Operacional: <span>${informacoesPrincipais.sistemaOperacional}</span> - 
+                  Navegador: <span>${informacoesPrincipais.navegador}</span> - 
+                  Resolução da Tela: <span> ${informacoesPrincipais.resolucaoDaTela}</span> - 
+                  Endereço IP Público: <span> ${informacoesPrincipais.enderecoIpPublico}</span>; `;
+  }
 
-    // Criar o conteúdo a ser inserido
-    for (let i = 0; i < 3; i++) {
-        conteudo += `Teste de impressora: ${span};
-                    Sitema Operacional: ${sistemaOperacional};
-                    Navegador: ${navegador};
-                    Resolução da Tela:${resolucaoDaTela}; 
-                    Endereço IP: ${enderecoIpPublico}; `;
-    }
-    
+  const secoesTextoData = document.querySelectorAll('.secao_texto_data');
 
-    // Selecionar todos os elementos com a classe .secao_texto_data
-    const secoesTextoData = document.querySelectorAll('.secao_texto_data');
-
-    // Iterar sobre cada elemento e inserir o conteúdo
-    secoesTextoData.forEach(function(secao) {
-        const p = `<p>${conteudo}</p>`;
-        secao.insertAdjacentHTML('afterbegin', p);
-    });
+  secoesTextoData.forEach(function(secao) {
+      const p = `<p>${conteudo}</p>`;
+      secao.insertAdjacentHTML('afterbegin', p);
+  });
 }
+
+
+// Função principal assíncrona
+async function main() {
+  try {
+    dataAtual.innerHTML = dataHora();
+    informacoesPrincipais.dataAtualFormatada = dataHora();
+    informacoesPrincipais.sistemaOperacional = obterSistemaOperacional();
+    informacoesPrincipais.navegador = obterNomeDoNavegador();
+    informacoesPrincipais.resolucaoDaTela = obterResolucaoDaTela();
+    informacoesPrincipais.enderecoIpPublico = await obterEnderecoIpPublico();
+  
+    criarElementos(informacoesPrincipais);
+      console.log(informacoesPrincipais)
+  } catch (error) {
+    console.error('Erro:', error);
+    criarElementos(informacoesPrincipais);
+    console.log(informacoesPrincipais)
+  }
+}
+
+// Chamada da função principal
+main();
