@@ -23,18 +23,53 @@ function dataHora() {
 }
 
 dataAtual.innerHTML = dataHora();
-console.log(dataAtual);
+
+let enderecoIpPublico = ''; 
+
+// Função para obter o endereço IP público
+function obterEnderecoIpPublico() {
+    // Retornar a promessa da chamada fetch
+    return fetch('https://api.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => {
+            const enderecoIP = data.ip;
+            enderecoIpPublico = `<span>${enderecoIP}</span>`;
+             
+            // Chamar a função criarElementos() aqui, dentro do bloco then(), garantindo que só seja chamada após a obtenção do endereço IP
+            criarElementos();
+        })
+        .catch(error => {
+            console.error('Erro ao obter o endereço IP:', error);
+        });
+}
+
+// Chamar a função para obter o endereço IP público
+obterEnderecoIpPublico();
 
  // Função para criar o elemento <p> com o texto "Teste de impressora" e um <span> com a data atualizada
  function criarElementos() {
-    const texto = 'Teste de impressora';
+    // Obter a data atual
     const span = `<span class="data_atual">${dataHora()}</span>`;
+    // Obter informações sobre o sistema operacional
+    const sistemaOperacional = `<span>${window.navigator.platform}</span>`;
+    // Obter informações sobre o navegador
+    const navegador = `<span>${window.navigator.userAgent}</span>`;
+    // Obter resolução da tela
+    const larguraTela = window.screen.width;
+    const alturaTela = window.screen.height;
+    const resolucaoDaTela = `<span> ${larguraTela} x ${alturaTela}</span>`
+
     let conteudo = '';
 
     // Criar o conteúdo a ser inserido
-    for (let i = 0; i < 12; i++) {
-        conteudo += `${texto} - ${span}; `;
+    for (let i = 0; i < 3; i++) {
+        conteudo += `Teste de impressora: ${span};
+                    Sitema Operacional: ${sistemaOperacional};
+                    Navegador: ${navegador};
+                    Resolução da Tela:${resolucaoDaTela}; 
+                    Endereço IP: ${enderecoIpPublico}; `;
     }
+    
 
     // Selecionar todos os elementos com a classe .secao_texto_data
     const secoesTextoData = document.querySelectorAll('.secao_texto_data');
@@ -45,7 +80,3 @@ console.log(dataAtual);
         secao.insertAdjacentHTML('afterbegin', p);
     });
 }
-
-
-// Chamar a função ao carregar a página
-window.addEventListener('load', criarElementos);
