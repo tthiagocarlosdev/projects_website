@@ -3163,8 +3163,8 @@ const unidadesPoliciais = [
             "(81) 3728-6672"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.2368721",
+            longitude: "-35.7471871"
         }
     },
     {
@@ -3176,8 +3176,8 @@ const unidadesPoliciais = [
             "(81) 3737-3908"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.4726623",
+            longitude: "-35.7275983"
         }
     },
     {
@@ -3200,8 +3200,8 @@ const unidadesPoliciais = [
             "(81) 3739-2923"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.4907539",
+            longitude: "-36.060168"
         }
     },
     {
@@ -3213,8 +3213,8 @@ const unidadesPoliciais = [
             "(81) 3744-3906"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.455486",
+            longitude: "-35.9461226"
         }
     },
     {
@@ -3225,8 +3225,8 @@ const unidadesPoliciais = [
             "(81) 3753-2905"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.4292275",
+            longitude: "-35.8098469"
         }
     },
     {
@@ -3237,8 +3237,8 @@ const unidadesPoliciais = [
             "(81) 3745-1907"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.1370406",
+            longitude: "-35.8608026"
         }
     },
     {
@@ -3249,8 +3249,8 @@ const unidadesPoliciais = [
             "(81) 3692-1902"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.6546594",
+            longitude: "-35.9035736"
         }
     },
     {
@@ -3261,8 +3261,8 @@ const unidadesPoliciais = [
             "(81) 3743-2902"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.3632908",
+            longitude: "-35.7630893"
         }
     },
     {
@@ -3273,8 +3273,8 @@ const unidadesPoliciais = [
             "(81) 3748-1902"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.3284243",
+            longitude: "-35.7095197"
         }
     },
     {
@@ -3285,8 +3285,8 @@ const unidadesPoliciais = [
             "(81) 3758-1902"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.4202483",
+            longitude: "-35.6612052"
         }
     },
     {
@@ -3346,8 +3346,8 @@ const unidadesPoliciais = [
             "(87) 3835-8261"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.356125",
+            longitude: "-36.693426"
         }
     },
     {
@@ -3371,8 +3371,8 @@ const unidadesPoliciais = [
             "(81) 3736-3226"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.326960",
+            longitude: "-36.137163"
         }
     },
     {
@@ -3444,8 +3444,8 @@ const unidadesPoliciais = [
             "(81) 3628-8751"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-7.866472",
+            longitude: "-35.434461"
         }
     },
     {
@@ -3457,8 +3457,8 @@ const unidadesPoliciais = [
             "(81) 3628-8755"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-7.866472",
+            longitude: "-35.434461"
         }
     },
     {
@@ -3578,8 +3578,8 @@ const unidadesPoliciais = [
             "(81) 3649-1902"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-7.686333",
+            longitude: "-35.509347"
         }
     },
     {
@@ -3652,8 +3652,8 @@ const unidadesPoliciais = [
             "(81) 3759-8229"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-7.954174",
+            longitude: "-36.205321"
         }
     },
     {
