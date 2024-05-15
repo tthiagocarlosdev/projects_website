@@ -1302,8 +1302,8 @@ const unidadesPoliciais = [
             "Aguardando instalação"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.266713",
+            longitude: "-35.964342"
         }
     },
     {
@@ -2501,8 +2501,8 @@ const unidadesPoliciais = [
             "(81) 3719-9145"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295376",
+            longitude: "-35.987574"
         }
     },
     {
@@ -3093,8 +3093,8 @@ const unidadesPoliciais = [
             "(81) 3719-9103"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295376",
+            longitude: "-35.987574"
         }
     },
     {
@@ -3110,8 +3110,8 @@ const unidadesPoliciais = [
             "(81) 3719-9599"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.285062",
+            longitude: "-35.974135"
         }
     },
     {
@@ -3124,8 +3124,8 @@ const unidadesPoliciais = [
             "(81) 3719-9604"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.273708",
+            longitude: "-35.958656"
         }
     },
     {
@@ -3138,8 +3138,8 @@ const unidadesPoliciais = [
             "(81) 3719-9595"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295407",
+            longitude: "-35.988090"
         }
     },
     {
@@ -3149,8 +3149,8 @@ const unidadesPoliciais = [
             "(81) 3719-9602"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.307977",
+            longitude: "-35.968166"
         }
     },
     {
@@ -3320,8 +3320,8 @@ const unidadesPoliciais = [
             "(81) 3726-8926"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.327375",
+            longitude: "-36.419929"
         }
     },
     {
@@ -3333,8 +3333,8 @@ const unidadesPoliciais = [
             "(81) 3726-8927"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.327375",
+            longitude: "-36.419929"
         }
     },
     {
@@ -3359,8 +3359,8 @@ const unidadesPoliciais = [
             "(81) 3735-4927"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.525259",
+            longitude: "-36.442182"
         }
     },
     {
@@ -4008,8 +4008,8 @@ const unidadesPoliciais = [
             "(81) 3719-9592"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295376",
+            longitude: "-35.987574"
         }
     },
     {
@@ -4937,8 +4937,8 @@ const unidadesPoliciais = [
             "Aguardando instalação"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295376",
+            longitude: "-35.987574"
         }
     },
     {
@@ -4948,8 +4948,8 @@ const unidadesPoliciais = [
             "Aguardando instalação"
         ],
         coordenadasDaUnidade: {
-            latitude: "",
-            longitude: ""
+            latitude: "-8.295376",
+            longitude: "-35.987574"
         }
     },
     {
