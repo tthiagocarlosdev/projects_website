@@ -1,0 +1,66 @@
+{
+  "senhas": [
+    {
+      "nomeDoSistema": "Google",
+      "endereco": "https://www.google.com",
+      "login": "exemplo@gmail.com",
+      "senha": "p@ssw0rd1"
+    },
+    {
+      "nomeDoSistema": "Facebook",
+      "endereco": "https://www.facebook.com",
+      "login": "usuario123",
+      "senha": "SecurePass123"
+    },
+    {
+      "nomeDoSistema": "Twitter",
+      "endereco": "https://twitter.com",
+      "login": "user@example.com",
+      "senha": "MyPassword123"
+    },
+    {
+      "nomeDoSistema": "LinkedIn",
+      "endereco": "https://www.linkedin.com",
+      "login": "mylogin@domain.com",
+      "senha": "StrongP@ssw0rd"
+    },
+    {
+      "nomeDoSistema": "GitHub",
+      "endereco": "https://github.com",
+      "login": "githubuser",
+      "senha": "GitHubPass123"
+    },
+    {
+      "nomeDoSistema": "Instagram",
+      "endereco": "https://www.instagram.com",
+      "login": "insta_user",
+      "senha": "InstaPass456"
+    },
+    {
+      "nomeDoSistema": "Amazon",
+      "endereco": "https://www.amazon.com",
+      "login": "amazon_user",
+      "senha": "AmazonPass789"
+    },
+    {
+      "nomeDoSistema": "Microsoft",
+      "endereco": "https://www.microsoft.com",
+      "login": "ms_user",
+      "senha": "MSpass2022"
+    },
+    {
+      "nomeDoSistema": "Yahoo",
+      "endereco": "https://www.yahoo.com",
+      "login": "yahoo_user",
+      "senha": "Y@h00Pass"
+    },
+    {
+      "nomeDoSistema": "Netflix",
+      "endereco": "https://www.netflix.com",
+      "login": "netflix_user",
+      "senha": "Netf1ix2022"
+    }
+  ]
+}
+
+  

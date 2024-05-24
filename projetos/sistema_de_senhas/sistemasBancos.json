@@ -1,0 +1,73 @@
+{
+    "senhas": [
+      {
+        "nomeDoSistema": "Banco do Brasil",
+        "endereco": "https://www.bb.com.br",
+        "login": "bb_user",
+        "senha": "BBPass123",
+        "outros" : {
+          "outrosNomes": ["Outro Brasil", "Outro Brasil 2"], 
+          "outrosSenhas": ["senhaOutroBBPass123", "senhaOutroBBPass456"]
+        }
+      },
+      {
+        "nomeDoSistema": "Bradesco",
+        "endereco": "https://www.bradesco.com.br",
+        "login": "bradesco_user",
+        "senha": "Bradesco456",
+        "outros" : {
+          "outrosNomes": [], 
+          "outrosSenhas": []
+        }
+      },
+      {
+        "nomeDoSistema": "Itaú",
+        "endereco": "https://www.itau.com.br",
+        "login": "itau_user",
+        "senha": "ItauPass789"
+      },
+      {
+        "nomeDoSistema": "Santander",
+        "endereco": "https://www.santander.com.br",
+        "login": "santander_user",
+        "senha": "Santander2022"
+      },
+      {
+        "nomeDoSistema": "Caixa Econômica Federal",
+        "endereco": "https://www.caixa.gov.br",
+        "login": "caixa_user",
+        "senha": "CaixaPass123"
+      },
+      {
+        "nomeDoSistema": "Banco Inter",
+        "endereco": "https://www.bancointer.com.br",
+        "login": "inter_user",
+        "senha": "InterPass456"
+      },
+      {
+        "nomeDoSistema": "Banco do Nordeste",
+        "endereco": "https://www.bnb.gov.br",
+        "login": "bnb_user",
+        "senha": "BNB2022"
+      },
+      {
+        "nomeDoSistema": "Banco Pan",
+        "endereco": "https://www.bancopan.com.br",
+        "login": "pan_user",
+        "senha": "PanPass123"
+      },
+      {
+        "nomeDoSistema": "Banco Safra",
+        "endereco": "https://www.safra.com.br",
+        "login": "safra_user",
+        "senha": "SafraPass789"
+      },
+      {
+        "nomeDoSistema": "Banco Original",
+        "endereco": "https://www.original.com.br",
+        "login": "original_user",
+        "senha": "Original2022"
+      }
+    ]
+  }
+  

@@ -1,0 +1,65 @@
+{
+    "senhas": [
+      {
+        "nomeDoSistema": "Apple",
+        "endereco": "https://www.apple.com",
+        "login": "apple_user",
+        "senha": "ApplePass123"
+      },
+      {
+        "nomeDoSistema": "Spotify",
+        "endereco": "https://www.spotify.com",
+        "login": "spotify_user",
+        "senha": "Sp0tifyPass456"
+      },
+      {
+        "nomeDoSistema": "Dropbox",
+        "endereco": "https://www.dropbox.com",
+        "login": "dropbox_user",
+        "senha": "DropboxPass789"
+      },
+      {
+        "nomeDoSistema": "Slack",
+        "endereco": "https://www.slack.com",
+        "login": "slack_user",
+        "senha": "Slack2022"
+      },
+      {
+        "nomeDoSistema": "Twitch",
+        "endereco": "https://www.twitch.tv",
+        "login": "twitch_user",
+        "senha": "Tw1tchPass"
+      },
+      {
+        "nomeDoSistema": "Zoom",
+        "endereco": "https://www.zoom.us",
+        "login": "zoom_user",
+        "senha": "ZoomPass123"
+      },
+      {
+        "nomeDoSistema": "Dropbox",
+        "endereco": "https://www.dropbox.com",
+        "login": "dropbox_user",
+        "senha": "DropboxPass789"
+      },
+      {
+        "nomeDoSistema": "Uber",
+        "endereco": "https://www.uber.com",
+        "login": "uber_user",
+        "senha": "Uber2022Pass"
+      },
+      {
+        "nomeDoSistema": "PayPal",
+        "endereco": "https://www.paypal.com",
+        "login": "paypal_user",
+        "senha": "PayPalPass456"
+      },
+      {
+        "nomeDoSistema": "Pinterest",
+        "endereco": "https://www.pinterest.com",
+        "login": "pinterest_user",
+        "senha": "P1nterest2022"
+      }
+    ]
+  }
+  
