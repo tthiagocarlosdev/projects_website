@@ -1,58 +1,125 @@
-const API_KEY = '78a2d59348289f90f36b2cbb5978efa0';  // Insira sua chave de API do OpenWeatherMap
-const cities = [
-  { name: 'Dublin', timezone: 'Europe/Dublin' },
-  { name: 'Cork', timezone: 'Europe/Dublin' },
-  { name: 'Limerick', timezone: 'Europe/Dublin' },
-  { name: 'Galway', timezone: 'Europe/Dublin' },
-  { name: 'Waterford', timezone: 'Europe/Dublin' },
-  { name: 'Recife', timezone: 'America/Recife' },
-  { name: 'Caruaru', timezone: 'America/Recife' }
-];
+const API_KEY = 'putBRCvw0NgkPwkQnQyC2Bkb10JATZ1G';  // Insira sua chave de API do AccuWeather
+const cityNames = ['Dublin', 'Cork', 'Limerick', 'Galway', 'Waterford', 'Recife', 'Caruaru'];
 
-async function fetchWeatherData(city) {
+async function fetchLocationKey(city) {
   try {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.name}&appid=${API_KEY}&units=metric`);
+    const response = await fetch(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${city}`);
     if (!response.ok) {
-      throw new Error(`Erro ao buscar dados meteorológicos para ${city.name}`);
+      throw new Error(`Erro ao buscar LocationKey para ${city}`);
     }
     const data = await response.json();
-    return data.main;
+    return data[0].Key; // Retorna a LocationKey do primeiro resultado
   } catch (error) {
     console.error(error);
     return null;
   }
 }
 
-async function fetchTimeData(timezone) {
+async function getAllLocationKeys() {
+  const locationKeys = {};
+  for (const city of cityNames) {
+    const locationKey = await fetchLocationKey(city);
+    if (locationKey) {
+      locationKeys[city] = locationKey;
+    }
+  }
+  return locationKeys;
+}
+
+async function fetchWeatherData(locationKey) {
   try {
-    const response = await fetch(`https://worldtimeapi.org/api/timezone/${timezone}`);
+    const response = await fetch(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${API_KEY}&details=true`);
     if (!response.ok) {
-      throw new Error(`Erro ao buscar dados de hora para ${timezone}`);
+      throw new Error(`Erro ao buscar dados meteorológicos para a cidade com LocationKey: ${locationKey}`);
     }
     const data = await response.json();
-    return new Date(data.datetime).toLocaleTimeString();
+    return data[0]; // Retorna o primeiro elemento do array
   } catch (error) {
     console.error(error);
     return null;
   }
 }
 
-async function updateCityData() {
+async function updateCityData(locationKeys) {
+  const cities = [
+    { name: 'Dublin', locationKey: locationKeys['Dublin'] },
+    { name: 'Cork', locationKey: locationKeys['Cork'] },
+    { name: 'Limerick', locationKey: locationKeys['Limerick'] },
+    { name: 'Galway', locationKey: locationKeys['Galway'] },
+    { name: 'Waterford', locationKey: locationKeys['Waterford'] },
+    { name: 'Recife', locationKey: locationKeys['Recife'] },
+    { name: 'Caruaru', locationKey: locationKeys['Caruaru'] }
+  ];
+  console.log(cities);
+
   for (const city of cities) {
-    const weather = await fetchWeatherData(city);
-    const time = await fetchTimeData(city.timezone);
+    const weather = await fetchWeatherData(city.locationKey);
+    console.log(weather)
 
-    if (weather && time) {
+    if (weather) {
       const cityElements = document.querySelectorAll('.city');
       cityElements.forEach((cityElement) => {
         if (cityElement.querySelector('h2').textContent.trim() === city.name) {
-          cityElement.querySelector('.temp').textContent = weather.temp;
-          cityElement.querySelector('.feels_like').textContent = weather.feels_like;
-          cityElement.querySelector('.time').textContent = time;
+          const tempElement = cityElement.querySelector('.temp');
+          const feelsLikeElement = cityElement.querySelector('.feels_like');
+          const timeElement = cityElement.querySelector('.time');
+
+          if (weather.Temperature && weather.Temperature.Metric) {
+            tempElement.textContent = weather.Temperature.Metric.Value;
+          } else {
+            tempElement.textContent = 'N/A';
+          }
+
+          if (weather.RealFeelTemperature && weather.RealFeelTemperature.Metric) {
+            feelsLikeElement.textContent = weather.RealFeelTemperature.Metric.Value;
+          } else {
+            feelsLikeElement.textContent = 'N/A';
+          }
+
+          if (weather.LocalObservationDateTime) {
+
+            const localTime = new Date(weather.LocalObservationDateTime).toLocaleTimeString();
+            console.log(localTime)
+            timeElement.textContent = horaAtual(weather.LocalObservationDateTime);
+          } else {
+            timeElement.textContent = 'N/A';
+          }
         }
       });
     }
   }
 }
 
-document.addEventListener('DOMContentLoaded', updateCityData);
+function horaAtual(dateTimeString){
+
+  // Regex para extrair a hora no formato HH:MM:SS AM/PM
+  const regex = /T(\d{2}:\d{2}:\d{2})/;
+  const match = dateTimeString.match(regex);
+
+  if (match && match[1]) {
+    const time = match[1]; // Extrai o grupo de captura com a hora
+
+    // Extrair horas, minutos e segundos
+    const [hours, minutes, seconds] = time.split(':');
+
+    // Converter para formato de 12 horas com AM/PM
+    let formattedHours = parseInt(hours, 10);
+    const amPm = formattedHours >= 12 ? 'PM' : 'AM';
+    formattedHours = formattedHours % 12 || 12; // Converte 0 para 12 horas
+    const formattedTime = `${formattedHours}:${minutes}:${seconds} ${amPm}`;
+
+    console.log(`Hora Atual: ${formattedTime}`); // Saída: 06:55:00 AM
+
+    return formattedTime;
+
+  } else {
+    console.error('Hora não encontrada na string fornecida');
+  }
+
+}
+
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const locationKeys = await getAllLocationKeys();
+  updateCityData(locationKeys);
+});
