@@ -92,70 +92,60 @@ function buscarSistema() {
     document.getElementById('linkSistema').textContent = sistema.nomeDoSistema;
     document.getElementById('login').textContent = sistema.login;
     document.getElementById('senha').textContent = sistema.senha;
-
-    // console.log(Object.keys(sistema.outros).length);
-    
-    // console.log(getArraySizes(sistema.outros));
     
     console.log(verificarConteudoOutros(sistema));
-
-    // if (verificarConteudoOutros(sistema)) {
-    //     atualizarOutros(sistema);
-
-    //     sistema.outros.outrosNomes.forEach(element => {
-    //         console.log(element);
-    //     });
-    // } else {
-    //     console.log("Array vazio");
-
-    //     atualizarOutros(sistema);
-        
-    //     // const outrosElement = document.getElementById('outros');
-    //     // outrosElement.innerHTML = `Outros: <span id="outro_senha"> Não possui </span>`;
-    // };
-
-    if (sistema.outros.length === 0 && sistema.outrosSenha.length === 0) {
-        const outrosElement = document.getElementById('outros');
-        outrosElement.innerHTML = `Outros: <span id="outro_senha"> Não possui </span>`;
-    } else {
-        const outrosElement = document.getElementById('outros');
-        outrosElement.innerHTML = `${sistema.outros}: <span id="outro_senha">${sistema.outrosSenha}</span>`;
-    };
 
     // Remover botões "Copiar" existentes antes de adicionar novos
     removerBotoesCopiar();
 
     // Adicionar botões "Copiar" 
     if ( sistema.login.length !== 0 ) {
-        adicionarBotaoCopiar('box_login_sistema', 'login');
+        adicionarBotaoCopiar('login_sistema');
     };
     if ( sistema.senha.length !== 0 ) {
-        adicionarBotaoCopiar('box_senha_sistema', 'senha');
+        adicionarBotaoCopiar('senha_sistema');
     };
-    if (sistema.outros.length !== 0 && sistema.outrosSenha.length !== 0) {
-        adicionarBotaoCopiar('box_outro', 'outro_senha');
-    };
+
+    renderizarOutros(sistema.outros);
     
 }
 
-// Função para atualizar os elementos 'outros' e 'outro_senha'
-function atualizarOutros(sistema) {
-    const outrosElement = document.getElementById('outros');
-    outrosElement.innerHTML = ""; // Limpa o conteúdo existente
+function renderizarOutros(outros) {
+    const boxOutro = document.getElementById('box_outro');
+    // Limpa o conteúdo atual antes de adicionar novos elementos
+    boxOutro.innerHTML = '';
 
-    sistema.outros.outrosNomes.forEach((nome, index) => {
-        const nomeElement = document.createElement('span');
-        nomeElement.textContent = `${nome}: `;
+    if (outros && 
+        Array.isArray(outros.outrosNomes) && outros.outrosNomes.length !== 0 && 
+        Array.isArray(outros.outrosSenhas) && outros.outrosSenhas.length !== 0) {
+        
+        for (let i = 0; i < outros.outrosNomes.length; i++) {
+            const nome = `${outros.outrosNomes[i]}: `;
+            const senha = outros.outrosSenhas[i];
 
-        const senhaElement = document.createElement('span');
-        senhaElement.id = 'outro_senha';
-        senhaElement.textContent = sistema.outros.outrosSenhas[index];
+            const div = document.createElement('div')
 
-        // Adiciona os elementos criados ao elemento 'outros'
-        outrosElement.appendChild(nomeElement);
-        outrosElement.appendChild(senhaElement);
-        outrosElement.appendChild(document.createElement('br')); // Adiciona uma quebra de linha
-    });
+            const p = document.createElement('p');
+            p.id = `outros${i}`;
+            p.textContent = nome;
+
+            const span = document.createElement('span');
+            span.id = `outro_senha${i}`;
+            span.textContent = senha;
+
+            p.appendChild(span);
+            div.appendChild(p)
+            boxOutro.appendChild(div);
+            adicionarBotaoCopiar(`outros${i}`);
+        }
+
+    } else {
+        
+        const p = document.createElement('p');
+        p.textContent = `Lista de outros vazia.`;
+        boxOutro.appendChild(p);
+
+    }
 }
 
 
@@ -171,17 +161,6 @@ function verificarConteudoOutros(obj) {
     }
 
     return resultado;
-}
-
-// Função que retorna um novo objeto contendo os tamanhos dos arrays presentes no objeto original
-function getArraySizes(obj) {
-    const sizes = {};
-    for (const key in obj) {
-        if (obj.hasOwnProperty(key) && Array.isArray(obj[key])) {
-            sizes[key] = obj[key].length;
-        }
-    }
-    return sizes;
 }
 
 // Função para remover todos os botões "Copiar" existentes
@@ -202,15 +181,13 @@ function copiarDados(element) {
     alert(`${text} copiado para a área de transferência.`);
 }
 
-
-// Função para adicionar o botão "Copiar" após o elemento <p> em uma div específica
-function adicionarBotaoCopiar(nomeDaDiv, idDoSpan) {
-    // Obter o elemento <p> dentro da div especificada
-    const paragraphElement = document.querySelector(`#${nomeDaDiv} p`);
+function adicionarBotaoCopiar(paragraphElementId) {
+    // Obter o elemento <p> pelo id
+    const paragraphElement = document.getElementById(paragraphElementId);
 
     // Criar o botão "Copiar"
     const copyButton = document.createElement('button');
-    copyButton.textContent = 'Copiar ';
+    copyButton.textContent = 'Copiar';
 
     // Adicionar a classe ao botão
     copyButton.classList.add('botao_copiar');
@@ -218,11 +195,12 @@ function adicionarBotaoCopiar(nomeDaDiv, idDoSpan) {
 
     // Adicionar evento de clique ao botão "Copiar"
     copyButton.addEventListener('click', function() {
+        // Obter o span dentro do próprio parágrafo
+        const spanElement = paragraphElement.querySelector('span');
         // Copiar o texto do span para a área de transferência
-        copiarDados(document.getElementById(idDoSpan));
+        copiarDados(spanElement);
     });
 
     // Adicionar o botão "Copiar" após o elemento <p>
     paragraphElement.insertAdjacentElement('afterend', copyButton);
 }
-

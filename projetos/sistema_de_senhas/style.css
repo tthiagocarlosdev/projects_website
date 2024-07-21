@@ -45,9 +45,10 @@ h1 {
 main {
     background-color: var(--cinza_claro);
     width: 100%;
-    height: 78%;
+    min-height: 78%;
     flex-direction: column;
     gap: 40px;
+    padding: 16px 0;
 }
 
 #secaoInput {
@@ -97,11 +98,16 @@ main {
 
 #secaoResultado div {
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+#box_outro{
+    display: flex;
+    flex-direction: column;
 }
 
 #secaoResultado h2 {
