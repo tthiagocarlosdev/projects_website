@@ -1,53 +1,14 @@
-let senhasData = {};
-const janelaDialog = document.getElementById("modal");
+let senhasData;
+
+window.onload = function(){
+    senhasData = JSON.parse(sessionStorage.getItem('senhasData'));
+    // console.log(senhasData);
+    listaSistemas(senhasData.senhas);
+}
+
 const datalist = document.getElementById('opcoes_de_sistemas')
 
-function escolherArquivo() {
-    const fileInput = document.getElementById('fileInput');
-    const file = fileInput.files[0];
-    if (file) {
-        loadJSON(file);
-    } else {
-        alert("Por favor, selecione um arquivo JSON.");
-    }
-}
-
-function loadJSON(file) {
-    const reader = new FileReader();
-    reader.onload = function(event) {
-        try {
-            senhasData = JSON.parse(event.target.result);
-            alert("Arquivo JSON carregado com sucesso!");
-            // console.log(senhasData);
-            listaSistemas(senhasData.senhas);
-            closeModal();
-        } catch (error) {
-            alert("Erro ao carregar o arquivo JSON.");
-            console.error(error);
-        }
-    };
-    reader.readAsText(file);
-}
-
-
-// Função para fechar modal
-function closeModal() {
-    janelaDialog.close();
-};
-
-// Função para abrir modal
-function abrirModal(){
-    janelaDialog.showModal();
-};
-
-// Abre o modal quando a página é carregada
-document.addEventListener('DOMContentLoaded', (event) => {
-    abrirModal()
-});
-
-
 function listaSistemas(lista){
-    // console.log(lista)
     // Verifica se lista.senhas é uma matriz
     if (Array.isArray(lista)) {
         // Itera sobre a lista de sistemas
@@ -107,6 +68,8 @@ function buscarSistema() {
     };
 
     renderizarOutros(sistema.outros);
+
+    mostrarSectionBotaoVoltar('section-botao-voltar', 'flex');
     
 }
 
@@ -204,3 +167,15 @@ function adicionarBotaoCopiar(paragraphElementId) {
     // Adicionar o botão "Copiar" após o elemento <p>
     paragraphElement.insertAdjacentElement('afterend', copyButton);
 }
+
+
+function mostrarSectionBotaoVoltar(sectionId, displayStyle){
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.style.display = displayStyle;
+        }
+};
+
+function paginaInicial(){
+    window.location.href = 'index.html';
+};

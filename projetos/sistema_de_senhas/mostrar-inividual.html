@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app Sistema</title>
+    <link rel="stylesheet" href="./css/mostrar-individual.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="displayFlexCenterCenter">
+        <h1>Sistema de Senhas</h1>
+    </header>
+
+    <main class="displayFlexCenterCenter">
+        
+        <section id="secaoInput" class="displayFlexCenterCenter">
+            <label for="" >Nome do sistema:</label>
+            <input type="search" id="nome_do_sistema" list="opcoes_de_sistemas" name="nome_do_sistema" placeholder="Informe o nome do sistema" required>
+            <datalist id="opcoes_de_sistemas"></datalist>
+            <button class="button" onclick="buscarSistema()">Carregar</button>
+        </section>
+
+        <section id="secaoResultado" class="displayFlexCenterCenter">
+            <h2>Sistemas</h2>
+
+            <div id="box_link_sistema">
+                <p>Link: <a class="button" href="" id="linkSistema" target="_blank" > Link </a></p>
+            </div>
+            
+            <div id="box_login_sistema">
+                <p id="login_sistema" >Login: <span id="login"> Teste Login </span></p>
+            </div>
+
+            <div id="box_senha_sistema">
+                <p id="senha_sistema">Senha: <span id="senha"> Teste Senha </span></p>
+            </div>
+
+            <div id="box_outro">
+                <!-- <p id="outros"> Outros: <span id="outro_senha"> Teste Senha </span></p> -->
+            </div>
+        </section>
+
+        <section id="section-botao-voltar">
+            <button class="button" onclick="paginaInicial()" >Voltar</button>
+        </section>
+    </main>
+
+    <footer class="displayFlexCenterCenter">
+        <p>Desenvolvido por tthiagocarlosdev</p>
+    </footer>
+
+    <script src="./js/mostrarIndividual.js"></script>
+</body>
+</html>
