@@ -29,6 +29,11 @@ body {
     align-items: center;
 }
 
+.largura-da-pagina {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 header {
     width: 100%;
     height: 150px;

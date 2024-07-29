@@ -45,5 +45,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function sendData() {
     sessionStorage.setItem('senhasData', JSON.stringify(senhasData));
-    window.location.href = 'mostrar-inividual.html';
-}
+    window.location.href = 'mostrar-individual.html';
+};
+
+function carregarTabela() {
+    sessionStorage.setItem('senhasData', JSON.stringify(senhasData));
+    window.location.href = './pages/tabela.html';
+};
