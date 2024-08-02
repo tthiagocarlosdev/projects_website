@@ -1,3 +1,81 @@
+#secaoInput {
+    width: 100%;
+    height: 30%;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 16px 0;
+}
+
+#secaoInput label {
+    font-size: 24px;
+}
+
+#nome_do_sistema {
+    height: 40px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--preto);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#secaoResultado {
+    width: 100%;
+    height: 45%;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: plum; */
+}
+
+#section-titulo-dialog {
+    /* background-color: purple;    */
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+
+#secaoResultado div {
+    width: 100%;
+    min-height: 10%;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+}
+
+#box_outro{
+    display: flex;
+    flex-direction: column;
+}
+
+#secaoResultado p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#box_link_sistema p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linkSistema {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+#linkSistema:hover {
+    color: var(--branco);
+}
+
+#section-botao-voltar{
+    display: none;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

@@ -13,7 +13,48 @@
         <h1>Sistema de Senhas</h1>
     </header>
 
-    <main>
+    <main class="main">
+        <section id="secaoInput" class="displayFlexCenterCenter">
+            <label for="" >Nome do sistema:</label>
+            <input type="search" id="nome_do_sistema" list="opcoes_de_sistemas" name="nome_do_sistema" placeholder="Informe o nome do sistema" required>
+            <datalist id="opcoes_de_sistemas"></datalist>
+            <button class="button" onclick="buscarSistema()">Carregar</button>
+        </section>
+
+        <dialog id="modal" >
+            <section class="modal">
+
+            </section>
+            <section id="section-titulo-dialog" class="displayFlexCenterCenter">
+                <h2 id="nome-do-sistema"></h2>
+                <button onclick="closeModal()" class="button"> Fechar </button>
+            </section>
+
+            <section id="secaoResultado">
+                <div id="box_link_sistema">
+                    <p>Link: <a class="button" href="" id="linkSistema" target="_blank" > Ir para o site </a></p>
+                </div>
+                
+                <div id="box_login_sistema">
+                    <p id="login_sistema" >Login: <span id="login"> Teste Login </span></p>
+                </div>
+    
+                <div id="box_senha_sistema">
+                    <p id="senha_sistema">Senha: <span id="senha"> Teste Senha </span></p>
+                </div>
+    
+                <div id="box_outro">
+                    <!-- <p id="outros"> Outros: <span id="outro_senha"> Teste Senha </span></p> -->
+                </div>
+            </section>
+
+            <!-- <h2>Carregar Arquivo</h2>
+            <div id="box_buttons">
+                <input class="button" type="file" id="fileInput" accept=".json">
+                <button class="button" onclick="escolherArquivo()">Carregar Arquivo</button>
+            </div> -->
+        </dialog>
+
         <section class="largura-da-pagina" id="tabela">
 
             <h2>Tabela</h2>

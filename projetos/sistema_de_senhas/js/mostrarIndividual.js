@@ -2,7 +2,7 @@ let senhasData;
 
 window.onload = function(){
     senhasData = JSON.parse(sessionStorage.getItem('senhasData'));
-    // console.log(senhasData);
+    console.log(senhasData);
     listaSistemas(senhasData.senhas);
 }
 

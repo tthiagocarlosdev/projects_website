@@ -18,7 +18,8 @@ function loadJSON(file) {
             senhasData = JSON.parse(event.target.result);
             alert("Arquivo JSON carregado com sucesso!");
             // console.log(senhasData);
-            closeModal();
+            carregarTabela();
+            // closeModal();
         } catch (error) {
             alert("Erro ao carregar o arquivo JSON.");
             console.error(error);
