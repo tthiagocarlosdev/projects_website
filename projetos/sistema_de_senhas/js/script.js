@@ -40,9 +40,9 @@ function abrirModal(){
 };
 
 // Abre o modal quando a página é carregada
-document.addEventListener('DOMContentLoaded', (event) => {
-    abrirModal()
-});
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     abrirModal()
+// });
 
 function sendData() {
     sessionStorage.setItem('senhasData', JSON.stringify(senhasData));

@@ -56,6 +56,20 @@ main {
     padding: 32px 0;
 }
 
+#section-carregar-arquivo {
+    /* background-color: purple; */
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    min-height: 100px;
+}
+
+.sub-titulo {
+    /* background-color: powderblue; */
+    width: 100%;
+    padding: 8px;
+}
+
 .button {
     padding: 10px 20px;
     margin: 10px;
