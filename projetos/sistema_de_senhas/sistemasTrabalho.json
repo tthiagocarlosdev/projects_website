@@ -4,61 +4,101 @@
         "nomeDoSistema": "Apple",
         "endereco": "https://www.apple.com",
         "login": "apple_user",
-        "senha": "ApplePass123"
+        "senha": "ApplePass123",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Spotify",
         "endereco": "https://www.spotify.com",
         "login": "spotify_user",
-        "senha": "Sp0tifyPass456"
+        "senha": "Sp0tifyPass456",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Dropbox",
         "endereco": "https://www.dropbox.com",
         "login": "dropbox_user",
-        "senha": "DropboxPass789"
+        "senha": "DropboxPass789",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Slack",
         "endereco": "https://www.slack.com",
         "login": "slack_user",
-        "senha": "Slack2022"
+        "senha": "Slack2022",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Twitch",
         "endereco": "https://www.twitch.tv",
         "login": "twitch_user",
-        "senha": "Tw1tchPass"
+        "senha": "Tw1tchPass",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Zoom",
         "endereco": "https://www.zoom.us",
         "login": "zoom_user",
-        "senha": "ZoomPass123"
+        "senha": "ZoomPass123",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Dropbox",
         "endereco": "https://www.dropbox.com",
         "login": "dropbox_user",
-        "senha": "DropboxPass789"
+        "senha": "DropboxPass789",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Uber",
         "endereco": "https://www.uber.com",
         "login": "uber_user",
-        "senha": "Uber2022Pass"
+        "senha": "Uber2022Pass",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "PayPal",
         "endereco": "https://www.paypal.com",
         "login": "paypal_user",
-        "senha": "PayPalPass456"
+        "senha": "PayPalPass456",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       },
       {
         "nomeDoSistema": "Pinterest",
         "endereco": "https://www.pinterest.com",
         "login": "pinterest_user",
-        "senha": "P1nterest2022"
+        "senha": "P1nterest2022",
+        "outros": {
+          "outrosNomes": [],
+          "outrosSenhas": []
+      }
       }
     ]
   }
