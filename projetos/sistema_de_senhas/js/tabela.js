@@ -148,14 +148,17 @@ function removerBotoesCopiar() {
 //Função para copiar o texto para a área de transferência
 function copiarDados(element) {
     const text = element.textContent.trim();
-    const tempTextArea = document.createElement('textarea');
-    tempTextArea.value = text;
-    document.body.appendChild(tempTextArea);
-    tempTextArea.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempTextArea);
-    alert(`${text} copiado para a área de transferência.`);
+    // Usando a API Clipboard
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert(`${text} copiado para a área de transferência.`);
+        })
+        .catch(err => {
+            console.error('Erro ao copiar texto: ', err);
+            alert('Falha ao copiar texto. Por favor, tente novamente.');
+        });
 }
+
 
 function adicionarBotaoCopiar(paragraphElementId) {
     // Obter o elemento <p> pelo id
