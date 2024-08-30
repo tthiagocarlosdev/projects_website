@@ -39,15 +39,10 @@ function abrirModal(){
     janelaDialog.showModal();
 };
 
-// Abre o modal quando a página é carregada
-// document.addEventListener('DOMContentLoaded', (event) => {
-//     abrirModal()
-// });
-
-function sendData() {
-    sessionStorage.setItem('senhasData', JSON.stringify(senhasData));
-    window.location.href = 'mostrar-individual.html';
-};
+// function sendData() {
+//     sessionStorage.setItem('senhasData', JSON.stringify(senhasData));
+//     window.location.href = 'mostrar-individual.html';
+// };
 
 function carregarTabela() {
     sessionStorage.setItem('senhasData', JSON.stringify(senhasData));

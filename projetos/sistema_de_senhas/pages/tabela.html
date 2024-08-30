@@ -23,7 +23,15 @@
 
         <section class="section-tabela largura-da-pagina displayFlexCenterCenter" id="tabela">
 
-            <h2 id="sub-titulo-tabela">Tabela</h2>
+            <div class="container-titulo-tabela displayFlexCenterCenter">
+                <h2 id="sub-titulo-tabela" class="displayFlexCenterCenter">Tabela</h2>
+                <div class="box-bottons-tabela displayFlexCenterCenter">
+                    <button class="button" onclick="paginaInicial()" >Voltar</button>
+                    <button class="button" onclick="editar()" >Editar</button>
+                </div>
+                
+            </div>
+            
 
             <table id="sistemasTable">
                 <thead>
@@ -36,10 +44,6 @@
                 </tbody>
             </table>
 
-        </section>
-
-        <section id="section-botao-voltar" class="largura-da-pagina">
-            <button class="button" onclick="paginaInicial()" >Voltar</button>
         </section>
 
     </main>

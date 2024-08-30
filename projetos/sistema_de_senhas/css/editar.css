@@ -1,0 +1,64 @@
+#section-sub-titulo {
+    height: 80px;
+    font-size: 28px;
+}
+
+#section-formulario {
+    padding: 32px 0;
+}
+
+#sistemaForm {
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.box-form-input {
+    width: 100%;
+    height: 60px;
+    gap: 5px;
+}
+
+.input-form-editar {
+    width: 40%;
+}
+
+.box-form-input label {
+    font-size: 24px;
+}
+
+.box-botao-form{
+    width: 100%;
+    height: 80px;
+}
+
+#lista-de-sistema {
+    background-color: plum;
+    flex-direction: column;
+}
+
+#sistemasList {
+    width: 100%;
+    flex-direction: column;
+}
+
+#lista-de-sistema h2 {
+    background-color: burlywood;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-size: 28px;
+}
+
+.sistema-item {
+    background-color: palevioletred;
+    font-size: 24px;
+    width: 100%;
+}
+
+.box-botao-baixar {
+    background-color: peru;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}

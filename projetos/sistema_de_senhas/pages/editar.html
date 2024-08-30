@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar - Senhas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tabela.css">
+    <link rel="stylesheet" href="../css/editar.css">
+    <link rel="shortcut icon" href="../img/key-solid.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="displayFlexCenterCenter">
+        <h1>Sistema de Senhas</h1>
+    </header>
+
+    <main>
+        <section id="section-sub-titulo" class="largura-da-pagina displayFlexCenterCenter">
+            <h2>Editar Senhas</h2>
+        </section>
+
+        <section id="section-formulario" class="largura-da-pagina displayFlexCenterCenter">
+            <!-- Formulário para edição e adição de sistemas -->
+            <form id="sistemaForm" class="displayFlexCenterCenter">
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="nomeDoSistema">Nome do Sistema:</label>
+                    <input type="text" class="input-form-editar" id="nomeDoSistema" name="nomeDoSistema" required><br><br>
+                </div>
+
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="endereco">Endereço:</label>
+                    <input type="url" class="input-form-editar" id="endereco" name="endereco" required><br><br>
+                </div>
+
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="login">Login:</label>
+                    <input type="text" class="input-form-editar" id="login" name="login" required><br><br>
+                </div>
+
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="senha">Senha:</label>
+                    <input type="text" class="input-form-editar" id="senha" name="senha" required><br><br>
+                </div>
+
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="outrosNomes">Outros Nomes (separados por vírgula):</label>
+                    <input type="text" class="input-form-editar" id="outrosNomes" name="outrosNomes"><br><br>
+                </div>
+
+                <div class="box-form-input displayFlexCenterCenter">
+                    <label for="outrosSenhas">Outros Senhas (separados por vírgula):</label>
+                    <input type="text" class="input-form-editar" id="outrosSenhas" name="outrosSenhas"><br><br>
+                </div>
+
+                <div class="box-botao-form displayFlexCenterCenter">
+                    <button class="button" type="submit">Salvar Sistema</button>
+                </div>
+                
+            </form>
+        </section>
+
+        <section id="lista-de-sistema" class="largura-da-pagina displayFlexCenterCenter">
+            <h2>Lista de Sistemas</h2>
+            <ol id="sistemasList" class="displayFlexCenterCenter"></ol>
+
+            <div class="box-botao-baixar">
+                <button class="button" id="downloadJson">Baixar JSON Atualizado</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="displayFlexCenterCenter">
+        <p>Desenvolvido por tthiagocarlosdev</p>
+    </footer>
+    <script src="../js/editar.js"></script>
+</body>
+</html> 

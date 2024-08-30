@@ -3,7 +3,6 @@ const janelaDialog = document.getElementById("modal");
 
 window.onload = function(){
     senhasData = JSON.parse(sessionStorage.getItem('senhasData'));
-    // console.log(senhasData);
     listaSistemas(senhasData.senhas);
     renderTable();
 };
@@ -81,7 +80,6 @@ function buscarSistema() {
 
     renderizarOutros(sistema.outros);
 
-    mostrarSectionBotaoVoltar('section-botao-voltar', 'flex');
     console.log("Buscar sistema!");
     abrirModal();  
 }
@@ -184,19 +182,16 @@ function adicionarBotaoCopiar(paragraphElementId) {
     paragraphElement.insertAdjacentElement('afterend', copyButton);
 }
 
-
-function mostrarSectionBotaoVoltar(sectionId, displayStyle){
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.style.display = displayStyle;
-        }
-};
-
 function paginaInicial(){
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';    
 };
 
-
+function editar(){
+    // alert("Function Editar!");
+    // console.log(senhasData);
+    sessionStorage.setItem('senhasData', JSON.stringify(senhasData));
+    window.location.href = 'editar.html'; 
+};
 
 // Função para renderizar a tabela com os nomes dos sistemas em ordem alfabética
 function renderTable() {
@@ -209,9 +204,4 @@ function renderTable() {
         row.appendChild(cell);
         tableBody.appendChild(row);
     });
-};
-
-
-function paginaInicial(){
-    window.location.href = '../index.html';
 };
