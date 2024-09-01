@@ -9,26 +9,35 @@
 </head>
 <body>
 
-    <header class="displayFlexCenterCenter">
+    <header class="display-flex-center-center">
         <h1>Sistema de Senhas</h1>
     </header>
 
-    <main class="displayFlexCenterCenter">
+    <main class="display-flex-center-center">
         
-        <section id="section-carregar-arquivo" class="largura-da-pagina displayFlexCenterCenter">
+        <section id="section-carregar-arquivo" class="largura-da-pagina display-flex-center-center">
             
             <h2 class="sub-titulo">Carregar Arquivo</h2>
 
-            <div id="box_buttons">
-                <input class="button" type="file" id="fileInput" accept=".json">
-                <button class="button" onclick="escolherArquivo()">Carregar</button>
+            <div class="container-buttons">
+                <input class="buttons" type="file" id="file-input" accept=".json">
+                <button class="buttons" onclick="escolherArquivo()">Carregar</button>
             </div>
 
         </section>
 
+        <section id="section-criar-arquivo" class="largura-da-pagina display-flex-center-center">
+            
+            <h2 class="sub-titulo">Criar Arquivo</h2>
+
+            <div class="container-bottons">
+                <button class="buttons" onclick="criarArquivo()">Criar arquivo</button>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="displayFlexCenterCenter">
+    <footer class="display-flex-center-center">
         <p>Desenvolvido por tthiagocarlosdev</p>
     </footer>
 

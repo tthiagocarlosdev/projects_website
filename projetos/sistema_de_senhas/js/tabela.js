@@ -3,6 +3,7 @@ const janelaDialog = document.getElementById("modal");
 
 window.onload = function(){
     senhasData = JSON.parse(sessionStorage.getItem('senhasData'));
+    console.log(senhasData);
     listaSistemas(senhasData.senhas);
     renderTable();
 };
