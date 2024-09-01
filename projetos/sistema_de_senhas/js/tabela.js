@@ -1,14 +1,17 @@
 let senhasData;
+let nomeDoArquivo;
 const janelaDialog = document.getElementById("modal");
 
 window.onload = function(){
     senhasData = JSON.parse(sessionStorage.getItem('senhasData'));
     console.log(senhasData);
+    nomeDoArquivo = sessionStorage.getItem('nomeDoArquivo');
+    console.log(`NomeArquivo: ${nomeDoArquivo}`);
     listaSistemas(senhasData.senhas);
     renderTable();
 };
 
-const datalist = document.getElementById('opcoes_de_sistemas');
+const datalist = document.getElementById('opcoes-de-sistemas');
 
 function listaSistemas(lista){
     // Verifica se lista.senhas é uma matriz
@@ -42,7 +45,7 @@ function buscarSistema() {
         return;
     }
 
-    const nomeDoSistema = document.getElementById('nome_do_sistema').value.trim().toLowerCase();
+    const nomeDoSistema = document.getElementById('nome-do-sistema').value.trim().toLowerCase();
     if (!nomeDoSistema) {
         alert("Por favor, informe o nome do sistema.");
         return;
@@ -57,12 +60,9 @@ function buscarSistema() {
         return;
     }
 
-    // console.log(sistema);
-
     // Atualizar a UI com as informações do sistema
     document.getElementById('linkSistema').href = sistema.endereco;
-    // document.getElementById('linkSistema').textContent = sistema.nomeDoSistema;
-    document.getElementById('nome-do-sistema').textContent = sistema.nomeDoSistema;
+    document.getElementById('nome-do-sistema-dialog').textContent = sistema.nomeDoSistema;
     document.getElementById('login').textContent = sistema.login;
     document.getElementById('senha').textContent = sistema.senha;
     
@@ -169,7 +169,7 @@ function adicionarBotaoCopiar(paragraphElementId) {
 
     // Adicionar a classe ao botão
     copyButton.classList.add('botao_copiar');
-    copyButton.classList.add('button');
+    copyButton.classList.add('buttons');
 
     // Adicionar evento de clique ao botão "Copiar"
     copyButton.addEventListener('click', function() {
@@ -194,6 +194,17 @@ function editar(){
     window.location.href = 'editar.html'; 
 };
 
+function salvarArquivo(){
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(senhasData, null, 2));
+    const downloadAnchorNode = document.createElement('a');
+    const dataAtual = gerarDataAtual();
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", `${nomeDoArquivo}${dataAtual}.json`);
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+};
+
 // Função para renderizar a tabela com os nomes dos sistemas em ordem alfabética
 function renderTable() {
     const tableBody = document.querySelector('#sistemasTable tbody');
@@ -206,3 +217,17 @@ function renderTable() {
         tableBody.appendChild(row);
     });
 };
+
+function gerarDataAtual() {
+    const now = new Date();
+
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = String(now.getMonth() + 1).padStart(2, '0'); // Janeiro é 0!
+    const year = String(now.getFullYear());
+
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+
+    return `_${day}-${month}-${year}_${hours}-${minutes}`;
+}
+

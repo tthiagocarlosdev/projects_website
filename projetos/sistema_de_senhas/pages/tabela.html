@@ -9,25 +9,25 @@
     <link rel="shortcut icon" href="../img/key-solid.svg" type="image/x-icon">
 </head>
 <body>
-    <header class="displayFlexCenterCenter">
+    <header class="display-flex-center-center">
         <h1>Sistema de Senhas</h1>
     </header>
 
     <main class="main-tabela">
-        <section id="secaoInput" class="displayFlexCenterCenter">
+        <section id="secaoInput" class="display-flex-center-center">
             <label for="" >Nome do sistema:</label>
-            <input type="search" id="nome_do_sistema" list="opcoes_de_sistemas" name="nome_do_sistema" placeholder="Informe o nome do sistema" required>
-            <datalist id="opcoes_de_sistemas"></datalist>
-            <button class="button" onclick="buscarSistema()">Carregar</button>
+            <input type="search" id="nome-do-sistema" list="opcoes-de-sistemas" name="nome-do-sistema" placeholder="Informe o nome do sistema" required>
+            <datalist id="opcoes-de-sistemas"></datalist>
+            <button class="buttons" onclick="buscarSistema()">Carregar</button>
         </section>
 
-        <section class="section-tabela largura-da-pagina displayFlexCenterCenter" id="tabela">
+        <section class="section-tabela largura-da-pagina display-flex-center-center" id="tabela">
 
-            <div class="container-titulo-tabela displayFlexCenterCenter">
-                <h2 id="sub-titulo-tabela" class="displayFlexCenterCenter">Tabela</h2>
-                <div class="box-bottons-tabela displayFlexCenterCenter">
-                    <button class="button" onclick="paginaInicial()" >Voltar</button>
-                    <button class="button" onclick="editar()" >Editar</button>
+            <div class="container-titulo-tabela display-flex-center-center">
+                <h2 id="sub-titulo-tabela" class="display-flex-center-center">Tabela</h2>
+                <div class="box-bottons-tabela display-flex-center-center">
+                    <button class="buttons" onclick="paginaInicial()" >Voltar</button>
+                    <button class="buttons" onclick="salvarArquivo()" >Salvar</button>
                 </div>
                 
             </div>
@@ -48,18 +48,17 @@
 
     </main>
 
-    <footer class="displayFlexCenterCenter">
+    <footer class="display-flex-center-center">
         <p>Desenvolvido por tthiagocarlosdev</p>
     </footer>
 
     <dialog id="modal" >
 
-        <section id="section-titulo-dialog" class="displayFlexCenterCenter">
-            <h2 id="nome-do-sistema"></h2>
+        <section id="section-titulo-dialog" class="display-flex-center-center">
+            <h2 id="nome-do-sistema-dialog"></h2>
             
             <div class="box-bottons-header-dialog">
-                <!-- <button class="button" >Editar</button> -->
-                <button class="button" onclick="closeModal()" > Fechar </button>
+                <button class="buttons" onclick="closeModal()" > Fechar </button>
             </div>
             
         </section>
