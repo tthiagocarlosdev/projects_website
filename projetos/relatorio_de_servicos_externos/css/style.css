@@ -369,38 +369,26 @@ form{
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     padding: 1rem;
 }
 
-.links_social_media {
-    flex: 1.2;
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: wrap;
-
-}
-
-.links_social_media a {
-    display: flex;
-    width: 4rem;
-    height: 1rem;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 1rem;
-    margin-left:1rem;
+.footer_title a {
     color: var(--black-color);
-    border-radius: 10px;
-    border: 1px solid var(--black-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 8px
 }
 
-.fa-brands, .fa-solid {
-	font-size: 1.5rem;
+.footer_title a:hover {
+    background-color: var(--blue-buttons-hover);
+    color: var(--white-color);
+    margin-left: 12px;
+    border-radius: 3px;
+    border: none;
 }
 
 /* hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover - hover*/
@@ -415,7 +403,6 @@ form{
     background-color: var(--hover-color);
 }
 
-.links_social_media a:hover,
 .button:hover {
     background-color: var(--blue-buttons-hover);
 }
