@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Unidades Policiais</title>
+  <style>
+    :root {
+      --primary-color: #1a252f;
+      --secondary-color: #2c3e50;
+      --accent-color: #34495e;
+      --text-color: #2c3e50;
+      --bg-color: #eceff1;
+      --card-bg: #ffffff;
+      --border-radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: var(--card-bg);
+      width: 100%;
+      max-width: 650px;
+      padding: 35px 30px;
+      border-radius: var(--border-radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-top: 6px solid var(--primary-color);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    p.subtitle {
+      color: #7f8c8d;
+      font-size: 14px;
+    }
+
+    .search-container {
+      position: relative;
+      margin-bottom: 25px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 15px 20px;
+      font-size: 16px;
+      border: 2px solid #cfd8dc;
+      border-radius: var(--border-radius);
+      outline: none;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    input[type="text"]:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 4px 12px rgba(26, 37, 47, 0.15);
+    }
+
+    #resultados {
+      max-height: 400px;
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+
+    /* Custom Scrollbar para o painel de resultados */
+    #resultados::-webkit-scrollbar {
+      width: 6px;
+    }
+    #resultados::-webkit-scrollbar-thumb {
+      background-color: #b0bec5;
+      border-radius: 4px;
+    }
+
+    .resultado-item {
+      background: #f8f9fa;
+      padding: 16px 20px;
+      border-radius: var(--border-radius);
+      margin-bottom: 12px;
+      border-left: 5px solid var(--primary-color);
+      border-right: 1px solid #e0e0e0;
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .resultado-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+      background: #f1f3f5;
+    }
+
+    .unidade-nome {
+      font-weight: 700;
+      color: var(--secondary-color);
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .diretoria-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #78909c;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .diretoria-nome {
+      font-size: 14px;
+      color: #455a64;
+    }
+
+    .status-msg {
+      text-align: center;
+      color: #90a4ae;
+      padding: 30px 10px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Painel de Busca Policial</h1>
+      <p class="subtitle">Digite o nome ou parte do nome da unidade policial</p>
+    </header>
+    
+    <div class="search-container">
+      <input type="text" id="inputPesquisa" placeholder="Ex: Delegacia, Deic, Regional..." autocomplete="on">
+    </div>
+
+    <div id="resultados">
+      <div class="status-msg">Digite algo para iniciar a pesquisa.</div>
+    </div>
+  </div>
+
+  <script>
+    let bancoDados = [];
+
+    // Carrega o arquivo JSON assim que a página abre
+    async function carregarDados() {
+      const resultadosDiv = document.getElementById('resultados');
+      try {
+        // Busca o arquivo dados.json que está na mesma pasta do repositório
+        const resposta = await fetch('dados.json');
+        if (!resposta.ok) throw new Error('Não foi possível carregar o arquivo JSON.');
+        bancoDados = await resposta.json();
+      } catch (erro) {
+        console.error(erro);
+        resultadosDiv.innerHTML = '<div class="status-msg" style="color: #c0392b;">Erro crítico: Falha ao carregar a base de dados local.</div>';
+      }
+    }
+
+    function executarPesquisa() {
+      const termo = document.getElementById('inputPesquisa').value.toLowerCase().trim();
+      const resultadosDiv = document.getElementById('resultados');
+
+      // Se o campo estiver em branco
+      if (termo === "") {
+        resultadosDiv.innerHTML = '<div class="status-msg">Digite algo para iniciar a pesquisa.</div>';
+        return;
+      }
+
+      // Filtra os dados: busca ocorrências na chave 'unidade'
+      const filtrados = bancoDados.filter(item => 
+        item.unidade.toLowerCase().includes(termo)
+      );
+
+      // Se não encontrar nada
+      if (filtrados.length === 0) {
+        resultadosDiv.innerHTML = '<div class="status-msg">Nenhuma unidade correspondente encontrada.</div>';
+        return;
+      }
+
+      // Renderiza os cards na tela
+      resultadosDiv.innerHTML = "";
+      filtrados.forEach(item => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'resultado-item';
+        itemDiv.innerHTML = `
+          <div class="unidade-nome">${item.unidade}</div>
+          <div class="diretoria-container">
+            <span class="diretoria-label">Diretoria / Regional</span>
+            <div class="diretoria-nome">${item.diretoria}</div>
+          </div>
+        `;
+        resultadosDiv.appendChild(itemDiv);
+      });
+    }
+
+    // Inicialização e Eventos
+    document.addEventListener('DOMContentLoaded', () => {
+      carregarDados();
+      document.getElementById('inputPesquisa').addEventListener('input', executarPesquisa);
+    });
+  </script>
+
+</body>
+</html>
