@@ -1,18 +1,1350 @@
 [
   {
-    "unidade": "1º Distrito Policial",
-    "diretoria": "Delegacia Geral / Regional Metropolitana"
+    "unidade": "DIRETORIA INTEGRADA METROPOLITANA",
+    "diretoria": "DIM - DIRETORIA INTEGRADA METROPOLITANA"
   },
   {
-    "unidade": "2º Distrito Policial",
-    "diretoria": "Delegacia Geral / Regional Metropolitana"
+    "unidade": "GERÊNCIA DE CONTROLE OPERACIONAL METROPOLITANA",
+    "diretoria": "DIM - DIRETORIA INTEGRADA METROPOLITANA"
   },
   {
-    "unidade": "Delegacia de Homicídios e Proteção à Pessoa (DHPP)",
-    "diretoria": "Diretoria de Homicídios"
+    "unidade": "1ª DESEC - STº AMARO",
+    "diretoria": "1ª DESEC - STº AMARO"
   },
   {
-    "unidade": "Delegacia Regional de Campinas",
-    "diretoria": "Diretoria do Interior"
+    "unidade": "DP DA 1ª CIRC. - RIO BRANCO",
+    "diretoria": "1ª DESEC - STº AMARO"
+  },
+  {
+    "unidade": "DP DA 2ª CIRC. - BOA VISTA",
+    "diretoria": "1ª DESEC - STº AMARO"
+  },
+  {
+    "unidade": "DP DA 3ª CIRC. - JOANA BEZERRA",
+    "diretoria": "1ª DESEC - STº AMARO"
+  },
+  {
+    "unidade": "2ª DESEC – ESPINHEIRO",
+    "diretoria": "2ª DESEC - ESPINHEIRO"
+  },
+  {
+    "unidade": "DP DA 4ª CIRC. - ESPINHEIRO",
+    "diretoria": "2ª DESEC - ESPINHEIRO"
+  },
+  {
+    "unidade": "DP DA 6ª CIRC. - CORDEIRO",
+    "diretoria": "2ª DESEC - ESPINHEIRO"
+  },
+  {
+    "unidade": "DP DA 16ª CIRC. - ÁGUA FRIA",
+    "diretoria": "2ª DESEC - ESPINHEIRO"
+  },
+  {
+    "unidade": "3ª DESEC - BOA VIAGEM",
+    "diretoria": "3ª DESEC - BOA VIAGEM"
+  },
+  {
+    "unidade": "DP DA 7ª CIRC. - BOA VIAGEM",
+    "diretoria": "3ª DESEC - BOA VIAGEM"
+  },
+  {
+    "unidade": "DP DA 8ª CIRC. - JORDÃO",
+    "diretoria": "3ª DESEC - BOA VIAGEM"
+  },
+  {
+    "unidade": "DP DA 9ª CIRC. - IPSEP",
+    "diretoria": "3ª DESEC - BOA VIAGEM"
+  },
+  {
+    "unidade": "DP DA 10ª CIRC. - IBURA",
+    "diretoria": "3ª DESEC - BOA VIAGEM"
+  },
+  {
+    "unidade": "4ª DESEC - VÁRZEA",
+    "diretoria": "4ª DESEC - VÁRZEA"
+  },
+  {
+    "unidade": "DP DA 11ª CIRC. - AFOGADOS",
+    "diretoria": "4ª DESEC - VÁRZEA"
+  },
+  {
+    "unidade": "DP DA 12ª CIRC. - JARDIM SÃO PAULO",
+    "diretoria": "4ª DESEC - VÁRZEA"
+  },
+  {
+    "unidade": "DP DA 13ª CIRC. - MUSTARDINHA",
+    "diretoria": "4ª DESEC - VÁRZEA"
+  },
+  {
+    "unidade": "DP DA 14ª CIRC. - VÁRZEA",
+    "diretoria": "4ª DESEC - VÁRZEA"
+  },
+  {
+    "unidade": "5ª DESEC - APIPUCOS",
+    "diretoria": "5ª DESEC - APIPUCOS"
+  },
+  {
+    "unidade": "DP DA 5ª CIRC. - CASA AMARELA",
+    "diretoria": "5ª DESEC - APIPUCOS"
+  },
+  {
+    "unidade": "DP DA 15ª CIRC. - ALTO PASCOAL",
+    "diretoria": "5ª DESEC - APIPUCOS"
+  },
+  {
+    "unidade": "DP DA 17ª CIRC. - VASCO DA GAMA",
+    "diretoria": "5ª DESEC - APIPUCOS"
+  },
+  {
+    "unidade": "DP DA 18ª CIRC. - MACAXEIRA",
+    "diretoria": "5ª DESEC - APIPUCOS"
+  },
+  {
+    "unidade": "6ª DESEC - JABOATÃO DOS GUARARAPES",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "1ª DP DA 19ª CIRC. - PRAZERES",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "2ª DP DA 19ª CIRC. - MURIBECA",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "DP DA 20ª CIRC. - JABOATÃO DOS GUARARAPES",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "DP DA 21ª CIRC. - MORENO",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "DP DA 22ª CIRC. - PIEDADE",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "DP DA 23ª CIRC. - CAVALEIRO",
+    "diretoria": "6ª DESEC - JABOATÃO DOS GUARARAPES"
+  },
+  {
+    "unidade": "7ª DESEC - OLINDA",
+    "diretoria": "7ª DESEC - OLINDA"
+  },
+  {
+    "unidade": "DP DA 24ª CIRC. - VARADOURO",
+    "diretoria": "7ª DESEC - OLINDA"
+  },
+  {
+    "unidade": "DP DA 25ª CIRC. - PEIXINHOS",
+    "diretoria": "7ª DESEC - OLINDA"
+  },
+  {
+    "unidade": "DP DA 26ª CIRC. - RIO DOCE",
+    "diretoria": "7ª DESEC - OLINDA"
+  },
+  {
+    "unidade": "8ª DESEC - PAULISTA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 27ª CIRC. - ABREU E LIMA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 28ª CIRC. - PAULISTA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 29ª CIRC. - IGARASSU",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 30ª CIRC. - ITAMARACÁ",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 31ª CIRC. - ITAPISSUMA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 32ª CIRC. - ENGENHO MARANGUAPE",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 33ª CIRC. - CRUZ DE REBOUÇAS",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 34ª CIRC. - MARIA DE FARINHA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "DP DA 35ª CIRC. - ARAÇOIABA",
+    "diretoria": "8ª DESEC - PAULISTA"
+  },
+  {
+    "unidade": "9ª DESEC - SÃO LOURENÇO DA MATA",
+    "diretoria": "9ª DESEC - SÃO LOURENÇO DA MATA"
+  },
+  {
+    "unidade": "DP DA 37ª CIRC. - CAMARAGIBE",
+    "diretoria": "9ª DESEC - SÃO LOURENÇO DA MATA"
+  },
+  {
+    "unidade": "DP DA 38ª CIRC. - SÃO LOURENÇO DA MATA",
+    "diretoria": "9ª DESEC - SÃO LOURENÇO DA MATA"
+  },
+  {
+    "unidade": "DP DA 39ª CIRC. - ALDEIA",
+    "diretoria": "9ª DESEC - SÃO LOURENÇO DA MATA"
+  },
+  {
+    "unidade": "10ª DESEC - CABO DE STº AGOSTINHO",
+    "diretoria": "10ª DESEC - CABO DE STº AGOSTINHO"
+  },
+  {
+    "unidade": "DP DA 40ª CIRC. - CABO DE SANTO AGOSTINHO",
+    "diretoria": "10ª DESEC - CABO DE STº AGOSTINHO"
+  },
+  {
+    "unidade": "DP DA 41ª CIRC. - PONTE DOS CARVALHOS",
+    "diretoria": "10ª DESEC - CABO DE STº AGOSTINHO"
+  },
+  {
+    "unidade": "DP DA 42ª CIRC. - IPOJUCA",
+    "diretoria": "10ª DESEC - CABO DE STº AGOSTINHO"
+  },
+  {
+    "unidade": "DP DA 43ª CIRC. - PORTO DE GALINHAS",
+    "diretoria": "10ª DESEC - CABO DE STº AGOSTINHO"
+  },
+  {
+    "unidade": "GERÊNCIA DE CONTROLE OPERACIONAL DO INTERIOR 1",
+    "diretoria": "DINTER 1 - DIRETORIA INTEGRADA DO INTERIOR 1"
+  },
+  {
+    "unidade": "3ª DIVISÃO DE HOMICÍDIOS DO AGRESTE",
+    "diretoria": "DINTER 1 - DIRETORIA INTEGRADA DO INTERIOR 1"
+  },
+  {
+    "unidade": "DIRETORIA INTEGRADA DO INTERIOR 1",
+    "diretoria": "DINTER 1 - DIRETORIA INTEGRADA DO INTERIOR 1"
+  },
+  {
+    "unidade": "NÚCLEO DA DTI NA DINTER 1",
+    "diretoria": "DINTER 1 - DIRETORIA INTEGRADA DO INTERIOR 1"
+  },
+  {
+    "unidade": "11ª DESEC - GOIANA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 44ª CIRC. - GOIANA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 45ª CIRC. - CARPINA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 46ª CIRC. - TIMBAÚBA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 47ª CIRC. - PAUDALHO",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 48ª CIRC. - ALIANÇA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 49ª CIRC. - ITAMBÉ",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 50ª CIRC. - NAZARÉ DA MATA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 51ª CIRC. - VICÊNCIA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 52ª CIRC. - MACAPARANA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 53ª CIRC. - CONDADO",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 54ª CIRC. - LAGOA DE ITAENGA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 55ª CIRC. - ITAQUITINGA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 56ª CIRC. - LAGOA DO CARRO",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 57ª CIRC. - TRACUNHAÉM",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 58ª CIRC. - BUENOS AIRES",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 59ª CIRC. - FERREIROS",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 60ª CIRC. - CAMUTANGA",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "DP DA 123ª CIRC. - SÃO VICENTE FÉRRER",
+    "diretoria": "11ª DESEC - GOIANA"
+  },
+  {
+    "unidade": "12ª DESEC - VITÓRIA DE SANTO ANTÃO",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 61ª CIRC. - VITÓRIA DE SANTO ANTÃO",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 62ª CIRC. - GRAVATÁ",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 63ª CIRC. - ESCADA",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 64ª CIRC. - GLÓRIA DO GOITÁ",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 65ª CIRC. - POMBOS",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 66ª CIRC. - AMARAJI",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 67ª CIRC. - CHÃ GRANDE",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 68ª CIRC. - PRIMAVERA",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "DP DA 69ª CIRC. - CHÃ DE ALEGRIA",
+    "diretoria": "12ª DESEC - VITÓRIA DE SANTO ANTÃO"
+  },
+  {
+    "unidade": "13ª DESEC - PALMARES",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 70ª CIRC. - PALMARES",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 71ª CIRC. - RIBEIRÃO",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 72ª CIRC. - BARREIROS",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 73ª CIRC. - SIRINHAÉM",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 74ª CIRC. - CATENDE",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 75ª CIRC. - ÁGUA PRETA",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 76ª CIRC. - GAMELEIRA",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 77ª CIRC. - QUIPAPÁ",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 78ª CIRC. - RIO FORMOSO",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 79ª CIRC. - TAMANDARÉ",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 80ª CIRC. - JOAQUIM NABUCO",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 81ª CIRC. - MARAIAL",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 82ª CIRC. - SÃO JOSÉ DA COROA GRANDE",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 83ª CIRC. - XEXÉU",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 84ª CIRC. - CORTÊS",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 85ª CIRC. - JAQUEIRA",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 86ª CIRC. - BELÉM DE MARIA",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "DP DA 87ª CIRC. - SÃO BENEDITO DO SUL",
+    "diretoria": "13ª DESEC - PALMARES"
+  },
+  {
+    "unidade": "14ª DESEC – CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 88ª CIRC. - CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 89ª CIRC. - CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 90ª CIRC. - CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "90ª CIRC. - PLANTÃO CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "PP DO HOSPITAL REGIONAL DO AGRESTE - 90ª CIRC. CARUARU",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 91ª CIRC. - BEZERROS",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 92ª CIRC. - BONITO",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 94ª CIRC. - CUPIRA",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 95ª CIRC. - ALTINHO",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 96ª CIRC. - AGRESTINA",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 97ª CIRC. - SÃO JOAQUIM DO MONTE",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 98ª CIRC. - RIACHO DAS ALMAS",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 99ª CIRC. - LAGOA DOS GATOS",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 100ª CIRC. - CAMOCIM DE SÃO FÉLIX",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 101ª CIRC. - SAIRÉ",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "DP DA 102ª CIRC. -BARRA DE GUABIRABA",
+    "diretoria": "14ª DESEC – CARUARU"
+  },
+  {
+    "unidade": "15ª DESEC - BELO JARDIM",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 104ª CIRC. - BELO JARDIM",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 105ª CIRC. - PESQUEIRA",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 106ª CIRC. - SÃO BENTO DO UNA",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 108ª CIRC. - SÃO CAETANO",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 109ª CIRC. - CACHOEIRINHA",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 110ª CIRC. - SANHARÓ",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 112ª CIRC. -TACAIMBÓ",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 113ª CIRC. - ALAGOINHA",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "DP DA 114ª CIRC. - POÇÃO",
+    "diretoria": "15ª DESEC - BELO JARDIM"
+  },
+  {
+    "unidade": "16ª DESEC - LIMOEIRO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 115ª CIRC. - LIMOEIRO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 116ª CIRC. - SURUBIM",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 117ª CIRC. - BOM JARDIM",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 118ª CIRC. - PASSIRA",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 119ª CIRC. - CUMARU",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 120ª CIRC. - JOÃO ALFREDO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 121ª CIRC. - OROBÓ",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 122ª CIRC. - FEIRA NOVA",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 124ª CIRC. - CASINHAS",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 125ª CIRC. - MACHADOS",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 126ª CIRC. - VERTENTE DO LÉRIO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 127ª CIRC. - SALGADINHO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 132ª CIRC. - FREI MIGUELINHO",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "DP DA 133ª CIRC. - SANTA MARIA DO CAMBUCÁ",
+    "diretoria": "16ª DESEC - LIMOEIRO"
+  },
+  {
+    "unidade": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 107ª CIRC. -BREJO DA MADRE DE DEUS",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 111ª CIRC. - JATAÚBA",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 128ª CIRC. - SANTA CRUZ DO CAPIBARIBE",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 129ª CIRC. - TORITAMA",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 130ª CIRC. - TAQUARITINGA DO NORTE",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "DP DA 131ª CIRC. - VERTENTES",
+    "diretoria": "17ª DESEC – SANTA CRUZ DO CAPIBARIBE"
+  },
+  {
+    "unidade": "18ª DESEC - GARANHUNS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 93ª CIRC. - PANELAS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 103ª CIRC. - IBIRAJUBA",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 134ª CIRC. - GARANHUNS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 135ª CIRC. - GARANHUNS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 136ª CIRC. - BOM CONSELHO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 137ª CIRC. - ÁGUAS BELAS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 138ª CIRC. - LAJEDO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 139ª CIRC. - CANHOTINHO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 140ª CIRC. - CAETÉS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 141ª CIRC. - SÃO JOÃO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 142ª CIRC. - CAPOEIRAS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 143ª CIRC. - IATI",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 144ª CIRC. - CORRENTES",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 145ª CIRC. - SALOÁ",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 146ª CIRC. - JUREMA",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 147ª CIRC. - JUPI",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 148ª CIRC. - CALÇADOS",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 149ª CIRC. - LAGOA DO OURO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 150ª CIRC. - PARANATAMA",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 151ª CIRC. - JUCATI",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 152ª CIRC. - PALMEIRINA",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 153ª CIRC. - ANGELIM",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 154ª CIRC. - BREJÃO",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "DP DA 155ª CIRC. - TEREZINHA",
+    "diretoria": "18ª DESEC - GARANHUNS"
+  },
+  {
+    "unidade": "16ª DPH - GOIANA",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "17ª DPH - VITÓRIA DE SANTO ANTÃO",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "18ª DPH - PALMARES",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "19ª DPH - CARUARU",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "20ª DPH - CARUARU",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "21ª DPH - SANTA CRUZ DO CAPIBARIBE",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "22ª DPH - GARANHUNS",
+    "diretoria": "DIVISÃO DE HOMICÍDIOS DO AGRESTE"
+  },
+  {
+    "unidade": "GERÊNCIA DE CONTROLE OPERACIONAL DO INTERIOR 2",
+    "diretoria": "DINTER 2 - DIRETORIA INTEGRADA DO INTERIOR 2"
+  },
+  {
+    "unidade": "DIRETORIA INTEGRADA DO INTERIOR 2",
+    "diretoria": "DINTER 2 - DIRETORIA INTEGRADA DO INTERIOR 2"
+  },
+  {
+    "unidade": "NÚCLEO DA DTI NA DINTER 2",
+    "diretoria": "DINTER 2 - DIRETORIA INTEGRADA DO INTERIOR 2"
+  },
+  {
+    "unidade": "19ª DESEC - ARCOVERDE",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 156ª CIRC. - ARCOVERDE",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 157ª CIRC. - BUÍQUE",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 158ª CIRC. - SERTANIA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 159ª CIRC. - CUSTÓDIA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 160ª CIRC. - ITAÍBA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 161ª CIRC. - IBIMIRIM",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 162ª CIRC. - TUPANATINGA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 163ª CIRC. - PEDRA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 164ª CIRC. - VENTUROSA",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "DP DA 166ª CIRC. - MANARI",
+    "diretoria": "19ª DESEC - ARCOVERDE"
+  },
+  {
+    "unidade": "20ª DESEC - AFOGADOS DA INGAZEIRA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 167ª CIRC. - AFOGADOS DA INGAZEIRA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 168ª CIRC. - SÃO JOSÉ DO EGITO",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 169ª CIRC. - TABIRA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 170ª CIRC. - ITAPETIM",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 171ª CIRC. - IGUARACI",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 172ª CIRC. - SANTA TEREZINHA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 173ª CIRC. - TUPARETAMA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 174ª CIRC. - BREJINHO",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 175ª CIRC. - SOLIDÃO",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 176ª CIRC. - INGAZEIRA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 177ª CIRC. - SERRA TALHADA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 178ª CIRC. - SÃO J.DO BELMONTE",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 179ª CIRC. - FLORES",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 181ª CIRC. - TRIUNFO",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 182ª CIRC. - BETÂNIA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 183ª CIRC. - STª CRUZ DA BAIXA VERDE",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 184ª CIRC. - CALUMBI",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 180ª CIRC. - CARNAÍBA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "DP DA 185ª CIRC. - QUIXABA",
+    "diretoria": "20ª DESEC - AFOGADOS DA INGAZEIRA"
+  },
+  {
+    "unidade": "21ª DESEC - SERRA TALHADA",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 177ª CIRC. - SERRA TALHADA",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 178ª CIRC. - SÃO J.DO BELMONTE",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 179ª CIRC. - FLORES",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 181ª CIRC. - TRIUNFO",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 182ª CIRC. - BETÂNIA",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 183ª CIRC. - STª CRUZ DA BAIXA VERDE",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "DP DA 184ª CIRC. - CALUMBI",
+    "diretoria": "21ª DESEC - SERRA TALHADA"
+  },
+  {
+    "unidade": "22ª DESEC - FLORESTA",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 165ª CIRC. - INAJÁ",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 186ª CIRC. - PETROLÂNDIA",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 187ª CIRC. - FLORESTA",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 188ª CIRC. - BELÉM DO S. FRANCISCO",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 189ª CIRC. - TACARATU",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 190ª CIRC. - JATOBÁ",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 191ª CIRC. - CARNAUBEIRA DA PENHA",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "DP DA 192ª CIRC. - ITACURUBA",
+    "diretoria": "22ª DESEC - FLORESTA"
+  },
+  {
+    "unidade": "23ª DESEC - SALGUEIRO",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 193ª CIRC. - SALGUEIRO",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 194ª CIRC. - PARNAMIRIM",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 195ª CIRC. - SERRITA",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 196ª CIRC. - MIRANDIBA",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 197ª CIRC. - CEDRO",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 198ª CIRC. - VERDEJANTE",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "DP DA 199ª CIRC. - TERRA NOVA",
+    "diretoria": "23ª DESEC - SALGUEIRO"
+  },
+  {
+    "unidade": "24ª DESEC - ARARIPINA",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 200ª CIRC. - ARARIPINA",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 201ª CIRC. - OURICURI",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 202ª CIRC. - EXU",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 203ª CIRC. - BODOCÓ",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 204ª CIRC. - IPUBI",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 205ª CIRC. - TRINDADE",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 206ª CIRC. - SANTA FILOMENA",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 207ª CIRC. - STª CRUZ DE MALTA",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 208ª CIRC. - MOREILANDIA",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "DP DA 209ª CIRC. - GRANITO",
+    "diretoria": "24ª DESEC - ARARIPINA"
+  },
+  {
+    "unidade": "25ª DESEC - CABROBÓ",
+    "diretoria": "25ª DESEC - CABROBÓ"
+  },
+  {
+    "unidade": "DP DA 201ª CIRC. - STª Mª DA BOA VISTA",
+    "diretoria": "25ª DESEC - CABROBÓ"
+  },
+  {
+    "unidade": "DP DA 211ª CIRC. - CABROBÓ",
+    "diretoria": "25ª DESEC - CABROBÓ"
+  },
+  {
+    "unidade": "DP DA 212ª CIRC. - OROCÓ",
+    "diretoria": "25ª DESEC - CABROBÓ"
+  },
+  {
+    "unidade": "DP DA 215ª CIRC. - LAGOA GRANDE",
+    "diretoria": "25ª DESEC - CABROBÓ"
+  },
+  {
+    "unidade": "26ª DESEC - PETROLINA",
+    "diretoria": "26ª DESEC - PETROLINA"
+  },
+  {
+    "unidade": "DP DA 213ª CIRC. - PETROLINA",
+    "diretoria": "26ª DESEC - PETROLINA"
+  },
+  {
+    "unidade": "DP DA 214ª CIRC. - PETROLINA",
+    "diretoria": "26ª DESEC - PETROLINA"
+  },
+  {
+    "unidade": "DP DA 216ª CIRC. - AFRÂNIO",
+    "diretoria": "26ª DESEC - PETROLINA"
+  },
+  {
+    "unidade": "DP DA 217ª CIRC. - DORMENTES",
+    "diretoria": "26ª DESEC - PETROLINA"
+  },
+  {
+    "unidade": "DIRESP - DIRETORIA INTEGRADA ESPECIALIZADA",
+    "diretoria": "DIRESP - DIRETORIA INTEGRADA ESPECIALIZADA"
+  },
+  {
+    "unidade": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE",
+    "diretoria": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "unidade": "1ª DP DE CRIMES CONTRA CRIANÇA E ADOLESCENTE E ATOS INFRACIONAIS - PAULISTA",
+    "diretoria": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE ATOS INFRACIONAIS",
+    "diretoria": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE CRIMES CONTRA CRIANÇA E ADOLESCENTE",
+    "diretoria": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "unidade": "2ª DP DE CRIMES CONTRA CRIANÇAS E ADOLESCENTE E ATOS INFRACIONAIS - JABOATÃO DOS GUARARAPES",
+    "diretoria": "DPCA - DEPARTAMENTO DE POLÍCIA DA CRIANÇA E DO ADOLESCENTE"
+  },
+  {
+    "unidade": "DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "DELEGACIA DE DESAPARECIDOS E DE PROTEÇÃO À PESSOA",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "1ª DPH",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "2ª DPH",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "3ª DPH",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "4ª DPH",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "5ª DPH",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DO IDOSO",
+    "diretoria": "DHPP - DEPARTAMENTO DE HOMICÍDIOS E DE PROTEÇÃO À PESSOA"
+  },
+  {
+    "unidade": "DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE ROUBOS E FURTOS",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE ROUBOS E FURTOS DE VEÍCULOS",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE ROUBOS E FURTOS DE CARGAS",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE REPRESSÃO AO ESTELIONATO",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DO TURISTA",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DELEGACIA DE POLICIA DE DELITOS DE TRÂNSITO",
+    "diretoria": "DEPATRI - DEPARTAMENTO DE REPRESSÃO AOS CRIMES PATRIMONIAIS"
+  },
+  {
+    "unidade": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "01ª DP DE REPRESSÃO AO NARCOTRÁFICO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "02ª DP DE REPRESSÃO AO NARCOTRÁFICO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "03ª DP DE REPRESSÃO AO NARCOTRÁFICO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "04ª DP DE REPRESSÃO AO NARCOTRÁFICO - CABO DE SANTO AGOSTINHO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "05ª DP DE REPRESSÃO AO NARCOTRÁFICO - GOIANA",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "06ª DP DE REPRESSÃO AO NARCOTRÁFICO - VITÓRIA DE SANTO ANTÃO",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "07ª DP DE REPRESSÃO AO NARCOTRÁFICO - CARUARU",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "08ª DP DE REPRESSÃO AO NARCOTRÁFICO - GARANHUNS",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "09ª DP DE REPRESSÃO AO NARCOTRÁFICO - ARCOVERDE",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "10ª DP DE REPRESSÃO AO NARCOTRÁFICO - SERRA TALHADA",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "11ª DP DE REPRESSÃO AO NARCOTRÁFICO - OURICURI",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "12ª DP DE REPRESSÃO AO NARCOTRÁFICO - PETROLINA",
+    "diretoria": "DENARC - DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO"
+  },
+  {
+    "unidade": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "1ª DEAM - STº AMARO",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "2ª DEAM - PRAZERES",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "3ª DEAM - PETROLINA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "4ª DEAM - CARUARU",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "5ª DEAM - PAULISTA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "6ª DEAM - IPOJUCA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "7ª DEAM - SURUBIM",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "8ª DEAM - GOIANA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "9ª DEAM - GARANHUNS",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "10ª DEAM - VITORIA DE STº ANTÃO",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "11ª DEAM - SALGUEIRO",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "12ª DEAM - OURICURI",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "13ª DEAM - AFOGADOS DA INGAZEIRA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "14ª DEAM - CABO DE STº AGOSTINHO",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "15ª DEAM - OLINDA",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "16ª DEAM - PALMARES",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "17ª DEAM - ARCOVERDE",
+    "diretoria": "DPMUL - DEPARTAMENTO DE POLÍCIA DA MULHER"
+  },
+  {
+    "unidade": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "6ª DPH - PAULISTA",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "7ª DPH - PAULISTA",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "8ª DPH - PAULISTA",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "9ª DPH - OLINDA",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "10ª DPH - SÃO LOURENÇO DA MATA",
+    "diretoria": "DHMN - DIVISÃO DE HOMICÍDIOS METROPOLITANA NORTE"
+  },
+  {
+    "unidade": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "11ª DPH - JABOATÃO DOS GUARARAPES",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "12ª DPH - JABOATÃO DOS GUARARAPES",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "13ª DPH - JABOATÃO DOS GUARARAPES/MORENO",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "14ª DPH - CABO DE STº AGOSTINHO",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "15ª DPH - IPOJUCA",
+    "diretoria": "DHMS - DIVISÃO DE HOMICÍDIOS METROPOLITANA SUL"
+  },
+  {
+    "unidade": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO",
+    "diretoria": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO"
+  },
+  {
+    "unidade": "1ª DELEGACIA DE COMBATE À CORRUPÇÃO - DRACCO",
+    "diretoria": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO"
+  },
+  {
+    "unidade": "2ª DELEGACIA DE COMBATE À CORRUPÇÃO - DRACCO",
+    "diretoria": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO"
+  },
+  {
+    "unidade": "3ª DELEGACIA DE COMBATE À CORRUPÇÃO - DRACCO",
+    "diretoria": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO"
+  },
+  {
+    "unidade": "4ª DELEGACIA DE COMBATE À CORRUPÇÃO - DRACCO",
+    "diretoria": "DRACCO - DEPARTAMENTO DE REPRESSÃO À CORRUPÇÃO E AO CRIME ORGANIZADO"
   }
 ]
