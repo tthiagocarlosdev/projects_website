@@ -242,20 +242,23 @@ figure {
 }
 
 .buttonsSocialMedia {
+    cursor: pointer;
+    width: 4rem;
+    height: 1rem;
     display: flex;
-    height: 16px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 16px 32px;
-    background-color: var(--white);
-    color: var(--blue);
+    padding: 1rem;
+    background-color: var(--blue);
+    color: var(--white);
     border-radius: 5px;
-    box-shadow: var(--black) 3.2px 3.2px 8px;
+    box-shadow: var(--black) 0.2rem 0.2rem 0.5rem;
 }
 
+
 .buttonsSocialMedia:hover {
-    background-color: var(--blue);
+    background-color: var(--green);
     color: var(--white);
 }
 
