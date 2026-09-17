@@ -1724,7 +1724,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "1ª TURMA/GCOE/DIRESP - DELEGACIA DE POLÍCIA DA 36ª CIRCUNSCRIÇÃO - FERNANDO DE NORONHA",
+        "nomeDaUnidade": "1ª TURMA/GCOE/DIRESP - DP 36ª CIRC - FERNANDO DE NORONHA",
         "enderecoDaUnidade": "Vila do Trinta - Centro de Conveniência - Fernando de Noronha/PE - CEP: 53990-000",
         "telefoneDaUnidade": [
             "(81) 3619-0844",
@@ -1793,7 +1793,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 1ª CIRCUNSCRIÇÃO - RIO BRANCO",
+        "nomeDaUnidade": "DP 1ª CIRC - RIO BRANCO",
         "enderecoDaUnidade": "Rua Alfredo Lisboa,188, Bairro do Recife, Recife/PE – CEP: 50030-150",
         "telefoneDaUnidade": [
             "(81) 3184-3453",
@@ -1807,7 +1807,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 2ª CIRCUNSCRIÇÃO - BOA VISTA",
+        "nomeDaUnidade": "DP 2ª CIRC - BOA VISTA",
         "enderecoDaUnidade": "Endereço:Rua Vicente Ferreira dos Guimarães, 261, Santo Amaro, Recife/PE - CEP: 50100-260",
         "telefoneDaUnidade": [
             "(81) 3184-3425",
@@ -1820,7 +1820,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 3ª CIRCUNSCRIÇÃO - JOANA BEZERRA",
+        "nomeDaUnidade": "DP 3ª CIRC - JOANA BEZERRA",
         "enderecoDaUnidade": "Av. Visconde de Suassuna, nº 164, Boa Vista, Recife-PE - CEP: 50050-540",
         "telefoneDaUnidade": [
             "(81) 3184-3520",
@@ -1846,7 +1846,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 4ª CIRCUNSCRIÇÃO - ESPINHEIRO",
+        "nomeDaUnidade": "DP 4ª CIRC - ESPINHEIRO",
         "enderecoDaUnidade": "Endereço:Rua prof. Othon paraíso, nº 343 - Torreão - Recife/PE - CEP: 52030250",
         "telefoneDaUnidade": [
             "(81) 3184-3378",
@@ -1869,7 +1869,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 6ª CIRCUNSCRIÇÃO - CORDEIRO",
+        "nomeDaUnidade": "DP 6ª CIRC - CORDEIRO",
         "enderecoDaUnidade": "Rua Antero Mota, 87 – Cordeiro – Recife/PE – CEP: 50.731-010",
         "telefoneDaUnidade": [
             "(81) 3184-3408",
@@ -1882,7 +1882,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 16ª CIRCUNSCRIÇÃO - ÁGUA FRIA",
+        "nomeDaUnidade": "DP 16ª CIRC - ÁGUA FRIA",
         "enderecoDaUnidade": "Rua Júlio Ramos, 171 – Água Fria – Recife/PE – CEP: 52.120-170",
         "telefoneDaUnidade": [
             "(81) 3184-3652",
@@ -1908,7 +1908,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 7ª CIRCUNSCRIÇÃO - BOA VIAGEM",
+        "nomeDaUnidade": "DP 7ª CIRC - BOA VIAGEM",
         "enderecoDaUnidade": "Endereço:Av. Domingos Ferreira, 4420 – Boa Viagem – Recife/PE – CEP: 51.021-040",
         "telefoneDaUnidade": [
             "(81) 3184-7149",
@@ -1922,7 +1922,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 8ª CIRCUNSCRIÇÃO - JORDÃO",
+        "nomeDaUnidade": "DP 8ª CIRC - JORDÃO",
         "enderecoDaUnidade": "Rua Professora Arcelina Camara, 45, Jordão, Recife/PE - CEP: 51250-220",
         "telefoneDaUnidade": [
             "(81) 3184-3460",
@@ -1936,7 +1936,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 9ª CIRCUNSCRIÇÃO - IPSEP",
+        "nomeDaUnidade": "DP 9ª CIRC - IPSEP",
         "enderecoDaUnidade": "Rua Jean Emile Favre, s/n, IPSEP, Recife/PE –CEP: 51.190-450",
         "telefoneDaUnidade": [
             "(81) 3184-3477",
@@ -1949,7 +1949,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 10ª CIRCUNSCRIÇÃO - IBURA",
+        "nomeDaUnidade": "DP 10ª CIRC - IBURA",
         "enderecoDaUnidade": "Av. Campina Grande UR 1, s/n, Ibura - Recife /PE - CEP: 51290-040",
         "telefoneDaUnidade": [
             "(81) 3184-3774",
@@ -1974,7 +1974,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 11ª CIRCUNSCRIÇÃO - AFOGADOS",
+        "nomeDaUnidade": "DP 11ª CIRC - AFOGADOS",
         "enderecoDaUnidade": "Rua João Carlos Guimarães, 136 - Afogados, Recife/PE – CEP: 50770-150",
         "telefoneDaUnidade": [
             "(81) 3184-7134",
@@ -1988,7 +1988,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 12ª CIRCUNSCRIÇÃO - JARDIM SÃO PAULO",
+        "nomeDaUnidade": "DP 12ª CIRC - JARDIM SÃO PAULO",
         "enderecoDaUnidade": "Praça Jardim São Paulo, 240 , Jardim São Paulo, Recife/PE - CEP: 50781-760",
         "telefoneDaUnidade": [
             "(81) 3184-3473",
@@ -2001,7 +2001,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 13ª CIRCUNSCRIÇÃO - MUSTARDINHA",
+        "nomeDaUnidade": "DP 13ª CIRC - MUSTARDINHA",
         "enderecoDaUnidade": "Estrada do Bongi Armando da Fonte, 922 - Prado - Recife/PE – CEP: 50830-260",
         "telefoneDaUnidade": [
             "(81) 3184-3449",
@@ -2014,7 +2014,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 14ª CIRCUNSCRIÇÃO - VÁRZEA",
+        "nomeDaUnidade": "DP 14ª CIRC - VÁRZEA",
         "enderecoDaUnidade": "Rua Dona Maria Lacerda, 127 - Várzea, Recife/PE - CEP: 50741-011",
         "telefoneDaUnidade": [
             "(81) 3183-5421",
@@ -2040,7 +2040,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 5ª CIRCUNSCRIÇÃO - CASA AMARELA",
+        "nomeDaUnidade": "DP 5ª CIRC - CASA AMARELA",
         "enderecoDaUnidade": "Rua Paula Batista, 616 - Casa Amarela - Recife/PE - CEP: 52070-070",
         "telefoneDaUnidade": [
             "(81) 3184-3430/ (81) 3184-3798",
@@ -2054,7 +2054,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 15ª CIRCUNSCRIÇÃO - ALTO DO PASCOAL",
+        "nomeDaUnidade": "DP 15ª CIRC - ALTO DO PASCOAL",
         "enderecoDaUnidade": "Avenida Aníbal Benévolo, nº 1728, Alto Santa Terezinha, Recife/ PE – CEP: 52130-220",
         "telefoneDaUnidade": [
             "(81) 3184-3482",
@@ -2068,7 +2068,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 17ª CIRCUNSCRIÇÃO - VASCO DA GAMA",
+        "nomeDaUnidade": "DP 17ª CIRC - VASCO DA GAMA",
         "enderecoDaUnidade": "Rua Vasco da Gama, s/n, Vasco da Gama, Recife /PE - CEP: 52171-011",
         "telefoneDaUnidade": [
             "(81) 3184-3628",
@@ -2082,7 +2082,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 18ª CIRCUNSCRIÇÃO - MACAXEIRA",
+        "nomeDaUnidade": "DP 18ª CIRC - MACAXEIRA",
         "enderecoDaUnidade": "Av. Ver. Otacílio de Azevedo, nº 2880, Lote 27, Quadra \"B\" Brejo De Guabiraba - Nova Descoberta – Recife/PE - CEP: 52191000",
         "telefoneDaUnidade": [
             "(81) 3184-3673",
@@ -2109,7 +2109,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "1ª DELEGACIA DE POLÍCIA DA 19ª CIRCUNSCRIÇÃO - PRAZERES",
+        "nomeDaUnidade": "1ª DP 19ª CIRC - PRAZERES",
         "enderecoDaUnidade": "Estrada da Batalha, 924, Prazeres, Jaboatão dos Guararapes/PE - CEP: 54315-010",
         "telefoneDaUnidade": [
             "(81) 3183-5699",
@@ -2123,7 +2123,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "2ª DELEGACIA DE POLÍCIA DA 19ª CIRCUNSCRIÇÃO - MURIBECA",
+        "nomeDaUnidade": "2ª DP 19ª CIRC - MURIBECA",
         "enderecoDaUnidade": "Estrada da Batalha, 924, Prazeres, Jaboatão dos Guararapes/PE - CEP: 54315-010",
         "telefoneDaUnidade": [
             "(81) 3183-5490"
@@ -2134,7 +2134,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 20ª CIRCUNSCRIÇÃO - JABOATÃO DOS GUARARAPES",
+        "nomeDaUnidade": "DP 20ª CIRC - JABOATÃO DOS GUARARAPES",
         "enderecoDaUnidade": "Avenida Barão de Lucena, 330, Centro, Jaboatão dos Guararapes/PE - CEP: 54110-005",
         "telefoneDaUnidade": [
             "(81) 3184-3441",
@@ -2148,7 +2148,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 21ª CIRCUNSCRIÇÃO - MORENO",
+        "nomeDaUnidade": "DP 21ª CIRC - MORENO",
         "enderecoDaUnidade": "Rua Artur Mendonça, n° 253, Centro, Moreno/PE - CEP: 54800-000",
         "telefoneDaUnidade": [
             "(81) 3184-3634",
@@ -2161,7 +2161,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 22ª CIRCUNSCRIÇÃO - PIEDADE",
+        "nomeDaUnidade": "DP 22ª CIRC - PIEDADE",
         "enderecoDaUnidade": "Rua São Sebastião, S/N, Piedade, Jaboatão dos Guararapes/PE CEP: 54410-500",
         "telefoneDaUnidade": [
             "(81) 3184-3831",
@@ -2173,7 +2173,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 23ª CIRCUNSCRIÇÃO - CAVALEIRO",
+        "nomeDaUnidade": "DP 23ª CIRC - CAVALEIRO",
         "enderecoDaUnidade": "Rua 15 de Novembro, s/n, Cavaleiro, Jaboatão dos Guararapes/PE - CEP: 54250-480",
         "telefoneDaUnidade": [
             "(81) 3184-3502",
@@ -2199,7 +2199,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 24ª CIRCUNSCRIÇÃO - VARADOURO",
+        "nomeDaUnidade": "DP 24ª CIRC - VARADOURO",
         "enderecoDaUnidade": "Avenida Olinda, nº 160, Varadouro, Olinda/ PE - CEP: 53020-081",
         "telefoneDaUnidade": [
             "(81) 3184-3720",
@@ -2215,7 +2215,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 25ª CIRCUNSCRIÇÃO - PEIXINHOS",
+        "nomeDaUnidade": "DP 25ª CIRC - PEIXINHOS",
         "enderecoDaUnidade": "Avenida Nacional,333, Peixinhos, Olinda/PE - CEP: 53220-460",
         "telefoneDaUnidade": [
             "(81) 3184-3680",
@@ -2228,7 +2228,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 26ª CIRCUNSCRIÇÃO - RIO DOCE",
+        "nomeDaUnidade": "DP 26ª CIRC - RIO DOCE",
         "enderecoDaUnidade": "Avenida Brasil, s/n, Rio Doce, Olinda/PE - CEP: 53150-470",
         "telefoneDaUnidade": [
             "(81) 3184-7099",
@@ -2255,7 +2255,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 27ª CIRCUNSCRIÇÃO - ABREU E LIMA",
+        "nomeDaUnidade": "DP 27ª CIRC - ABREU E LIMA",
         "enderecoDaUnidade": "Rua Marechal Mascarenhas de Moraes, nº 137, Timbó, Abreu e Lima/PE - CEP: 53520-140",
         "telefoneDaUnidade": [
             "(81) 3184-3536",
@@ -2268,7 +2268,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 28ª CIRCUNSCRIÇÃO - PAULISTA",
+        "nomeDaUnidade": "DP 28ª CIRC - PAULISTA",
         "enderecoDaUnidade": "Rua do Cajueiro, s/n, Praça Frederico Lundgren, Centro, Paulista/PE - CEP: 53401-908",
         "telefoneDaUnidade": [
             "(81) 3184-7065",
@@ -2282,7 +2282,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 29ª CIRCUNSCRIÇÃO - IGARASSU",
+        "nomeDaUnidade": "DP 29ª CIRC - IGARASSU",
         "enderecoDaUnidade": "Rua Severino Uchoa Cavalcante, 63 – Centro – Igarassu /PE – CEP: 53810-635",
         "telefoneDaUnidade": [
             "(81) 3184-3490",
@@ -2295,7 +2295,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 30ª CIRCUNSCRIÇÃO - ITAMARACÁ",
+        "nomeDaUnidade": "DP 30ª CIRC - ITAMARACÁ",
         "enderecoDaUnidade": "Av. João Pessoa Guerra, 65 , Pilar, Itamaracá/PE – CEP: 53.900-000",
         "telefoneDaUnidade": [
             "(81) 3184-3435",
@@ -2308,7 +2308,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 31ª CIRCUNSCRIÇÃO - ITAPISSUMA",
+        "nomeDaUnidade": "DP 31ª CIRC - ITAPISSUMA",
         "enderecoDaUnidade": "Rua Frei Serafim, 114 - Centro, Itapissuma /PE - CEP: 53700-000",
         "telefoneDaUnidade": [
             "(81) 3184-3611",
@@ -2321,7 +2321,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 32ª CIRCUNSCRIÇÃO - ENGENHO MARANGUAPE",
+        "nomeDaUnidade": "DP 32ª CIRC - ENGENHO MARANGUAPE",
         "enderecoDaUnidade": "Av. Claudio Gueiros Leite s/n, Janga , Paulista/PE – CEP: 53427-085",
         "telefoneDaUnidade": [
             "(81) 3184-3509",
@@ -2335,7 +2335,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 33ª CIRCUNSCRIÇÃO - CRUZ DE REBOUÇAS",
+        "nomeDaUnidade": "DP 33ª CIRC - CRUZ DE REBOUÇAS",
         "enderecoDaUnidade": "Av. Luciana de Paiva, 100 , Centro, Cruz de Rebouças, Igarassu/PE – CEP: 53630-710",
         "telefoneDaUnidade": [
             "(81) 3184-3794",
@@ -2349,7 +2349,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 34ª CIRCUNSCRIÇÃO - MARIA FARINHA",
+        "nomeDaUnidade": "DP 34ª CIRC - MARIA FARINHA",
         "enderecoDaUnidade": "Av. Claudio Gueiros Leite, 9605 - Maria Farinha – Paulista/PE – CEP: 53427-085",
         "telefoneDaUnidade": [
             "(81) 3184-3525",
@@ -2362,7 +2362,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 35ª CIRCUNSCRIÇÃO - ARAÇOIABA",
+        "nomeDaUnidade": "DP 35ª CIRC - ARAÇOIABA",
         "enderecoDaUnidade": "Rua José Luiz Da Silva, n° 895-A, Centro, Araçoiaba/PE - CEP: 53690000",
         "telefoneDaUnidade": [
             "(81) 3546-1002",
@@ -2387,7 +2387,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 37ª CIRCUNSCRIÇÃO - CAMARAGIBE",
+        "nomeDaUnidade": "DP 37ª CIRC - CAMARAGIBE",
         "enderecoDaUnidade": "Rua Padre Oséas Cavalcante, s/n, Novo do Carmelo - Camaragibe/PE - CEP: 54759-060",
         "telefoneDaUnidade": [
             "(81) 3184-3765",
@@ -2402,7 +2402,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 38ª CIRCUNSCRIÇÃO - SÃO LOURENÇO DA MATA",
+        "nomeDaUnidade": "DP 38ª CIRC - SÃO LOURENÇO DA MATA",
         "enderecoDaUnidade": "Rua Dr. Francisco Correia, 74 , Centro , São Lourenço da Mata/PE - CEP: 54735-000",
         "telefoneDaUnidade": [
             "(81) 3184-3717",
@@ -2429,7 +2429,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 40ª CIRCUNSCRIÇÃO - CABO DE SANTO AGOSTINHO",
+        "nomeDaUnidade": "DP 40ª CIRC - CABO DE SANTO AGOSTINHO",
         "enderecoDaUnidade": "Rodovia BR 101, KM 33, antiga estrada do engenho velho , Cabo Stº Agostinho/PE - CEP: 54500-001",
         "telefoneDaUnidade": [
             "(81) 3184-3872",
@@ -2443,7 +2443,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 41ª CIRCUNSCRIÇÃO - PONTE DOS CARVALHOS",
+        "nomeDaUnidade": "DP 41ª CIRC - PONTE DOS CARVALHOS",
         "enderecoDaUnidade": "Rua Bom Sucesso, nº 36, Lote 10, Quadra F-1, Loteamento Jardim Bom Sucesso, Ponte Dos Carvalhos, Cabo De Santo Agostinho/PE - CEP: 54580402",
         "telefoneDaUnidade": [
             "(81) 3184-3532",
@@ -2456,7 +2456,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 42ª CIRCUNSCRIÇÃO - IPOJUCA",
+        "nomeDaUnidade": "DP 42ª CIRC - IPOJUCA",
         "enderecoDaUnidade": "Rua Hilda da Costa Monteiro, 172, Centro, Ipojuca/PE – CEP: 55590-000",
         "telefoneDaUnidade": [
             "(81) 3561-1931",
@@ -2468,7 +2468,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 43ª CIRCUNSCRIÇÃO - PORTO DE GALINHAS",
+        "nomeDaUnidade": "DP 43ª CIRC - PORTO DE GALINHAS",
         "enderecoDaUnidade": "Rua Praça Dois, 56, Porto de Galinhas, Ipojuca/PE - CEP: 55590-000",
         "telefoneDaUnidade": [
             "(81) 3561-1940",
@@ -2521,7 +2521,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "1ª DELEGACIA DE POLÍCIA DA 44ª CIRCUNSCRIÇÃO - GOIANA",
+        "nomeDaUnidade": "1ª DP 44ª CIRC - GOIANA",
         "enderecoDaUnidade": "Rua do Jiló, nº 66, Centro, Goiana /PE - CEP: 55900-000",
         "telefoneDaUnidade": [
             "(81) 3626-8686",
@@ -2533,7 +2533,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 45ª CIRCUNSCRIÇÃO - CARPINA",
+        "nomeDaUnidade": "DP 45ª CIRC - CARPINA",
         "enderecoDaUnidade": "Av. Ernesto Pompílio, n° 111, Santo Antônio - Carpina/PE - CEP: 55816-430",
         "telefoneDaUnidade": [
             "(81) 3622-8951",
@@ -2545,7 +2545,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 46ª CIRCUNSCRIÇÃO - TIMBAÚBA",
+        "nomeDaUnidade": "DP 46ª CIRC - TIMBAÚBA",
         "enderecoDaUnidade": "Rua Ismael Gouveia, 224, Centro, Timbaúba/PE- CEP: 55870-000",
         "telefoneDaUnidade": [
             "(81) 3631-5273",
@@ -2558,7 +2558,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 47ª CIRCUNSCRIÇÃO - PAUDALHO",
+        "nomeDaUnidade": "DP 47ª CIRC - PAUDALHO",
         "enderecoDaUnidade": "Endereço:Av. Senador Pinheiro Ramos, 460, Centro, Paudalho/PE – CEP: 55.825-000",
         "telefoneDaUnidade": [
             "(81) 3636-5618",
@@ -2570,7 +2570,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 48ª CIRCUNSCRIÇÃO - ALIANÇA",
+        "nomeDaUnidade": "DP 48ª CIRC - ALIANÇA",
         "enderecoDaUnidade": "Rua Juvino Gomes, nº 68, Centro, Aliança/PE - CEP: 55890-000",
         "telefoneDaUnidade": [
             "(81) 3637-5806",
@@ -2582,7 +2582,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 49ª CIRCUNSCRIÇÃO - ITAMBÉ",
+        "nomeDaUnidade": "DP 49ª CIRC - ITAMBÉ",
         "enderecoDaUnidade": "Rua Joaquim Nabuco, 132, Centro, Itambé/PE – CEP: 55920-000",
         "telefoneDaUnidade": [
             "(81) 3635-3915",
@@ -2594,7 +2594,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 50ª CIRCUNSCRIÇÃO - NAZARÉ DA MATA",
+        "nomeDaUnidade": "DP 50ª CIRC - NAZARÉ DA MATA",
         "enderecoDaUnidade": "Rua Coronel Luiz Inácio, s/n, Centro, Nazaré da Mata/PE - CEP: 55800-000",
         "telefoneDaUnidade": [
             "(81) 3633-4982",
@@ -2607,7 +2607,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 51ª CIRCUNSCRIÇÃO - VICÊNCIA",
+        "nomeDaUnidade": "DP 51ª CIRC - VICÊNCIA",
         "enderecoDaUnidade": "Rua Profª. Mota Albuquerque, s/n, Centro, Vicência/PE – CEP: 55850-000",
         "telefoneDaUnidade": [
             "(81) 3641-2802",
@@ -2619,7 +2619,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 52ª CIRCUNSCRIÇÃO - MACAPARANA",
+        "nomeDaUnidade": "DP 52ª CIRC - MACAPARANA",
         "enderecoDaUnidade": "Rua João Francisco, 134, Centro, Macaparana/PE – CEP: 55865-000",
         "telefoneDaUnidade": [
             "(81) 3639-2903",
@@ -2631,7 +2631,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 53ª CIRCUNSCRIÇÃO - CONDADO",
+        "nomeDaUnidade": "DP 53ª CIRC - CONDADO",
         "enderecoDaUnidade": "Endereço:Travessa Severino Uchôa, Nº 07, Centro, Condado/PE - CEP 55940000",
         "telefoneDaUnidade": [
             "(81) 3642-0907",
@@ -2643,7 +2643,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 54ª CIRCUNSCRIÇÃO - LAGOA DE ITAENGA",
+        "nomeDaUnidade": "DP 54ª CIRC - LAGOA DE ITAENGA",
         "enderecoDaUnidade": "Rua Leopoldina Pinheiro, 140, Centro, Lagoa do Itaenga/PE - CEP: 55840-000",
         "telefoneDaUnidade": [
             "(81) 3653-2905",
@@ -2656,7 +2656,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 55ª CIRCUNSCRIÇÃO - ITAQUITINGA",
+        "nomeDaUnidade": "DP 55ª CIRC - ITAQUITINGA",
         "enderecoDaUnidade": "Av. Joaquim bezerra Pereira de Lira, Nº 30, Centro, Itaquitinga/PE - CEP 55950-000",
         "telefoneDaUnidade": [
             "(81) 3614-1906",
@@ -2668,7 +2668,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 56ª CIRCUNSCRIÇÃO - LAGOA DO CARRO",
+        "nomeDaUnidade": "DP 56ª CIRC - LAGOA DO CARRO",
         "enderecoDaUnidade": "Rua Antônio Francisco da Silva, n° 47 - Centro - Lagoa Do Carro/PE, CEP: 55815-999",
         "telefoneDaUnidade": [
             "(81) 3621-9904",
@@ -2680,7 +2680,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 57ª CIRCUNSCRIÇÃO - TRACUNHAÉM",
+        "nomeDaUnidade": "DP 57ª CIRC - TRACUNHAÉM",
         "enderecoDaUnidade": "Rua Antônio Felipe de Souza, n.º 110 - Centro - Tracunhaém - PE - CEP: 55805-000",
         "telefoneDaUnidade": [
             "(81) 3646-1908",
@@ -2692,7 +2692,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 58ª CIRCUNSCRIÇÃO - BUENOS AIRES",
+        "nomeDaUnidade": "DP 58ª CIRC - BUENOS AIRES",
         "enderecoDaUnidade": "Av. João T. de Azevedo, Buenos Aires - PE, 55845-000",
         "telefoneDaUnidade": [
             "(81) 3647-1908",
@@ -2704,7 +2704,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 59ª CIRCUNSCRIÇÃO - FERREIROS",
+        "nomeDaUnidade": "DP 59ª CIRC - FERREIROS",
         "enderecoDaUnidade": "Av. Monsenhor Júlio Maria, n.º 95, Centro, Ferreiros/PE - CEP: 55880-000",
         "telefoneDaUnidade": [
             "(81) 3657-1906",
@@ -2716,7 +2716,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 60ª CIRCUNSCRIÇÃO - CAMUTANGA",
+        "nomeDaUnidade": "DP 60ª CIRC - CAMUTANGA",
         "enderecoDaUnidade": "Rua Ciro Alves, nº 90 - Centro – Camutanga/PE - CEP: 55930-000",
         "telefoneDaUnidade": [
             "(81) 3652-1903",
@@ -2741,7 +2741,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 61ª CIRCUNSCRIÇÃO - VITÓRIA DE STO. ANTÃO",
+        "nomeDaUnidade": "DP 61ª CIRC - VITÓRIA DE STO. ANTÃO",
         "enderecoDaUnidade": "Endereço:Rua Henrique De Holanda, N° 1333, Redenção, Vitória De Santo Antão/PE. - CEP 55.612-025",
         "telefoneDaUnidade": [
             "(81) 3526-8874",
@@ -2755,7 +2755,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 62ª CIRCUNSCRIÇÃO - GRAVATÁ",
+        "nomeDaUnidade": "DP 62ª CIRC - GRAVATÁ",
         "enderecoDaUnidade": "Tv. Quintino Bocaiúva, s/n, Centro, Gravatá/PE - CEP: 55642-011",
         "telefoneDaUnidade": [
             "(81) 3533-9836",
@@ -2768,7 +2768,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 63ª CIRCUNSCRIÇÃO - ESCADA",
+        "nomeDaUnidade": "DP 63ª CIRC - ESCADA",
         "enderecoDaUnidade": "Rua Mangueira s/n, Atalaia, Escada/PE - CEP: 55500-000",
         "telefoneDaUnidade": [
             "(81) 3658-2908",
@@ -2781,7 +2781,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 64ª CIRCUNSCRIÇÃO - GLÓRIA DO GOITÁ",
+        "nomeDaUnidade": "DP 64ª CIRC - GLÓRIA DO GOITÁ",
         "enderecoDaUnidade": "Rua Maria José Borges, nº 58, Centro, Glória Do Goitá/PE - CEP: 55620-000",
         "telefoneDaUnidade": [
             "(81) 3534-8965",
@@ -2794,7 +2794,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 65ª CIRCUNSCRIÇÃO - POMBOS",
+        "nomeDaUnidade": "DP 65ª CIRC - POMBOS",
         "enderecoDaUnidade": "Endereço:Rua Vila Brasil, Nº 71, Bairro Vila Brasil, Pombos/PE - CEP 55630-000",
         "telefoneDaUnidade": [
             "(81) 3536-2806",
@@ -2807,7 +2807,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 66ª CIRCUNSCRIÇÃO - AMARAJI",
+        "nomeDaUnidade": "DP 66ª CIRC - AMARAJI",
         "enderecoDaUnidade": "Praca Doutor Jorge Coelho Silveira, s/n, Centro, Amaraji/PE - CEP: 55515-000",
         "telefoneDaUnidade": [
             "(81) 3553-2909",
@@ -2819,7 +2819,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 67ª CIRCUNSCRIÇÃO - CHÃ GRANDE",
+        "nomeDaUnidade": "DP 67ª CIRC - CHÃ GRANDE",
         "enderecoDaUnidade": "Rua Noberto Cruz, nº 273, Dom Helder Camara, Chã Grande/PE - CEP:55636-000",
         "telefoneDaUnidade": [
             "(81) 3537-2105",
@@ -2831,7 +2831,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 68ª CIRCUNSCRIÇÃO - PRIMAVERA",
+        "nomeDaUnidade": "DP 68ª CIRC - PRIMAVERA",
         "enderecoDaUnidade": "Rua Santo Antonio, nº 34 - Centro, Primavera/PE - CEP 55510-000",
         "telefoneDaUnidade": [
             "(81) 3562-1914",
@@ -2843,7 +2843,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 69ª CIRCUNSCRIÇÃO - CHÃ DE ALEGRIA",
+        "nomeDaUnidade": "DP 69ª CIRC - CHÃ DE ALEGRIA",
         "enderecoDaUnidade": "Rua Dom Bernardo Otto, s/n, Centro, Chã de Alegria/PE - CEP: 55835-000",
         "telefoneDaUnidade": [
             "(81) 3581-1907",
@@ -2868,7 +2868,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 70ª CIRCUNSCRIÇÃO - PALMARES",
+        "nomeDaUnidade": "DP 70ª CIRC - PALMARES",
         "enderecoDaUnidade": "Endereço:Avenida Jose Americo Miranda, s/n, Santa Rosa - Palmares/PE - CEP: 55540-000",
         "telefoneDaUnidade": [
             "(81) 3662-0122"
@@ -2879,7 +2879,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 71ª CIRCUNSCRIÇÃO - RIBEIRÃO",
+        "nomeDaUnidade": "DP 71ª CIRC - RIBEIRÃO",
         "enderecoDaUnidade": "Av. Mário Domingues, s/n, Cohab, Ribeirão/PE – CEP: 55520-000",
         "telefoneDaUnidade": [
             "(81) 3671-5608",
@@ -2891,7 +2891,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 72ª CIRCUNSCRIÇÃO - BARREIROS",
+        "nomeDaUnidade": "DP 72ª CIRC - BARREIROS",
         "enderecoDaUnidade": "Endereço:Av. Presidente Juscelino Kubistchek, 107, Centro, Barreiros/PE - CEP: 55560-000",
         "telefoneDaUnidade": [
             "(81) 3675-5856",
@@ -2903,7 +2903,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 72ª CIRCUNSCRIÇÃO - SIRINHAÉM",
+        "nomeDaUnidade": "DP 72ª CIRC - SIRINHAÉM",
         "enderecoDaUnidade": "R. Sebastião Chaves, s/n ,Centro, Sirinhaém /PE - CEP: 55580-000",
         "telefoneDaUnidade": [
             "(81) 3577-2606",
@@ -2915,7 +2915,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 74ª CIRCUNSCRIÇÃO - CATENDE",
+        "nomeDaUnidade": "DP 74ª CIRC - CATENDE",
         "enderecoDaUnidade": "Rua 15 de Novembro, 71, Centro, Catende/PE – CEP: 55400-000",
         "telefoneDaUnidade": [
             "(81) 3673-5934",
@@ -2927,7 +2927,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 75ª CIRCUNSCRIÇÃO - ÁGUA PRETA",
+        "nomeDaUnidade": "DP 75ª CIRC - ÁGUA PRETA",
         "enderecoDaUnidade": "Praça dos Três Poderes, 3027, Centro, Água Preta/PE – CEP: 55550-970",
         "telefoneDaUnidade": [
             "(81) 3681-3904",
@@ -2939,7 +2939,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 76ª CIRCUNSCRIÇÃO - GAMELEIRA",
+        "nomeDaUnidade": "DP 76ª CIRC - GAMELEIRA",
         "enderecoDaUnidade": "Avenida Luiz Rodolfo, 02, Centro, Gameleira – PE - CEP: 55530-000",
         "telefoneDaUnidade": [
             "(81) 3679-2903",
@@ -2952,7 +2952,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 077ª CIRCUNSCRIÇÃO - QUIPAPÁ",
+        "nomeDaUnidade": "DP 077ª CIRC - QUIPAPÁ",
         "enderecoDaUnidade": "Endereço:Rua Tito Galvão, nº 78, Centro, Quipapá/PE - CEP:55415000",
         "telefoneDaUnidade": [
             "(81) 3685-2909",
@@ -2964,7 +2964,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 78ª CIRCUNSCRIÇÃO - RIO FORMOSO",
+        "nomeDaUnidade": "DP 78ª CIRC - RIO FORMOSO",
         "enderecoDaUnidade": "Rua Siqueira Campos, 64, Centro, Rio Formoso/PE – CEP: 55570-000",
         "telefoneDaUnidade": [
             "(81) 3678-2805"
@@ -2975,7 +2975,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 79ª CIRCUNSCRIÇÃO - TAMANDARÉ",
+        "nomeDaUnidade": "DP 79ª CIRC - TAMANDARÉ",
         "enderecoDaUnidade": "Rua Nova Campina, nº 758, Tamandaré/PE - CEP: 55578-000",
         "telefoneDaUnidade": [
             "(81) 3676-3903",
@@ -2987,7 +2987,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 80ª CIRCUNSCRIÇÃO - JOAQUIM NABUCO",
+        "nomeDaUnidade": "DP 80ª CIRC - JOAQUIM NABUCO",
         "enderecoDaUnidade": "Endereço:Rua Manoel José Da Costa Filho, n º 30, Centro, Joaquim Nabuco/PE - CEP: 55535-000",
         "telefoneDaUnidade": [
             "(81) 3682-1906",
@@ -2999,7 +2999,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 81ª CIRCUNSCRIÇÃO - MARAIAL",
+        "nomeDaUnidade": "DP 81ª CIRC - MARAIAL",
         "enderecoDaUnidade": "Av. Salvador Teixeira, 238, Centro, Maraial/PE – CEP: 55.405-000",
         "telefoneDaUnidade": [
             "(81) 3683-1907",
@@ -3012,7 +3012,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 82ª CIRCUNSCRIÇÃO - SÃO JOSÉ DA COROA GRANDE",
+        "nomeDaUnidade": "DP 82ª CIRC - SÃO JOSÉ DA COROA GRANDE",
         "enderecoDaUnidade": "Rua Lídio Florentino, nº 68 - Centro - São José Da Coroa Grande/PE - CEP 55565000",
         "telefoneDaUnidade": [
             "(81) 3688-2906",
@@ -3024,7 +3024,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 83ª CIRCUNSCRIÇÃO - XEXÉU",
+        "nomeDaUnidade": "DP 83ª CIRC - XEXÉU",
         "enderecoDaUnidade": "Rua Da Linha, nº 625, Centro - Xexéu/PE - CEP 55555-000",
         "telefoneDaUnidade": [
             "(81) 3681-8826",
@@ -3036,7 +3036,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 84ª CIRCUNSCRIÇÃO - CORTÊS",
+        "nomeDaUnidade": "DP 84ª CIRC - CORTÊS",
         "enderecoDaUnidade": "Endereço:Rua 13 de Maio, s/n, Centro, Cortês/PE – CEP: 55525-000",
         "telefoneDaUnidade": [
             "(81) 3695-2904",
@@ -3048,7 +3048,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 85ª CIRCUNSCRIÇÃO - JAQUEIRA",
+        "nomeDaUnidade": "DP 85ª CIRC - JAQUEIRA",
         "enderecoDaUnidade": "Rua Vereador Luiz Nova Cosque, n° 287, Centro, Jaqueira/PE - CEP: 55409-000",
         "telefoneDaUnidade": [
             "(81) 3689-1903",
@@ -3060,7 +3060,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 86ª CIRCUNSCRIÇÃO - BELÉM DE MARIA",
+        "nomeDaUnidade": "DP 86ª CIRC - BELÉM DE MARIA",
         "enderecoDaUnidade": "Rua Jeter Carlos, nº 48 - Centro - Belém De Maria/PE – CEP: 55440-999",
         "telefoneDaUnidade": [
             "(81) 3686-1905",
@@ -3072,7 +3072,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 87ª CIRCUNSCRIÇÃO - SÃO BENEDITO DO SUL",
+        "nomeDaUnidade": "DP 87ª CIRC - SÃO BENEDITO DO SUL",
         "enderecoDaUnidade": "Rua da Boa Vista, nº 12, Centro, São Benedito Do Sul/PE - CEP: 55410-000",
         "telefoneDaUnidade": [
             "(81) 3684-1704",
@@ -3098,7 +3098,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 88ª CIRCUNSCRIÇÃO - CARUARU",
+        "nomeDaUnidade": "DP 88ª CIRC - CARUARU",
         "enderecoDaUnidade": "Endereço:Rua Cristóvão Colombo, 99, Nossa Sra das Dores, Caruaru/PE - CEP: 55004-420",
         "telefoneDaUnidade": [
             "(81) 3725-7481",
@@ -3115,7 +3115,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 89ª CIRCUNSCRIÇÃO - CARUARU",
+        "nomeDaUnidade": "DP 89ª CIRC - CARUARU",
         "enderecoDaUnidade": "Rua Doutor Bartolomeu Anacleto, s/n, Salgado, Caruaru/PE - CEP: 55018-600",
         "telefoneDaUnidade": [
             "(81) 3719-9605",
@@ -3129,7 +3129,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 90ª CIRCUNSCRIÇÃO - CARUARU",
+        "nomeDaUnidade": "DP 90ª CIRC - CARUARU",
         "enderecoDaUnidade": "BR 104, KM 67,Pinheirópolis, Caruaru/PE - CEP 55032-670",
         "telefoneDaUnidade": [
             "(81) 3719-9596",
@@ -3154,7 +3154,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 91ª CIRCUNSCRIÇÃO - BEZERROS",
+        "nomeDaUnidade": "DP 91ª CIRC - BEZERROS",
         "enderecoDaUnidade": "Av. Francisca de Moraes Lemos, s/n, São Sebastião, Bezerros/PE - CEP: 55660-000",
         "telefoneDaUnidade": [
             "(81) 3728-6673",
@@ -3168,7 +3168,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 92ª CIRCUNSCRIÇÃO - BONITO",
+        "nomeDaUnidade": "DP 92ª CIRC - BONITO",
         "enderecoDaUnidade": "Endereço:Rua Severino Mirandolino, nº 13, Centro, Bonito/PE – CEP: 55680000",
         "telefoneDaUnidade": [
             "(81) 3737-3910",
@@ -3181,7 +3181,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 94ª CIRCUNSCRIÇÃO - CUPIRA",
+        "nomeDaUnidade": "DP 94ª CIRC - CUPIRA",
         "enderecoDaUnidade": "Avenida Presidente Getúlio Vargas, 114, Centro, Cupira /PE - CEP 56180-000",
         "telefoneDaUnidade": [
             "(81) 3738-2910",
@@ -3193,7 +3193,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 95ª CIRCUNSCRIÇÃO - ALTINHO",
+        "nomeDaUnidade": "DP 95ª CIRC - ALTINHO",
         "enderecoDaUnidade": "Endereço:Rua Siqueira Campos, nº 41, Centro - Altinho/PE - CEP: 55490-000",
         "telefoneDaUnidade": [
             "(81) 3739-2906",
@@ -3205,7 +3205,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 96ª CIRCUNSCRIÇÃO - AGRESTINA",
+        "nomeDaUnidade": "DP 96ª CIRC - AGRESTINA",
         "enderecoDaUnidade": "Rua Pref. Sebastião Grande, 5, Agrestina/PE - CEP: 55495-000",
         "telefoneDaUnidade": [
             "(81) 3744-3905",
@@ -3218,7 +3218,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 97ª CIRCUNSCRIÇÃO - SÃO JOAQUIM DO MONTE",
+        "nomeDaUnidade": "DP 97ª CIRC - SÃO JOAQUIM DO MONTE",
         "enderecoDaUnidade": "Rua José Cândido da Silva, nº 5, Centro, São Joaquim do Monte/PE - CEP: 55670-000",
         "telefoneDaUnidade": [
             "(81) 3753-2902",
@@ -3230,7 +3230,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 98ª CIRCUNSCRIÇÃO - RIACHO DAS ALMAS",
+        "nomeDaUnidade": "DP 98ª CIRC - RIACHO DAS ALMAS",
         "enderecoDaUnidade": "Rua Raul Bandeira, nº 13, Santa Terezinha, Riacho Das Almas/PE – CEP: 55120000",
         "telefoneDaUnidade": [
             "(81) 3745-1904",
@@ -3242,7 +3242,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 99ª CIRCUNSCRIÇÃO - LAGOA DOS GATOS",
+        "nomeDaUnidade": "DP 99ª CIRC - LAGOA DOS GATOS",
         "enderecoDaUnidade": "Av. Sete de setembro, nº 79, Centro, Lagoa Dos Gatos/PE - CEP: 55450-000",
         "telefoneDaUnidade": [
             "(81) 3692-1905",
@@ -3254,7 +3254,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 100ª CIRCUNSCRIÇÃO - CAMOCIM DE SÃO FÉLIX",
+        "nomeDaUnidade": "DP 100ª CIRC - CAMOCIM DE SÃO FÉLIX",
         "enderecoDaUnidade": "Endereço:Travessa Agamenon Magalhães, nº 21, Centro, Camocim De São Félix/PE - CEP:55665-000",
         "telefoneDaUnidade": [
             "(81) 3743-2905",
@@ -3266,7 +3266,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 101ª CIRCUNSCRIÇÃO - SAIRÉ",
+        "nomeDaUnidade": "DP 101ª CIRC - SAIRÉ",
         "enderecoDaUnidade": "Rua David Lins de Andrade, s/n ,Centro, Sairé/PE – CEP: 55695-000",
         "telefoneDaUnidade": [
             "(81) 3748-1905",
@@ -3278,7 +3278,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 102ª CIRCUNSCRIÇÃO - BARRA DE GUABIRABA",
+        "nomeDaUnidade": "DP 102ª CIRC - BARRA DE GUABIRABA",
         "enderecoDaUnidade": "Rua Praxedes Bezerra Pontes, nº 57, Centro, Barra de Guabiraba/PE – CEP 55690-000",
         "telefoneDaUnidade": [
             "(81) 3758-1905",
@@ -3290,7 +3290,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 103ª CIRCUNSCRIÇÃO - IBIRAJUBA",
+        "nomeDaUnidade": "DP 103ª CIRC - IBIRAJUBA",
         "enderecoDaUnidade": "Rua José Apolinário de Amorim, 20 , Centro, Ibirajuba/PE - CEP: 55390-000",
         "telefoneDaUnidade": [
             "(87) 3794-1905",
@@ -3302,7 +3302,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 146ª CIRCUNSCRIÇÃO - JUREMA",
+        "nomeDaUnidade": "DP 146ª CIRC - JUREMA",
         "enderecoDaUnidade": "Rua José Maria Simões, s/n , Centro, Jurema/PE – CEP: 55480-970",
         "telefoneDaUnidade": [
             "(87) 3795-1907",
@@ -3325,7 +3325,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 104ª CIRCUNSCRIÇÃO - BELO JARDIM",
+        "nomeDaUnidade": "DP 104ª CIRC - BELO JARDIM",
         "enderecoDaUnidade": "Av. Sebastião Rodrigues da Costa, s/n - São Pedro - Belo Jardim - PE – CEP: 55155-730",
         "telefoneDaUnidade": [
             "(81) 3726-8929",
@@ -3338,7 +3338,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 105ª CIRCUNSCRIÇÃO - PESQUEIRA",
+        "nomeDaUnidade": "DP 105ª CIRC - PESQUEIRA",
         "enderecoDaUnidade": "Endereço:Av. Maria de Brito, s/n, Centro, Pesqueira/PE - CEP: 55200-000",
         "telefoneDaUnidade": [
             "(87) 3835-8263",
@@ -3351,7 +3351,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 106ª CIRCUNSCRIÇÃO - SÃO BENTO DO UNA",
+        "nomeDaUnidade": "DP 106ª CIRC - SÃO BENTO DO UNA",
         "enderecoDaUnidade": "Endereço:Rua João Pessoa, 505 , Centro , São Bento do Una/PE – CEP: 55.370-000",
         "telefoneDaUnidade": [
             "(81) 3735-4928",
@@ -3364,7 +3364,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 108ª CIRCUNSCRIÇÃO - SÃO CAETANO",
+        "nomeDaUnidade": "DP 108ª CIRC - SÃO CAETANO",
         "enderecoDaUnidade": "Rua Olindino Santino, 55 , Centro , São Caetano/PE - CEP: 55130-970",
         "telefoneDaUnidade": [
             "(81) 3736-3229",
@@ -3376,7 +3376,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 109ª CIRCUNSCRIÇÃO - CACHOEIRINHA",
+        "nomeDaUnidade": "DP 109ª CIRC - CACHOEIRINHA",
         "enderecoDaUnidade": "Endereço:Rua Luiz Gonzaga, O Rei do Baião, nº 136, Centro, Cachoeirinha/PE - CEP: 55380-000",
         "telefoneDaUnidade": [
             "(81) 3742-2910",
@@ -3388,7 +3388,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 110ª CIRCUNSCRIÇÃO - SANHARÓ",
+        "nomeDaUnidade": "DP 110ª CIRC - SANHARÓ",
         "enderecoDaUnidade": "Endereço:Rua Domingos Zuza, n° 121, Marajás, Sanharó/PE - CEP: 55250-000",
         "telefoneDaUnidade": [
             "(87) 3836-2904",
@@ -3400,7 +3400,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 112ª CIRCUNSCRIÇÃO - TACAIMBÓ",
+        "nomeDaUnidade": "DP 112ª CIRC - TACAIMBÓ",
         "enderecoDaUnidade": "Endereço:Av. Major João Gomes, 164 , Centro , Tacaimbó/PE – CEP: 55140-000",
         "telefoneDaUnidade": [
             "(81) 3755-1909",
@@ -3412,7 +3412,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 113ª CIRCUNSCRIÇÃO - ALAGOINHA",
+        "nomeDaUnidade": "DP 113ª CIRC - ALAGOINHA",
         "enderecoDaUnidade": "Rua Frei Jerônimo, 185 , Centro , Alagoinha/PE – CEP: 55260-000",
         "telefoneDaUnidade": [
             "(87) 3839-1905",
@@ -3424,7 +3424,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 114ª CIRCUNSCRIÇÃO - POÇÃO",
+        "nomeDaUnidade": "DP 114ª CIRC - POÇÃO",
         "enderecoDaUnidade": "Av. Monsenhor Estanislau, s/n, Centro, Poção/PE – CEP: 55240-000",
         "telefoneDaUnidade": [
             "(87) 3834-1905",
@@ -3449,7 +3449,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 115ª CIRCUNSCRIÇÃO - LIMOEIRO",
+        "nomeDaUnidade": "DP 115ª CIRC - LIMOEIRO",
         "enderecoDaUnidade": "Rua Jerônimo Heráclito, 1559, João Ernesto, Limoeiro/PE - CEP 55700-000",
         "telefoneDaUnidade": [
             "(81) 3628-8759",
@@ -3462,7 +3462,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 116ª CIRCUNSCRIÇÃO - SURUBIM",
+        "nomeDaUnidade": "DP 116ª CIRC - SURUBIM",
         "enderecoDaUnidade": "Endereço:Avenida São Sebastião, n° 407, Surubim/PE - CEP: 55750-000",
         "telefoneDaUnidade": [
             "(81) 3624-1976",
@@ -3475,7 +3475,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 117ª CIRCUNSCRIÇÃO - BOM JARDIM",
+        "nomeDaUnidade": "DP 117ª CIRC - BOM JARDIM",
         "enderecoDaUnidade": "Rua Cel. Etelvino Souto Maior, 11, Centro, Bom Jardim/PE – CEP: 55730-000",
         "telefoneDaUnidade": [
             "(81) 3638-2210",
@@ -3487,7 +3487,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 118ª CIRCUNSCRIÇÃO - PASSIRA",
+        "nomeDaUnidade": "DP 118ª CIRC - PASSIRA",
         "enderecoDaUnidade": "Endereço:Rua da Matriz, nº 104, Centro, Passira/PE - CEP: 55650-000",
         "telefoneDaUnidade": [
             "(81) 3651-2805",
@@ -3499,7 +3499,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 119ª CIRCUNSCRIÇÃO - CUMARU",
+        "nomeDaUnidade": "DP 119ª CIRC - CUMARU",
         "enderecoDaUnidade": "Av. Santa Terezinha, 19, Centro, Cumaru/PE – CEP: 55655-000",
         "telefoneDaUnidade": [
             "(81) 3644-1805",
@@ -3511,7 +3511,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 120ª CIRCUNSCRIÇÃO - JOÃO ALFREDO",
+        "nomeDaUnidade": "DP 120ª CIRC - JOÃO ALFREDO",
         "enderecoDaUnidade": "Endereço:Rua José Herculano Soares ,n° 12, João Alfredo - CEP: 55720000",
         "telefoneDaUnidade": [
             "(81) 3648-2509",
@@ -3523,7 +3523,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 121ª CIRCUNSCRIÇÃO - OROBÓ",
+        "nomeDaUnidade": "DP 121ª CIRC - OROBÓ",
         "enderecoDaUnidade": "Rua Cláudio Aguiar, 187, Centro, Orobó/PE - CEP: 55745-000",
         "telefoneDaUnidade": [
             "(81) 3656-1907",
@@ -3535,7 +3535,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 122ª CIRCUNSCRIÇÃO - FEIRA NOVA",
+        "nomeDaUnidade": "DP 122ª CIRC - FEIRA NOVA",
         "enderecoDaUnidade": "Av. Santos Dumont, 154, Centro, Feira Nova/PE – CEP: 55.715-000",
         "telefoneDaUnidade": [
             "(81) 3645-2900",
@@ -3547,7 +3547,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 123ª CIRCUNSCRIÇÃO - SÃO VICENTE FÉRRER",
+        "nomeDaUnidade": "DP 123ª CIRC - SÃO VICENTE FÉRRER",
         "enderecoDaUnidade": "Pç. Pedro Pereira Guedes, 70, Centro, São Vicente Férrer/PE - CEP 55860-000",
         "telefoneDaUnidade": [
             "(81) 3655-1910",
@@ -3559,7 +3559,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 124ª CIRCUNSCRIÇÃO - CASINHAS",
+        "nomeDaUnidade": "DP 124ª CIRC - CASINHAS",
         "enderecoDaUnidade": "Rua Cel. Periandro, nº 144, Centro, Casinhas/PE – CEP 55755-000",
         "telefoneDaUnidade": [
             "(81) 3634-9903",
@@ -3571,7 +3571,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 125ª CIRCUNSCRIÇÃO - MACHADOS",
+        "nomeDaUnidade": "DP 125ª CIRC - MACHADOS",
         "enderecoDaUnidade": "Rua José Antônio Cardoso, 69, Centro, Machados/PE – CEP: 55740-999",
         "telefoneDaUnidade": [
             "(81) 3649-1905",
@@ -3583,7 +3583,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 126ª CIRCUNSCRIÇÃO - VERTENTE DO LÉRIO",
+        "nomeDaUnidade": "DP 126ª CIRC - VERTENTE DO LÉRIO",
         "enderecoDaUnidade": "Endereço:Rua Frei Mário, n° 20, Centro, Vertente do Lério/PE - CEP: 55760-970",
         "telefoneDaUnidade": [
             "(81) 3634-7903",
@@ -3595,7 +3595,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 127ª CIRCUNSCRIÇÃO - SALGADINHO",
+        "nomeDaUnidade": "DP 127ª CIRC - SALGADINHO",
         "enderecoDaUnidade": "Rua Eloi Pires de Andrade Lima, nº 04, Centro - Salgadinho/PE. - CEP: 55675000",
         "telefoneDaUnidade": [
             "(81) 3654-1903",
@@ -3619,7 +3619,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 107ª CIRCUNSCRIÇÃO - BREJO DA MADRE DE DEUS",
+        "nomeDaUnidade": "DP 107ª CIRC - BREJO DA MADRE DE DEUS",
         "enderecoDaUnidade": "Rua José Bonifácio, 34, Centro, Brejo da Madre de Deus/PE – CEP: 55170-000",
         "telefoneDaUnidade": [
             "(81) 3747-4906",
@@ -3632,7 +3632,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 111ª CIRCUNSCRIÇÃO - JATAÚBA",
+        "nomeDaUnidade": "DP 111ª CIRC - JATAÚBA",
         "enderecoDaUnidade": "Avenida José Lopes de Siqueira, n° 510, Cohab, Jataúba/PE CEP - 55180-000.",
         "telefoneDaUnidade": [
             "(81) 3746-1905",
@@ -3644,7 +3644,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 128ª CIRCUNSCRIÇÃO STA. CRUZ DO CAPIBARIBE",
+        "nomeDaUnidade": "DP 128ª CIRC STA. CRUZ DO CAPIBARIBE",
         "enderecoDaUnidade": "Endereço:Rua José Francisco Barbosa, n° 321, Centro, Santa Cruz Do Capibaribe - CE 55192385",
         "telefoneDaUnidade": [
             "(81) 3759-8232",
@@ -3657,7 +3657,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 129ª CIRCUNSCRIÇÃO - TORITAMA",
+        "nomeDaUnidade": "DP 129ª CIRC - TORITAMA",
         "enderecoDaUnidade": "Rua Emídio Jordão,491, Centro, Toritama/PE CEP: 55.125-00",
         "telefoneDaUnidade": [
             "(81) 3741-6908",
@@ -3670,7 +3670,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 130ª CIRCUNSCRIÇÃO - TAQUARITINGA DO NORTE",
+        "nomeDaUnidade": "DP 130ª CIRC - TAQUARITINGA DO NORTE",
         "enderecoDaUnidade": "Rua Padre Berenguer,12, Centro,Taquaritinga do Norte/PE CEP: 55790-000",
         "telefoneDaUnidade": [
             "(81) 3733-2911",
@@ -3682,7 +3682,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 131ª CIRCUNSCRIÇÃO - VERTENTES",
+        "nomeDaUnidade": "DP 131ª CIRC - VERTENTES",
         "enderecoDaUnidade": "Rua Coronel Braz Bezerra, 162, Vertentes - PE, 55770-000",
         "telefoneDaUnidade": [
             "(81) 3734-1907",
@@ -3694,7 +3694,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 132ª CIRCUNSCRIÇÃO - FREI MIGUELINHO",
+        "nomeDaUnidade": "DP 132ª CIRC - FREI MIGUELINHO",
         "enderecoDaUnidade": "Rua Dom Pedro II, nº 12, Centro, Frei Miguelinho/PE - CEP 55780-000",
         "telefoneDaUnidade": [
             "(81) 3751-1905",
@@ -3706,7 +3706,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 133ª CIRCUNSCRIÇÃO STA. MARIA DO CAMBUCÁ",
+        "nomeDaUnidade": "DP 133ª CIRC STA. MARIA DO CAMBUCÁ",
         "enderecoDaUnidade": "Rua Dr. Miguel Brás, 103, Centro, Stª. Mª do Cambucá/PE – CEP: 55765-000",
         "telefoneDaUnidade": [
             "(81) 3757-1905",
@@ -3734,7 +3734,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 93ª CIRCUNSCRIÇÃO - PANELAS",
+        "nomeDaUnidade": "DP 93ª CIRC - PANELAS",
         "enderecoDaUnidade": "Praça Coronel João Rufino, n° 10, Centro, Panelas/PE - CEP 55470-000",
         "telefoneDaUnidade": [
             "(81) 3691-2706",
@@ -3747,7 +3747,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 134ª CIRCUNSCRIÇÃO - GARANHUNS",
+        "nomeDaUnidade": "DP 134ª CIRC - GARANHUNS",
         "enderecoDaUnidade": "Av. Dantas Barreto,150, Santo Antônio, Garanhuns/PE – CEP: 55294-000",
         "telefoneDaUnidade": [
             "(87) 3761-8464",
@@ -3760,7 +3760,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 135ª CIRCUNSCRIÇÃO - GARANHUNS",
+        "nomeDaUnidade": "DP 135ª CIRC - GARANHUNS",
         "enderecoDaUnidade": "Endereço:Rua Joaquim Távora, 259, Heliópolis, Garanhuns/PE – CEP: 55290-410",
         "telefoneDaUnidade": [
             "(87) 3761-8685",
@@ -3774,7 +3774,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 136ª CIRCUNSCRIÇÃO - BOM CONSELHO",
+        "nomeDaUnidade": "DP 136ª CIRC - BOM CONSELHO",
         "enderecoDaUnidade": "Avenida Quinze de Novembro, Nº 172, Bom Conselho/PE - CEP: 55330-000",
         "telefoneDaUnidade": [
             "(87) 3771-3918",
@@ -3786,7 +3786,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 137ª CIRCUNSCRIÇÃO - ÁGUAS BELAS",
+        "nomeDaUnidade": "DP 137ª CIRC - ÁGUAS BELAS",
         "enderecoDaUnidade": "Rua Santa Cruz, s/n, Centro, Águas Belas /PE - CEP: 55340-000",
         "telefoneDaUnidade": [
             "(87) 3775-3917",
@@ -3798,7 +3798,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 138ª CIRCUNSCRIÇÃO - LAJEDO",
+        "nomeDaUnidade": "DP 138ª CIRC - LAJEDO",
         "enderecoDaUnidade": "Rua Agamenon Magalhães, 381/389, Centro, Lajedo/PE – CEP: 55385-000",
         "telefoneDaUnidade": [
             "(87) 3773-4911",
@@ -3810,7 +3810,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 139ª CIRCUNSCRIÇÃO - CANHOTINHO",
+        "nomeDaUnidade": "DP 139ª CIRC - CANHOTINHO",
         "enderecoDaUnidade": "Rua Marechal Deodoro, nº 121, Centro, Canhotinho/PE - CEP:55420-999",
         "telefoneDaUnidade": [
             "(87) 3781-2811",
@@ -3822,7 +3822,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 140ª CIRCUNSCRIÇÃO - CAETÉS",
+        "nomeDaUnidade": "DP 140ª CIRC - CAETÉS",
         "enderecoDaUnidade": "Rua Dom José Adelino, S/N, Centro, Caetés/PE - CEP 55360-00",
         "telefoneDaUnidade": [
             "(87) 3783-1903",
@@ -3834,7 +3834,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 141ª CIRCUNSCRIÇÃO - SÃO JOÃO",
+        "nomeDaUnidade": "DP 141ª CIRC - SÃO JOÃO",
         "enderecoDaUnidade": "Rua Antonio Vilela, 205, Planalto, São João/PE - CEP 55435.000",
         "telefoneDaUnidade": [
             "(87) 3784-0903",
@@ -3846,7 +3846,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 142ª CIRCUNSCRIÇÃO - CAPOEIRAS",
+        "nomeDaUnidade": "DP 142ª CIRC - CAPOEIRAS",
         "enderecoDaUnidade": "Rua 21 de Dezembro, 203, Centro, Capoeiras/PE – CEP: 55.365-000",
         "telefoneDaUnidade": [
             "(87) 3796-1913",
@@ -3858,7 +3858,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 143ª CIRCUNSCRIÇÃO - IATI",
+        "nomeDaUnidade": "DP 143ª CIRC - IATI",
         "enderecoDaUnidade": "Av. 07 De Setembro, S/N - Centro - Iati/PE - CEP: 55345-000",
         "telefoneDaUnidade": [
             "(87) 3786-1905",
@@ -3870,7 +3870,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 144ª CIRCUNSCRIÇÃO - CORRENTES",
+        "nomeDaUnidade": "DP 144ª CIRC - CORRENTES",
         "enderecoDaUnidade": "Rua Professora Janoca, nº 17, Centro, Correntes/PE - CEP 52120-550",
         "telefoneDaUnidade": [
             "(87) 3772-2909",
@@ -3882,7 +3882,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 145ª CIRCUNSCRIÇÃO - SALOÁ",
+        "nomeDaUnidade": "DP 145ª CIRC - SALOÁ",
         "enderecoDaUnidade": "Rua Senador Paulo Guerra, 16, Centro, Saloá/PE – CEP: 55350-000",
         "telefoneDaUnidade": [
             "(87) 3782-1905",
@@ -3894,7 +3894,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 147ª CIRCUNSCRIÇÃO - JUPI",
+        "nomeDaUnidade": "DP 147ª CIRC - JUPI",
         "enderecoDaUnidade": "Rua Antônio Inácio Primo, nº 122, Centro, Jupi/PE – CEP: 55395-000",
         "telefoneDaUnidade": [
             "(87) 3779-1907",
@@ -3906,7 +3906,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 148ª CIRCUNSCRIÇÃO - CALÇADOS",
+        "nomeDaUnidade": "DP 148ª CIRC - CALÇADOS",
         "enderecoDaUnidade": "Endereço:Rua Euclides Basílio dos Santos, n° 18, Centro, Calçado/PE - CEP: 55375-000",
         "telefoneDaUnidade": [
             "(87) 3793-1807",
@@ -3918,7 +3918,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 149ª CIRCUNSCRIÇÃO - LAGOA DO OURO",
+        "nomeDaUnidade": "DP 149ª CIRC - LAGOA DO OURO",
         "enderecoDaUnidade": "Endereço:Rua Ananias Alves da Costa, nº 449, Centro, Lagoa do Ouro/ PE - CEP: 55320-000",
         "telefoneDaUnidade": [
             "(87) 3785-1905",
@@ -3930,7 +3930,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 150ª CIRCUNSCRIÇÃO - PARANATAMA",
+        "nomeDaUnidade": "DP 150ª CIRC - PARANATAMA",
         "enderecoDaUnidade": "Rua Francisco de Paulo Melo, 08, Centro, Paranatama/PE – CEP: 55355-000",
         "telefoneDaUnidade": [
             "(87) 3787-1903",
@@ -3942,7 +3942,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 151ª CIRCUNSCRIÇÃO - JUCATI",
+        "nomeDaUnidade": "DP 151ª CIRC - JUCATI",
         "enderecoDaUnidade": "Rua Rui Barbosa, nº 51 - Centro - Jucati/PE - CEP: 55398-000",
         "telefoneDaUnidade": [
             "(87) 3779-8905",
@@ -3954,7 +3954,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 152ª CIRCUNSCRIÇÃO - PALMEIRINA",
+        "nomeDaUnidade": "DP 152ª CIRC - PALMEIRINA",
         "enderecoDaUnidade": "Rua General Ozório Nº 06, Térreo, Centro, Palmerina/PE - CEP. 55310000",
         "telefoneDaUnidade": [
             "(87) 3791-1907",
@@ -3966,7 +3966,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 153ª CIRCUNSCRIÇÃO - ANGELIM",
+        "nomeDaUnidade": "DP 153ª CIRC - ANGELIM",
         "enderecoDaUnidade": "Rua Antônio Marniano da Costa, 53, Centro, Angelim/PE - CEP: 55430-000",
         "telefoneDaUnidade": [
             "(87) 3788-1905",
@@ -3978,7 +3978,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 154ª CIRCUNSCRIÇÃO - BREJÃO",
+        "nomeDaUnidade": "DP 154ª CIRC - BREJÃO",
         "enderecoDaUnidade": "Rua José Inacio dos Santos, 83 , Centro, Brejão/PE - CEP: 55325-000",
         "telefoneDaUnidade": [
             "(87) 3789-1905",
@@ -3990,7 +3990,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 155ª CIRCUNSCRIÇÃO - TEREZINHA",
+        "nomeDaUnidade": "DP 155ª CIRC - TEREZINHA",
         "enderecoDaUnidade": "Avenida Agamenon Magalhães, 09, Centro, Terezinha /PE – CEP: 55305-000",
         "telefoneDaUnidade": [
             "(87) 3792-1905",
@@ -4063,7 +4063,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 156ª CIRCUNSCRIÇÃO - ARCOVERDE",
+        "nomeDaUnidade": "DP 156ª CIRC - ARCOVERDE",
         "enderecoDaUnidade": "Rua Herinque Dias, nº 200, São Cristovão, Arcoverde/PE - CEP: 56506-660",
         "telefoneDaUnidade": [
             "(87) 3821-8585",
@@ -4077,7 +4077,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 157ª CIRCUNSCRIÇÃO - BUÍQUE",
+        "nomeDaUnidade": "DP 157ª CIRC - BUÍQUE",
         "enderecoDaUnidade": "Avenida Jonas Camelo de Almeida, 190, Centro, Buíque/PE - CEP: 56520-000",
         "telefoneDaUnidade": [
             "(87) 3855-2821",
@@ -4090,7 +4090,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 158ª CIRCUNSCRIÇÃO - SERTÂNIA",
+        "nomeDaUnidade": "DP 158ª CIRC - SERTÂNIA",
         "enderecoDaUnidade": "Rua Dr. Ulisses Lins de Albuquerque, 55, Centro, Sertânia/PE – CEP: 56600-000",
         "telefoneDaUnidade": [
             "(87) 3841-3958",
@@ -4102,7 +4102,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 159ª CIRCUNSCRIÇÃO - CUSTÓDIA",
+        "nomeDaUnidade": "DP 159ª CIRC - CUSTÓDIA",
         "enderecoDaUnidade": "Rua Luiz Epaminondas, 267, Custódia/PE - CEP: 56640-000",
         "telefoneDaUnidade": [
             "(87) 3848-3920",
@@ -4114,7 +4114,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 160ª CIRCUNSCRIÇÃO - ITAÍBA",
+        "nomeDaUnidade": "DP 160ª CIRC - ITAÍBA",
         "enderecoDaUnidade": "Avenida Dom Adelino Dantas, 24, Centro - Itaíba/PE - CEP: 56550-000",
         "telefoneDaUnidade": [
             "(87) 3849-1910",
@@ -4126,7 +4126,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 161ª CIRCUNSCRIÇÃO - IBIMIRIM",
+        "nomeDaUnidade": "DP 161ª CIRC - IBIMIRIM",
         "enderecoDaUnidade": "Rua Carlos Augusto De Melo (Loteamento Angelo Gomes), nº 1080 - Centro - Ibimirim/PE - CEP 56580000",
         "telefoneDaUnidade": [
             "(87) 3842-0914",
@@ -4138,7 +4138,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 162ª CIRCUNSCRIÇÃO - TUPANATINGA",
+        "nomeDaUnidade": "DP 162ª CIRC - TUPANATINGA",
         "enderecoDaUnidade": "Endereço:Rua Alto São Félix, N° 75, Centro, Tupanatinga/PE - CEP 56540-000",
         "telefoneDaUnidade": [
             "(87) 3856-1906",
@@ -4150,7 +4150,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 163ª CIRCUNSCRIÇÃO - PEDRA",
+        "nomeDaUnidade": "DP 163ª CIRC - PEDRA",
         "enderecoDaUnidade": "Rua Capitão Manoel Leite, nº 40, Centro, Pedra/PE - CEP: 55280-000",
         "telefoneDaUnidade": [
             "(87) 3858-2923",
@@ -4162,7 +4162,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 164ª CIRCUNSCRIÇÃO - VENTUROSA",
+        "nomeDaUnidade": "DP 164ª CIRC - VENTUROSA",
         "enderecoDaUnidade": "Rua José Alves Bezerra, nº 198 – Venturosa/PE - CEP: 55270-000",
         "telefoneDaUnidade": [
             "(87) 3833-4011",
@@ -4175,7 +4175,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 166ª CIRCUNSCRIÇÃO - MANARI",
+        "nomeDaUnidade": "DP 166ª CIRC - MANARI",
         "enderecoDaUnidade": "Av. Costa e Silva, s/n, Centro, Manari/PE – CEP: 56.565-000",
         "telefoneDaUnidade": [
             "(87) 3840-7907",
@@ -4200,7 +4200,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 167ª CIRCUNSCRIÇÃO - AFOGADOS DA INGAZEIRA",
+        "nomeDaUnidade": "DP 167ª CIRC - AFOGADOS DA INGAZEIRA",
         "enderecoDaUnidade": "Rua Valdevino José Praxedes, s/nº, Manoela Valadares, Afogados da Ingazeira/PE - CEP: 56800-000",
         "telefoneDaUnidade": [
             "(87) 3838-8778",
@@ -4213,7 +4213,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 168ª CIRCUNSCRIÇÃO - SÃO JOSÉ DO EGITO",
+        "nomeDaUnidade": "DP 168ª CIRC - SÃO JOSÉ DO EGITO",
         "enderecoDaUnidade": "Margem esquerda da PE 320 sentido Tabira/PE ,s/nº, Bairro de São João, São José do Egito/PE - CEP: 56700-000",
         "telefoneDaUnidade": [
             "(87) 3844-3416",
@@ -4225,7 +4225,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 169ª CIRCUNSCRIÇÃO - TABIRA",
+        "nomeDaUnidade": "DP 169ª CIRC - TABIRA",
         "enderecoDaUnidade": "Avenida Antônio Pereira Amorim, n° 2535, Bairro de Fátima I, Tabira/PE - CEP 56.780-000",
         "telefoneDaUnidade": [
             "(87) 3847-3907",
@@ -4238,7 +4238,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 170ª CIRCUNSCRIÇÃO - ITAPETIM",
+        "nomeDaUnidade": "DP 170ª CIRC - ITAPETIM",
         "enderecoDaUnidade": "Rua Paulino Soares, 25, Centro, Itapetim/PE – CEP: 56720-000",
         "telefoneDaUnidade": [
             "(87) 3853-1910",
@@ -4251,7 +4251,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 171ª CIRCUNSCRIÇÃO - IGUARACI",
+        "nomeDaUnidade": "DP 171ª CIRC - IGUARACI",
         "enderecoDaUnidade": "Rua Dr. Ulisses Guimarães, s/nº, Centro, Iguaraci /PE – CEP: 56840-000",
         "telefoneDaUnidade": [
             "(87) 3837-1907",
@@ -4263,7 +4263,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 172ª CIRCUNSCRIÇÃO - SANTA TEREZINHA",
+        "nomeDaUnidade": "DP 172ª CIRC - SANTA TEREZINHA",
         "enderecoDaUnidade": "Rua José David De Vasconcelos, nº 117 - Centro - Santa Terezinha/PE - CEP: 56750-000",
         "telefoneDaUnidade": [
             "(87) 3859-1909",
@@ -4275,7 +4275,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 173ª CIRCUNSCRIÇÃO - TUPARETAMA",
+        "nomeDaUnidade": "DP 173ª CIRC - TUPARETAMA",
         "enderecoDaUnidade": "Rua Monsenhor Rabelo, n.º 65, Centro, Tuparetama/PE – CEP: 56760-000",
         "telefoneDaUnidade": [
             "(87) 3828-1912",
@@ -4287,7 +4287,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 174ª CIRCUNSCRIÇÃO - BREJINHO",
+        "nomeDaUnidade": "DP 174ª CIRC - BREJINHO",
         "enderecoDaUnidade": "Rua João Junes, nº 216, Centro, Brejinho/PE - CEP: 56740-000",
         "telefoneDaUnidade": [
             "(87) 3850-1904",
@@ -4299,7 +4299,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 175ª CIRCUNSCRIÇÃO - SOLIDÃO",
+        "nomeDaUnidade": "DP 175ª CIRC - SOLIDÃO",
         "enderecoDaUnidade": "Rua Riacho Verde, S/N, Centro - Solidãol/PE - CEP: 56795-000",
         "telefoneDaUnidade": [
             "(87) 3830-1803",
@@ -4311,7 +4311,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 176ª CIRCUNSCRIÇÃO - INGAZEIRA",
+        "nomeDaUnidade": "DP 176ª CIRC - INGAZEIRA",
         "enderecoDaUnidade": "ua Nivonaldo Quirino da Silva, nº 130, Térreo, Centro - Ingazeira/PE - CEP: 56830-000",
         "telefoneDaUnidade": [
             "(87) 3829-1909",
@@ -4323,7 +4323,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 180ª CIRCUNSCRIÇÃO - CARNAÍBA",
+        "nomeDaUnidade": "DP 180ª CIRC - CARNAÍBA",
         "enderecoDaUnidade": "Endereço:Rua Saturnino Bezerra, nº 655 - Centro – Carnaíba/PE - CEP: 56820000",
         "telefoneDaUnidade": [
             "(87) 3854-1935",
@@ -4335,7 +4335,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 185ª CIRCUNSCRIÇÃO - QUIXABA",
+        "nomeDaUnidade": "DP 185ª CIRC - QUIXABA",
         "enderecoDaUnidade": "Rua Marçal Salvador, nº 554, Centro, Quixaba/PE - CEP: 56828-000",
         "telefoneDaUnidade": [
             "(87) 3854-8903",
@@ -4359,7 +4359,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 177ª CIRCUNSCRIÇÃO - SERRA TALHADA",
+        "nomeDaUnidade": "DP 177ª CIRC - SERRA TALHADA",
         "enderecoDaUnidade": "Rua Enoque de Carvalho, s/n, Serra Talhada/ PE - CEP: 56912-250",
         "telefoneDaUnidade": [
             "(87) 3831-9226",
@@ -4371,7 +4371,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 178ª CIRCUNSCRIÇÃO - SÃO JOSÉ DO BELMONTE",
+        "nomeDaUnidade": "DP 178ª CIRC - SÃO JOSÉ DO BELMONTE",
         "enderecoDaUnidade": "Rua Ruﬁno Pires da Silva, s/nº, Centro, São José do Belmonte/PE - CEP: 56950-000",
         "telefoneDaUnidade": [
             "(87) 3884-2913",
@@ -4383,7 +4383,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 179ª CIRCUNSCRIÇÃO - FLORES",
+        "nomeDaUnidade": "DP 179ª CIRC - FLORES",
         "enderecoDaUnidade": "Endereço:Rua Pedro Santos Estima, s/n, Flores/PE - CEP: 56850-000",
         "telefoneDaUnidade": [
             "(87) 3857-1911",
@@ -4395,7 +4395,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 181ª CIRCUNSCRIÇÃO - TRIUNFO",
+        "nomeDaUnidade": "DP 181ª CIRC - TRIUNFO",
         "enderecoDaUnidade": "Rua Galdino Diniz, nº 355, Bairro Guanabara, Triunfo/PE - CEP:56870-000",
         "telefoneDaUnidade": [
             "(87) 3846-2915",
@@ -4407,7 +4407,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 182ª CIRCUNSCRIÇÃO - BETÂNIA",
+        "nomeDaUnidade": "DP 182ª CIRC - BETÂNIA",
         "enderecoDaUnidade": "Rua Enoque Guerra, s/n, Betânia/ PE - CEP: 56670-000",
         "telefoneDaUnidade": [
             "(87) 3852-1904",
@@ -4419,7 +4419,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 183ª CIRCUNSCRIÇÃO STA. CRUZ DA BAIXA VERDE",
+        "nomeDaUnidade": "DP 183ª CIRC STA. CRUZ DA BAIXA VERDE",
         "enderecoDaUnidade": "Rua Joaquim José De Lima, nº 143, centro, Santa Cruz Da Baixa Verde/PE - CEP 56895-000",
         "telefoneDaUnidade": [
             "(87) 3846-8903",
@@ -4431,7 +4431,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 184ª CIRCUNSCRIÇÃO - CALUMBI",
+        "nomeDaUnidade": "DP 184ª CIRC - CALUMBI",
         "enderecoDaUnidade": "Rua Projetada, 53, Centro, Calumbi/PE – CEP: 56930-000",
         "telefoneDaUnidade": [
             "(87) 3845-1902",
@@ -4455,7 +4455,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 165ª CIRCUNSCRIÇÃO - INAJÁ",
+        "nomeDaUnidade": "DP 165ª CIRC - INAJÁ",
         "enderecoDaUnidade": "Rua José Malaquias dos Santos, 53 , Centro, Inajá /PE – CEP: 56560-000",
         "telefoneDaUnidade": [
             "(87) 3840-1612",
@@ -4467,7 +4467,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 186ª CIRCUNSCRIÇÃO - PETROLÂNDIA",
+        "nomeDaUnidade": "DP 186ª CIRC - PETROLÂNDIA",
         "enderecoDaUnidade": "Rua Manoel Rodrigues de Almeida, nº 77 – Centro Petrolândia/PE - Petrolândia/PE - CEP: 56460000",
         "telefoneDaUnidade": [
             "(87) 3851-0722",
@@ -4479,7 +4479,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 187ª CIRCUNSCRIÇÃO - FLORESTA",
+        "nomeDaUnidade": "DP 187ª CIRC - FLORESTA",
         "enderecoDaUnidade": "Av. Audomar Ferraz, 193, Centro, Floresta/PE - CEP 56400-000",
         "telefoneDaUnidade": [
             "(87) 3877-4948",
@@ -4492,7 +4492,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 188ª CIRCUNSCRIÇÃO - BELÉM DE SÃO FRANCISCO",
+        "nomeDaUnidade": "DP 188ª CIRC - BELÉM DE SÃO FRANCISCO",
         "enderecoDaUnidade": "Av. Cel. Jerônimo Píres, 1421, Belém de São Francisco/PE - CEP: 56440-000",
         "telefoneDaUnidade": [
             "(87) 3876-2918",
@@ -4505,7 +4505,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 189ª CIRCUNSCRIÇÃO - TACARATU",
+        "nomeDaUnidade": "DP 189ª CIRC - TACARATU",
         "enderecoDaUnidade": "Trav. Félix Benzota de Carvalho, nº 146, Centro - Tacaratu/PE - CEP: 56480000",
         "telefoneDaUnidade": [
             "(87) 3843-1908",
@@ -4517,7 +4517,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 190ª CIRCUNSCRIÇÃO - JATOBÁ",
+        "nomeDaUnidade": "DP 190ª CIRC - JATOBÁ",
         "enderecoDaUnidade": "Rua Flores, s/n, Centro, Jatobá /PE - CEP: 56470-000",
         "telefoneDaUnidade": [
             "(87) 3851-3907",
@@ -4530,7 +4530,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 191ª CIRCUNSCRIÇÃO - CARNAUBEIRA DA PENHA",
+        "nomeDaUnidade": "DP 191ª CIRC - CARNAUBEIRA DA PENHA",
         "enderecoDaUnidade": "Rua Juvenal Lopes, n° 37, Centro, Carnaubeira Da Penha/PE - CEP 56420-000",
         "telefoneDaUnidade": [
             "(87) 3877-8903",
@@ -4542,7 +4542,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 192ª CIRCUNSCRIÇÃO - ITACURUBA",
+        "nomeDaUnidade": "DP 192ª CIRC - ITACURUBA",
         "enderecoDaUnidade": "Rua Olegário Resende, s/n, Centro, Itacuruba/PE - CEP: 56430-000",
         "telefoneDaUnidade": [
             "(87) 3893-1903",
@@ -4566,7 +4566,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 193ª CIRCUNSCRIÇÃO - SALGUEIRO",
+        "nomeDaUnidade": "DP 193ª CIRC - SALGUEIRO",
         "enderecoDaUnidade": "Rua Joaquim Sampaio, nº 321, Centro,Salgueiro/PE - CEP: 56100-999",
         "telefoneDaUnidade": [
             "(87) 3871-8450",
@@ -4581,7 +4581,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 194ª CIRCUNSCRIÇÃO - PARNAMIRIM",
+        "nomeDaUnidade": "DP 194ª CIRC - PARNAMIRIM",
         "enderecoDaUnidade": "Rua da Matriz, n° 20, Centro, Parnamirim/PE - CEP: 56163-000",
         "telefoneDaUnidade": [
             "(87) 3883-1811",
@@ -4593,7 +4593,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 195ª CIRCUNSCRIÇÃO - SERRITA",
+        "nomeDaUnidade": "DP 195ª CIRC - SERRITA",
         "enderecoDaUnidade": "Rua Antônio Filgueira, nº 35, Centro, Serrita/PE - CEP 56.140-000",
         "telefoneDaUnidade": [
             "(87) 3882-1907",
@@ -4605,7 +4605,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 196ª CIRCUNSCRIÇÃO - MIRANDIBA",
+        "nomeDaUnidade": "DP 196ª CIRC - MIRANDIBA",
         "enderecoDaUnidade": "Rua Cornélio Soares, nº 85, Centro, Mirandiba/PE - CEP: 56980-000",
         "telefoneDaUnidade": [
             "(87) 3885-1912",
@@ -4617,7 +4617,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 197ª CIRCUNSCRIÇÃO - CEDRO",
+        "nomeDaUnidade": "DP 197ª CIRC - CEDRO",
         "enderecoDaUnidade": "Rua Francisco Figueira Sampaio, nº 490 - Cedro/PE - CEP 56130-000",
         "telefoneDaUnidade": [
             "(87) 3889-1807",
@@ -4629,7 +4629,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 198ª CIRCUNSCRIÇÃO - VERDEJANTE",
+        "nomeDaUnidade": "DP 198ª CIRC - VERDEJANTE",
         "enderecoDaUnidade": "Rua Osmundo Bezerra, n° 60, Verdejante/PE - CEP 56120-000",
         "telefoneDaUnidade": [
             "(87) 3886-1806",
@@ -4642,7 +4642,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 199ª CIRCUNSCRIÇÃO - TERRA NOVA",
+        "nomeDaUnidade": "DP 199ª CIRC - TERRA NOVA",
         "enderecoDaUnidade": "Rua Cornélio Antonio Pereira, n° 02, Centro, Terra Nova/PE - CEP :56190-000",
         "telefoneDaUnidade": [
             "(87) 3892-1907",
@@ -4667,7 +4667,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 200ª CIRCUNSCRIÇÃO - ARARIPINA",
+        "nomeDaUnidade": "DP 200ª CIRC - ARARIPINA",
         "enderecoDaUnidade": "Endereço:Avenida Governador Muniz Falcão, s/n, Planalto, Araripina /PE - CEP: 56280-999",
         "telefoneDaUnidade": [
             "(87) 3873-8362",
@@ -4679,7 +4679,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 201ª CIRCUNSCRIÇÃO - OURICURI",
+        "nomeDaUnidade": "DP 201ª CIRC - OURICURI",
         "enderecoDaUnidade": "Av. Presidente Kennedy, 85, Centro, Ouricuri/PE – CEP: 56200-000",
         "telefoneDaUnidade": [
             "(87) 3874-4834",
@@ -4691,7 +4691,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 202ª CIRCUNSCRIÇÃO - EXU",
+        "nomeDaUnidade": "DP 202ª CIRC - EXU",
         "enderecoDaUnidade": "Endereço:Avenida Edmundo Dantas, nº 140, Exu/PE - CEP: 56230-000",
         "telefoneDaUnidade": [
             "(87) 3879-2917",
@@ -4703,7 +4703,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 203ª CIRCUNSCRIÇÃO - BODOCÓ",
+        "nomeDaUnidade": "DP 203ª CIRC - BODOCÓ",
         "enderecoDaUnidade": "Endereço:Rua Lourival Rodrigues de Alencar, 262,Bodocó/PE - CEP: 56220-000",
         "telefoneDaUnidade": [
             "(87) 3878-0913",
@@ -4715,7 +4715,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 204ª CIRCUNSCRIÇÃO - IPUBI",
+        "nomeDaUnidade": "DP 204ª CIRC - IPUBI",
         "enderecoDaUnidade": "Rua Fernando Bezerra, nº 08 – Ipubi/PE - CEP: 56260-000",
         "telefoneDaUnidade": [
             "(87) 3881-2911",
@@ -4727,7 +4727,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 205ª CIRCUNSCRIÇÃO - TRINDADE",
+        "nomeDaUnidade": "DP 205ª CIRC - TRINDADE",
         "enderecoDaUnidade": "Av. Central Sul, 526, Trindade/PE - CEP: 56250-000",
         "telefoneDaUnidade": [
             "(87) 3870-3905",
@@ -4739,7 +4739,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 206ª CIRCUNSCRIÇÃO STA. FILOMENA",
+        "nomeDaUnidade": "DP 206ª CIRC STA. FILOMENA",
         "enderecoDaUnidade": "Praça Da Matriz, n.º 61, Centro, Santa Filomena/PE.- CEP: 56210-970",
         "telefoneDaUnidade": [
             "(87) 3874-7906",
@@ -4751,7 +4751,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 207ª CIRCUNSCRIÇÃO SANTA CRUZ",
+        "nomeDaUnidade": "DP 207ª CIRC SANTA CRUZ",
         "enderecoDaUnidade": "Rua 03 De Maio, s/n, Centro, Santa Cruz de Malta /PE - CEP: 56215-000",
         "telefoneDaUnidade": [
             "(87) 3874-8909",
@@ -4763,7 +4763,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 208ª CIRCUNSCRIÇÃO - MOREILÂNDIA",
+        "nomeDaUnidade": "DP 208ª CIRC - MOREILÂNDIA",
         "enderecoDaUnidade": "Rua Sete de Setembro, nº 416, Centro, Moreilândia/PE - CEP: 56150-000",
         "telefoneDaUnidade": [
             "(87) 3891-1809",
@@ -4775,7 +4775,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 209ª CIRCUNSCRIÇÃO - GRANITO",
+        "nomeDaUnidade": "DP 209ª CIRC - GRANITO",
         "enderecoDaUnidade": "Avenida José Saraiva Xavier, s/n, Granito/PE - CEP: 56160-000",
         "telefoneDaUnidade": [
             "(87) 3880-1904",
@@ -4800,7 +4800,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 210ª CIRCUNSCRIÇÃO STA. Mª DA BOA VISTA",
+        "nomeDaUnidade": "DP 210ª CIRC STA. Mª DA BOA VISTA",
         "enderecoDaUnidade": "Rua Dr. Oscar Sampaio, s/n, Centro. Santa Maria da Boa Vista/PE - CEP: 56380-000",
         "telefoneDaUnidade": [
             "(87) 3869-3615",
@@ -4812,7 +4812,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 211ª CIRCUNSCRIÇÃO - CABROBÓ",
+        "nomeDaUnidade": "DP 211ª CIRC - CABROBÓ",
         "enderecoDaUnidade": "Rua Epaminondas Hipólito de Lima, 1087, Cabrobó/PE - CEP: 56180-000",
         "telefoneDaUnidade": [
             "(87) 3875-3906"
@@ -4823,7 +4823,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 212ª CIRCUNSCRIÇÃO - OROCÓ",
+        "nomeDaUnidade": "DP 212ª CIRC - OROCÓ",
         "enderecoDaUnidade": "Rua Quirino do Nascimento, s/n, Orocó/PE - CEP: 56170-000",
         "telefoneDaUnidade": [
             "(87) 3887-1805",
@@ -4835,7 +4835,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 215ª CIRCUNSCRIÇÃO - LAGOA GRANDE",
+        "nomeDaUnidade": "DP 215ª CIRC - LAGOA GRANDE",
         "enderecoDaUnidade": "Rua Senador Marcos Freire, nº 70 - Centro - Lagoa Grande/PE - CEP: 56.395-000",
         "telefoneDaUnidade": [
             "(87) 3869-8810",
@@ -4861,7 +4861,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 213ª CIRCUNSCRIÇÃO - PETROLINA",
+        "nomeDaUnidade": "DP 213ª CIRC - PETROLINA",
         "enderecoDaUnidade": "Av. Sete de setembro, s/n, Centro, Petrolina/PE – CEP: 56300-000",
         "telefoneDaUnidade": [
             "(87) 3866-6282"
@@ -4872,7 +4872,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 214ª CIRCUNSCRIÇÃO - PETROLINA",
+        "nomeDaUnidade": "DP 214ª CIRC - PETROLINA",
         "enderecoDaUnidade": "Avenida Cardoso de Sá, s/n, Colônia Imperial, Petrolina/PE - CEP 56328-904",
         "telefoneDaUnidade": [
             "(87) 3866-6624",
@@ -4885,7 +4885,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 216ª CIRCUNSCRIÇÃO - AFRÂNIO",
+        "nomeDaUnidade": "DP 216ª CIRC - AFRÂNIO",
         "enderecoDaUnidade": "Av. Francisco Rodrigues, s/n, Afrânio/PE - CEP: 56360-000",
         "telefoneDaUnidade": [
             "(87) 3868-1908",
@@ -4897,7 +4897,7 @@ const unidadesPoliciais = [
         }
     },
     {
-        "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 217ª CIRCUNSCRIÇÃO - DORMENTES",
+        "nomeDaUnidade": "DP 217ª CIRC - DORMENTES",
         "enderecoDaUnidade": "Rua Antonio Salustiano, nº 10 - Dedé Damasceno – Dormentes/PE – CEP: 56355000",
         "telefoneDaUnidade": [
             "(87) 3865-1305",
