@@ -3683,14 +3683,14 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DELEGACIA DE POLÍCIA DA 131ª CIRCUNSCRIÇÃO - VERTENTES",
-        "enderecoDaUnidade": "Rua Emidio Cavalcante, 255, Centro, Vertentes /PE - CEP: 55770-000 (Rua Dr. Manoel Borba S/N)",
+        "enderecoDaUnidade": "Rua Coronel Braz Bezerra, 162, Vertentes - PE, 55770-000",
         "telefoneDaUnidade": [
             "(81) 3734-1907",
             "(81) 3734-1904"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-7.9033314",
+            "longitude": "-35.9854808"
         }
     },
     {
