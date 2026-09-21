@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Impressora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="pagina">
+        <header class="cabecalho">
+            <h1>TESTE DE IMPRESSORA</h1>
+            <p>Teste de impressão e identificação do computador</p>
+        </header>
+
+        <section class="informacoes">
+            <h2>Informações do computador</h2>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="rotulo">Computador</span>
+                    <span id="computador" class="valor">Obtendo...</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="rotulo">Usuário</span>
+                    <span id="usuario" class="valor">Obtendo...</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="rotulo">Sistema</span>
+                    <span id="sistema" class="valor">Obtendo...</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="rotulo">IP</span>
+                    <span id="ip" class="valor">Obtendo...</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="rotulo">Data</span>
+                    <span id="data" class="valor">--/--/----</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="rotulo">Hora</span>
+                    <span id="hora" class="valor">--:--:--</span>
+                </div>
+            </div>
+
+            <p id="status" class="status">Conectando ao serviço local...</p>
+        </section>
+
+        <section class="teste">
+            <h2>Teste de texto</h2>
+
+            <p class="monospace">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            <p class="monospace">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="monospace">0123456789</p>
+            <p class="monospace">Á É Í Ó Ú À Ã Õ Ç á é í ó ú à ã õ ç</p>
+            <p class="monospace">! @ # $ % &amp; * ( ) - _ + = / \ | ? &lt; &gt;</p>
+        </section>
+
+        <section class="testes-visuais">
+            <div class="teste-preto">PRETO 100%</div>
+            <div class="escala-cinza">
+                <span>ESCALA DE CINZA</span>
+            </div>
+        </section>
+
+        <section class="linhas">
+            <div class="linha linha-fina"></div>
+            <div class="linha linha-media"></div>
+            <div class="linha linha-grossa"></div>
+        </section>
+
+        <section class="acoes">
+            <button id="btnImprimir" class="botao botao-imprimir" type="button">
+                IMPRIMIR TESTE
+            </button>
+
+            <a
+                class="botao botao-download"
+                href="server.js"
+                download="server.js"
+            >
+                BAIXAR SERVER.JS
+            </a>
+        </section>
+
+        <footer>
+            <p>Teste de Impressora</p>
+            <p>tthiagocarlosdev</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

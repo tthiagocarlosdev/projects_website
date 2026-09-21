@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background: #e9e9e9;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 16mm;
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.20);
+}
+
+.cabecalho {
+    text-align: center;
+    border-bottom: 2px solid #111;
+    padding-bottom: 14px;
+}
+
+.cabecalho h1 {
+    margin: 0 0 6px;
+    font-size: 25px;
+}
+
+.cabecalho p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.informacoes,
+.teste {
+    margin-top: 22px;
+}
+
+h2 {
+    margin: 0 0 14px;
+    font-size: 17px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 6px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #777;
+}
+
+.info-item {
+    display: grid;
+    grid-template-columns: 105px 1fr;
+    min-height: 34px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info-item:nth-child(odd) {
+    border-right: 1px solid #ccc;
+}
+
+.info-item:nth-last-child(-n + 2) {
+    border-bottom: 0;
+}
+
+.rotulo {
+    padding: 8px;
+    font-weight: bold;
+    background: #f0f0f0;
+}
+
+.valor {
+    padding: 8px;
+    font-family: "Courier New", monospace;
+    overflow-wrap: anywhere;
+}
+
+.status {
+    margin: 8px 0 0;
+    font-size: 11px;
+    color: #555;
+}
+
+.monospace {
+    margin: 9px 0;
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+}
+
+.testes-visuais {
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.teste-preto,
+.escala-cinza {
+    width: 160px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.teste-preto {
+    background: #000;
+    color: #fff;
+}
+
+.escala-cinza {
+    background: #ccc;
+    color: #111;
+}
+
+.linhas {
+    margin-top: 25px;
+}
+
+.linha {
+    width: 100%;
+    background: #111;
+    margin: 8px 0;
+}
+
+.linha-fina {
+    height: 1px;
+}
+
+.linha-media {
+    height: 3px;
+}
+
+.linha-grossa {
+    height: 6px;
+}
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+    padding: 12px 18px;
+    border: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.botao-imprimir {
+    background: #111;
+    color: #fff;
+}
+
+.botao-download {
+    background: #ddd;
+    color: #111;
+    border: 1px solid #777;
+}
+
+.botao:hover {
+    opacity: 0.82;
+}
+
+footer {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+
+    .pagina {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .info-item:nth-child(odd) {
+        border-right: 0;
+    }
+
+    .info-item:nth-last-child(-n + 2) {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .info-item:last-child {
+        border-bottom: 0;
+    }
+
+    .acoes {
+        flex-direction: column;
+    }
+}
+
+@media print {
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+
+    body {
+        padding: 0;
+        background: #fff;
+    }
+
+    .pagina {
+        width: 100%;
+        min-height: auto;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .acoes,
+    .status {
+        display: none;
+    }
+
+    .cabecalho h1 {
+        font-size: 21px;
+    }
+
+    .informacoes,
+    .teste {
+        margin-top: 15px;
+    }
+
+    .testes-visuais {
+        margin-top: 20px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
