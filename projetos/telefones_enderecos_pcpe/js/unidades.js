@@ -591,7 +591,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "UNIDADE DE PROJETOS DE ARQUITETURA E ENGENHARIA",
-        "enderecoDaUnidade": "Endereço:Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
+        "enderecoDaUnidade": "Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
         "telefoneDaUnidade": [
             "(81) 3184-3238",
             "(81) 3184-3271"
@@ -603,7 +603,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "UNIDADE DE SERVIÇOS GERAIS",
-        "enderecoDaUnidade": "Endereço:Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
+        "enderecoDaUnidade": "Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
         "telefoneDaUnidade": [
             "(81) 3182-5424"
         ],
@@ -614,7 +614,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DIVISÃO DE ARQUIVO GERAL",
-        "enderecoDaUnidade": "Endereço:Av. Olinda Dom Hélder Câmara, 517 - Santa Tereza - Olinda/PE - 53010-005",
+        "enderecoDaUnidade": "Av. Olinda Dom Hélder Câmara, 517 - Santa Tereza - Olinda/PE - 53010-005",
         "telefoneDaUnidade": [
             "(81) 3182-5426"
         ],
@@ -671,7 +671,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "UNIDADE DE CONTRATOS E CONVÊNIOS",
-        "enderecoDaUnidade": "Endereço:Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
+        "enderecoDaUnidade": "Rua da Aurora, 487 – Boa Vista - Recife/PE - CEP: 50.050-000",
         "telefoneDaUnidade": [
             "(81) 3184-3215",
             "(81) 3184-3261"
@@ -819,7 +819,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "11ª DELEGACIA DE POLÍCIA DE HOMICÍDIOS - JABOATÃO DOS GUARARAPES",
-        "enderecoDaUnidade": "Endereço:Av. Barreto de Menezes, 637, Cajueiro Seco - Jaboatão dos Guararapes /PE - CEP:54360-160",
+        "enderecoDaUnidade": "Av. Barreto de Menezes, 637, Cajueiro Seco - Jaboatão dos Guararapes /PE - CEP:54360-160",
         "telefoneDaUnidade": [
             "(81) 3184-3744",
             "(81) 3184-3755",
@@ -1200,7 +1200,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DEPARTAMENTO DE REPRESSÃO AO NARCOTRÁFICO",
-        "enderecoDaUnidade": "Endereço:Rua da União, 217, Boa Vista, Recife/PE – CEP: 50.050-010",
+        "enderecoDaUnidade": "Rua da União, 217, Boa Vista, Recife/PE – CEP: 50.050-010",
         "telefoneDaUnidade": [
             "(81) 3184-7178",
             "(81) 3184-7174",
@@ -1214,7 +1214,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "ASSESSORIA DO DENARC",
-        "enderecoDaUnidade": "Endereço:Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
+        "enderecoDaUnidade": "Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
         "telefoneDaUnidade": [
             "(81) 3184-3403"
         ],
@@ -1225,7 +1225,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "01ª DP DE REPRESSÃO AO NARCOTRÁFICO",
-        "enderecoDaUnidade": "Endereço:Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
+        "enderecoDaUnidade": "Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
         "telefoneDaUnidade": [
             "(81) 3184-7176",
             "(81) 3184-3399",
@@ -1238,7 +1238,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "02ª DP DE REPRESSÃO AO NARCOTRÁFICO",
-        "enderecoDaUnidade": "Endereço:Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
+        "enderecoDaUnidade": "Rua da União, 225, Boa Vista, Recife/PE – CEP: 50.050-010",
         "telefoneDaUnidade": [
             "(81) 3184-7181",
             "(81) 3184-3404",
@@ -1622,7 +1622,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DRACCO - 1ª DELEGACIA DE POLÍCIA DE REPRESSÃO AO CRIME ORGANIZADO E À CORRUPÇÃO",
-        "enderecoDaUnidade": "Endereço:Avenida Liberdade, nº 364, Jardim São Paulo - Recife/PE - CEP: 509201-35",
+        "enderecoDaUnidade": "Avenida Liberdade, nº 364, Jardim São Paulo - Recife/PE - CEP: 509201-35",
         "telefoneDaUnidade": [
             "(81) 3184-3725",
             "(81) 3184-7124",
@@ -1808,7 +1808,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 2ª CIRC - BOA VISTA",
-        "enderecoDaUnidade": "Endereço:Rua Vicente Ferreira dos Guimarães, 261, Santo Amaro, Recife/PE - CEP: 50100-260",
+        "enderecoDaUnidade": "Rua Vicente Ferreira dos Guimarães, 261, Santo Amaro, Recife/PE - CEP: 50100-260",
         "telefoneDaUnidade": [
             "(81) 3184-3425",
             "(81) 3184-3459",
@@ -1847,7 +1847,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 4ª CIRC - ESPINHEIRO",
-        "enderecoDaUnidade": "Endereço:Rua prof. Othon paraíso, nº 343 - Torreão - Recife/PE - CEP: 52030250",
+        "enderecoDaUnidade": "Rua prof. Othon paraíso, nº 343 - Torreão - Recife/PE - CEP: 52030250",
         "telefoneDaUnidade": [
             "(81) 3184-3378",
             "(81) 3184-3376"
@@ -1909,7 +1909,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 7ª CIRC - BOA VIAGEM",
-        "enderecoDaUnidade": "Endereço:Av. Domingos Ferreira, 4420 – Boa Viagem – Recife/PE – CEP: 51.021-040",
+        "enderecoDaUnidade": "Av. Domingos Ferreira, 4420 – Boa Viagem – Recife/PE – CEP: 51.021-040",
         "telefoneDaUnidade": [
             "(81) 3184-7149",
             "(81) 3184-3323",
@@ -2559,7 +2559,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 47ª CIRC - PAUDALHO",
-        "enderecoDaUnidade": "Endereço:Av. Senador Pinheiro Ramos, 460, Centro, Paudalho/PE – CEP: 55.825-000",
+        "enderecoDaUnidade": "Av. Senador Pinheiro Ramos, 460, Centro, Paudalho/PE – CEP: 55.825-000",
         "telefoneDaUnidade": [
             "(81) 3636-5618",
             "(81) 3636-5619"
@@ -2602,8 +2602,8 @@ const unidadesPoliciais = [
             "(81) 3633-4984"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-7.746058",
+            "longitude": "-35.227711"
         }
     },
     {
@@ -2632,7 +2632,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 53ª CIRC - CONDADO",
-        "enderecoDaUnidade": "Endereço:Travessa Severino Uchôa, Nº 07, Centro, Condado/PE - CEP 55940000",
+        "enderecoDaUnidade": "Travessa Severino Uchôa, Nº 07, Centro, Condado/PE - CEP 55940000",
         "telefoneDaUnidade": [
             "(81) 3642-0907",
             "(81) 3642-0905"
@@ -2742,7 +2742,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 61ª CIRC - VITÓRIA DE STO. ANTÃO",
-        "enderecoDaUnidade": "Endereço:Rua Henrique De Holanda, N° 1333, Redenção, Vitória De Santo Antão/PE. - CEP 55.612-025",
+        "enderecoDaUnidade": "Rua Henrique De Holanda, N° 1333, Redenção, Vitória De Santo Antão/PE. - CEP 55.612-025",
         "telefoneDaUnidade": [
             "(81) 3526-8874",
             "(81) 3526-8875",
@@ -2795,7 +2795,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 65ª CIRC - POMBOS",
-        "enderecoDaUnidade": "Endereço:Rua Vila Brasil, Nº 71, Bairro Vila Brasil, Pombos/PE - CEP 55630-000",
+        "enderecoDaUnidade": "Rua Vila Brasil, Nº 71, Bairro Vila Brasil, Pombos/PE - CEP 55630-000",
         "telefoneDaUnidade": [
             "(81) 3536-2806",
             "(81) 3536-2803",
@@ -2869,7 +2869,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 70ª CIRC - PALMARES",
-        "enderecoDaUnidade": "Endereço:Avenida Jose Americo Miranda, s/n, Santa Rosa - Palmares/PE - CEP: 55540-000",
+        "enderecoDaUnidade": "Avenida Jose Americo Miranda, s/n, Santa Rosa - Palmares/PE - CEP: 55540-000",
         "telefoneDaUnidade": [
             "(81) 3662-0122"
         ],
@@ -2892,7 +2892,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 72ª CIRC - BARREIROS",
-        "enderecoDaUnidade": "Endereço:Av. Presidente Juscelino Kubistchek, 107, Centro, Barreiros/PE - CEP: 55560-000",
+        "enderecoDaUnidade": "Av. Presidente Juscelino Kubistchek, 107, Centro, Barreiros/PE - CEP: 55560-000",
         "telefoneDaUnidade": [
             "(81) 3675-5856",
             "(81) 3675-5857"
@@ -2953,7 +2953,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 077ª CIRC - QUIPAPÁ",
-        "enderecoDaUnidade": "Endereço:Rua Tito Galvão, nº 78, Centro, Quipapá/PE - CEP:55415000",
+        "enderecoDaUnidade": "Rua Tito Galvão, nº 78, Centro, Quipapá/PE - CEP:55415000",
         "telefoneDaUnidade": [
             "(81) 3685-2909",
             "(81) 3685-2906"
@@ -2988,7 +2988,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 80ª CIRC - JOAQUIM NABUCO",
-        "enderecoDaUnidade": "Endereço:Rua Manoel José Da Costa Filho, n º 30, Centro, Joaquim Nabuco/PE - CEP: 55535-000",
+        "enderecoDaUnidade": "Rua Manoel José Da Costa Filho, n º 30, Centro, Joaquim Nabuco/PE - CEP: 55535-000",
         "telefoneDaUnidade": [
             "(81) 3682-1906",
             "(81) 3682-1903"
@@ -3037,7 +3037,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 84ª CIRC - CORTÊS",
-        "enderecoDaUnidade": "Endereço:Rua 13 de Maio, s/n, Centro, Cortês/PE – CEP: 55525-000",
+        "enderecoDaUnidade": "Rua 13 de Maio, s/n, Centro, Cortês/PE – CEP: 55525-000",
         "telefoneDaUnidade": [
             "(81) 3695-2904",
             "(81) 3695-2901"
@@ -3099,7 +3099,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 88ª CIRC - CARUARU",
-        "enderecoDaUnidade": "Endereço:Rua Cristóvão Colombo, 99, Nossa Sra das Dores, Caruaru/PE - CEP: 55004-420",
+        "enderecoDaUnidade": "Rua Cristóvão Colombo, 99, Nossa Sra das Dores, Caruaru/PE - CEP: 55004-420",
         "telefoneDaUnidade": [
             "(81) 3725-7481",
             "(81) 3719-9600",
@@ -3169,7 +3169,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 92ª CIRC - BONITO",
-        "enderecoDaUnidade": "Endereço:Rua Severino Mirandolino, nº 13, Centro, Bonito/PE – CEP: 55680000",
+        "enderecoDaUnidade": "Rua Severino Mirandolino, nº 13, Centro, Bonito/PE – CEP: 55680000",
         "telefoneDaUnidade": [
             "(81) 3737-3910",
             "(81) 3737-3911",
@@ -3194,7 +3194,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 95ª CIRC - ALTINHO",
-        "enderecoDaUnidade": "Endereço:Rua Siqueira Campos, nº 41, Centro - Altinho/PE - CEP: 55490-000",
+        "enderecoDaUnidade": "Rua Siqueira Campos, nº 41, Centro - Altinho/PE - CEP: 55490-000",
         "telefoneDaUnidade": [
             "(81) 3739-2906",
             "(81) 3739-2923"
@@ -3255,7 +3255,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 100ª CIRC - CAMOCIM DE SÃO FÉLIX",
-        "enderecoDaUnidade": "Endereço:Travessa Agamenon Magalhães, nº 21, Centro, Camocim De São Félix/PE - CEP:55665-000",
+        "enderecoDaUnidade": "Travessa Agamenon Magalhães, nº 21, Centro, Camocim De São Félix/PE - CEP:55665-000",
         "telefoneDaUnidade": [
             "(81) 3743-2905",
             "(81) 3743-2902"
@@ -3339,7 +3339,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 105ª CIRC - PESQUEIRA",
-        "enderecoDaUnidade": "Endereço:Av. Maria de Brito, s/n, Centro, Pesqueira/PE - CEP: 55200-000",
+        "enderecoDaUnidade": "Av. Maria de Brito, s/n, Centro, Pesqueira/PE - CEP: 55200-000",
         "telefoneDaUnidade": [
             "(87) 3835-8263",
             "(87) 3835-8260",
@@ -3352,7 +3352,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 106ª CIRC - SÃO BENTO DO UNA",
-        "enderecoDaUnidade": "Endereço:Rua João Pessoa, 505 , Centro , São Bento do Una/PE – CEP: 55.370-000",
+        "enderecoDaUnidade": "Rua João Pessoa, 505 , Centro , São Bento do Una/PE – CEP: 55.370-000",
         "telefoneDaUnidade": [
             "(81) 3735-4928",
             "(81) 3735-4929",
@@ -3377,7 +3377,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 109ª CIRC - CACHOEIRINHA",
-        "enderecoDaUnidade": "Endereço:Rua Luiz Gonzaga, O Rei do Baião, nº 136, Centro, Cachoeirinha/PE - CEP: 55380-000",
+        "enderecoDaUnidade": "Rua Luiz Gonzaga, O Rei do Baião, nº 136, Centro, Cachoeirinha/PE - CEP: 55380-000",
         "telefoneDaUnidade": [
             "(81) 3742-2910",
             "(81) 3742-2907"
@@ -3389,7 +3389,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 110ª CIRC - SANHARÓ",
-        "enderecoDaUnidade": "Endereço:Rua Domingos Zuza, n° 121, Marajás, Sanharó/PE - CEP: 55250-000",
+        "enderecoDaUnidade": "Rua Domingos Zuza, n° 121, Marajás, Sanharó/PE - CEP: 55250-000",
         "telefoneDaUnidade": [
             "(87) 3836-2904",
             "(87) 3836-2901"
@@ -3401,7 +3401,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 112ª CIRC - TACAIMBÓ",
-        "enderecoDaUnidade": "Endereço:Av. Major João Gomes, 164 , Centro , Tacaimbó/PE – CEP: 55140-000",
+        "enderecoDaUnidade": "Av. Major João Gomes, 164 , Centro , Tacaimbó/PE – CEP: 55140-000",
         "telefoneDaUnidade": [
             "(81) 3755-1909",
             "(81)3755-1906"
@@ -3463,7 +3463,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 116ª CIRC - SURUBIM",
-        "enderecoDaUnidade": "Endereço:Avenida São Sebastião, n° 407, Surubim/PE - CEP: 55750-000",
+        "enderecoDaUnidade": "Avenida São Sebastião, n° 407, Surubim/PE - CEP: 55750-000",
         "telefoneDaUnidade": [
             "(81) 3624-1976",
             "(81) 3624-1977",
@@ -3488,7 +3488,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 118ª CIRC - PASSIRA",
-        "enderecoDaUnidade": "Endereço:Rua da Matriz, nº 104, Centro, Passira/PE - CEP: 55650-000",
+        "enderecoDaUnidade": "Rua da Matriz, nº 104, Centro, Passira/PE - CEP: 55650-000",
         "telefoneDaUnidade": [
             "(81) 3651-2805",
             "(81) 3651-2802"
@@ -3512,7 +3512,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 120ª CIRC - JOÃO ALFREDO",
-        "enderecoDaUnidade": "Endereço:Rua José Herculano Soares ,n° 12, João Alfredo - CEP: 55720000",
+        "enderecoDaUnidade": "Rua José Herculano Soares ,n° 12, João Alfredo - CEP: 55720000",
         "telefoneDaUnidade": [
             "(81) 3648-2509",
             "(81) 3648-2506"
@@ -3536,14 +3536,14 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 122ª CIRC - FEIRA NOVA",
-        "enderecoDaUnidade": "Av. Santos Dumont, 154, Centro, Feira Nova/PE – CEP: 55.715-000",
+        "enderecoDaUnidade": "Rua Santos Dumont, 154, Centro, Feira Nova/PE – CEP: 55.715-000",
         "telefoneDaUnidade": [
             "(81) 3645-2900",
             "(81) 3645-2901"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-7.9496755",
+            "longitude": "-35.3841122"
         }
     },
     {
@@ -3584,7 +3584,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 126ª CIRC - VERTENTE DO LÉRIO",
-        "enderecoDaUnidade": "Endereço:Rua Frei Mário, n° 20, Centro, Vertente do Lério/PE - CEP: 55760-970",
+        "enderecoDaUnidade": "Rua Frei Mário, n° 20, Centro, Vertente do Lério/PE - CEP: 55760-970",
         "telefoneDaUnidade": [
             "(81) 3634-7903",
             "(81) 3634-7900"
@@ -3608,7 +3608,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "17ª DELEGACIA SECCIONAL DE POLÍCIA - SANTA CRUZ DO CAPIBARIBE",
-        "enderecoDaUnidade": "Endereço:Rua José Francisco Barbosa, n° 321, Centro, Santa Cruz Do Capibaribe - CE 55192385",
+        "enderecoDaUnidade": "Rua José Francisco Barbosa, n° 321, Centro, Santa Cruz Do Capibaribe - CE 55192385",
         "telefoneDaUnidade": [
             "(81) 3759-8227",
             "(81) 3759-8226"
@@ -3645,7 +3645,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 128ª CIRC STA. CRUZ DO CAPIBARIBE",
-        "enderecoDaUnidade": "Endereço:Rua José Francisco Barbosa, n° 321, Centro, Santa Cruz Do Capibaribe - CE 55192385",
+        "enderecoDaUnidade": "Rua José Francisco Barbosa, n° 321, Centro, Santa Cruz Do Capibaribe - CE 55192385",
         "telefoneDaUnidade": [
             "(81) 3759-8232",
             "(81) 3759-8230",
@@ -3761,7 +3761,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 135ª CIRC - GARANHUNS",
-        "enderecoDaUnidade": "Endereço:Rua Joaquim Távora, 259, Heliópolis, Garanhuns/PE – CEP: 55290-410",
+        "enderecoDaUnidade": "Rua Joaquim Távora, 259, Heliópolis, Garanhuns/PE – CEP: 55290-410",
         "telefoneDaUnidade": [
             "(87) 3761-8685",
             "(87) 3761-8459",
@@ -3907,7 +3907,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 148ª CIRC - CALÇADOS",
-        "enderecoDaUnidade": "Endereço:Rua Euclides Basílio dos Santos, n° 18, Centro, Calçado/PE - CEP: 55375-000",
+        "enderecoDaUnidade": "Rua Euclides Basílio dos Santos, n° 18, Centro, Calçado/PE - CEP: 55375-000",
         "telefoneDaUnidade": [
             "(87) 3793-1807",
             "(87) 3793-1804"
@@ -3919,7 +3919,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 149ª CIRC - LAGOA DO OURO",
-        "enderecoDaUnidade": "Endereço:Rua Ananias Alves da Costa, nº 449, Centro, Lagoa do Ouro/ PE - CEP: 55320-000",
+        "enderecoDaUnidade": "Rua Ananias Alves da Costa, nº 449, Centro, Lagoa do Ouro/ PE - CEP: 55320-000",
         "telefoneDaUnidade": [
             "(87) 3785-1905",
             "(87) 3785-1902"
@@ -4139,7 +4139,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 162ª CIRC - TUPANATINGA",
-        "enderecoDaUnidade": "Endereço:Rua Alto São Félix, N° 75, Centro, Tupanatinga/PE - CEP 56540-000",
+        "enderecoDaUnidade": "Rua Alto São Félix, N° 75, Centro, Tupanatinga/PE - CEP 56540-000",
         "telefoneDaUnidade": [
             "(87) 3856-1906",
             "(87) 3856-1905"
@@ -4324,7 +4324,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 180ª CIRC - CARNAÍBA",
-        "enderecoDaUnidade": "Endereço:Rua Saturnino Bezerra, nº 655 - Centro – Carnaíba/PE - CEP: 56820000",
+        "enderecoDaUnidade": "Rua Saturnino Bezerra, nº 655 - Centro – Carnaíba/PE - CEP: 56820000",
         "telefoneDaUnidade": [
             "(87) 3854-1935",
             "(87) 3854-1932"
@@ -4384,7 +4384,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 179ª CIRC - FLORES",
-        "enderecoDaUnidade": "Endereço:Rua Pedro Santos Estima, s/n, Flores/PE - CEP: 56850-000",
+        "enderecoDaUnidade": "Rua Pedro Santos Estima, s/n, Flores/PE - CEP: 56850-000",
         "telefoneDaUnidade": [
             "(87) 3857-1911",
             "(87) 3857-1908"
@@ -4668,7 +4668,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 200ª CIRC - ARARIPINA",
-        "enderecoDaUnidade": "Endereço:Avenida Governador Muniz Falcão, s/n, Planalto, Araripina /PE - CEP: 56280-999",
+        "enderecoDaUnidade": "Avenida Governador Muniz Falcão, s/n, Planalto, Araripina /PE - CEP: 56280-999",
         "telefoneDaUnidade": [
             "(87) 3873-8362",
             "(87) 3873-8436"
@@ -4692,7 +4692,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 202ª CIRC - EXU",
-        "enderecoDaUnidade": "Endereço:Avenida Edmundo Dantas, nº 140, Exu/PE - CEP: 56230-000",
+        "enderecoDaUnidade": "Avenida Edmundo Dantas, nº 140, Exu/PE - CEP: 56230-000",
         "telefoneDaUnidade": [
             "(87) 3879-2917",
             "(87) 3879-2914"
@@ -4704,7 +4704,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 203ª CIRC - BODOCÓ",
-        "enderecoDaUnidade": "Endereço:Rua Lourival Rodrigues de Alencar, 262,Bodocó/PE - CEP: 56220-000",
+        "enderecoDaUnidade": "Rua Lourival Rodrigues de Alencar, 262,Bodocó/PE - CEP: 56220-000",
         "telefoneDaUnidade": [
             "(87) 3878-0913",
             "(87) 3878-0910"
@@ -4788,7 +4788,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "25ª DELEGACIA SECCIONAL DE POLÍCIA - CABROBÓ",
-        "enderecoDaUnidade": "Endereço:Rua Epaminondas Hipólito de Lima, 1087, Cabrobó/PE - CEP: 56180-000",
+        "enderecoDaUnidade": "Rua Epaminondas Hipólito de Lima, 1087, Cabrobó/PE - CEP: 56180-000",
         "telefoneDaUnidade": [
             "(87) 3875-3901",
             "(87) 3875-3902",
@@ -4921,7 +4921,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "18ª DELEGACIA DE POLÍCIA DE HOMICÍDIOS - PALMARES",
-        "enderecoDaUnidade": "Endereço:Avenida Jose Americo Miranda, s/n, Santa Rosa - Palmares/PE - CEP: 55540-000",
+        "enderecoDaUnidade": "Avenida Jose Americo Miranda, s/n, Santa Rosa - Palmares/PE - CEP: 55540-000",
         "telefoneDaUnidade": [
             "Aguardando instalação"
         ],
@@ -4998,7 +4998,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "25ª DELEGACIA DE POLÍCIA DE HOMICÍDIOS - PETROLINA",
-        "enderecoDaUnidade": "Endereço:Avenida Cardoso de Sá, s/n, Colônia Imperial, Petrolina/PE - CEP 56328-904",
+        "enderecoDaUnidade": "Avenida Cardoso de Sá, s/n, Colônia Imperial, Petrolina/PE - CEP 56328-904",
         "telefoneDaUnidade": [
             "(87) 3866-6781"
         ],
