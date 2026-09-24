@@ -3979,7 +3979,7 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 154ª CIRC - BREJÃO",
-        "enderecoDaUnidade": "Rua José Inacio dos Santos, 83 , Centro, Brejão/PE - CEP: 55325-000",
+        "enderecoDaUnidade": "Praça Frei Damião, 170, Centro, Brejão/PE",
         "telefoneDaUnidade": [
             "(87) 3789-1905",
             "(87) 3789-1902"
