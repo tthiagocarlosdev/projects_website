@@ -1,0 +1,9 @@
+{
+  "name": "teste-impressora",
+  "version": "1.0.0",
+  "description": "Página de teste de impressora com identificação do computador",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

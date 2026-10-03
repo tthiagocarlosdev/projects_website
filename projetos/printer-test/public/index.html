@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Teste de Impressora</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<main class="pagina">
+
+    <header class="cabecalho">
+        <h1>TESTE DE IMPRESSORA</h1>
+        <p>Teste de impressão e identificação do computador</p>
+    </header>
+
+
+    <!-- INFORMAÇÕES DO COMPUTADOR -->
+
+    <section class="informacoes">
+
+        <h2>Informações do computador</h2>
+
+        <div class="info-grid">
+
+            <div class="info-item">
+                <span class="rotulo">Computador</span>
+                <span id="computador" class="valor">Obtendo...</span>
+            </div>
+
+            <div class="info-item">
+                <span class="rotulo">Usuário</span>
+                <span id="usuario" class="valor">Obtendo...</span>
+            </div>
+
+            <div class="info-item">
+                <span class="rotulo">Sistema</span>
+                <span id="sistema" class="valor">Obtendo...</span>
+            </div>
+
+            <div class="info-item">
+                <span class="rotulo">IP</span>
+                <span id="ip" class="valor">Obtendo...</span>
+            </div>
+
+            <div class="info-item">
+                <span class="rotulo">Data</span>
+                <span id="data" class="valor">--/--/----</span>
+            </div>
+
+            <div class="info-item">
+                <span class="rotulo">Hora</span>
+                <span id="hora" class="valor">--:--:--</span>
+            </div>
+
+        </div>
+
+        <p id="status" class="status">
+            Conectando ao serviço local...
+        </p>
+
+    </section>
+
+
+    <!-- TESTE DE TEXTO -->
+
+    <section class="teste">
+
+        <h2>Teste de texto</h2>
+
+        <p class="monospace">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </p>
+
+        <p class="monospace">
+            abcdefghijklmnopqrstuvwxyz
+        </p>
+
+        <p class="monospace">
+            0123456789
+        </p>
+
+        <p class="monospace">
+            Á É Í Ó Ú À Ã Õ Ç
+            á é í ó ú à ã õ ç
+        </p>
+
+        <p class="monospace">
+            ! @ # $ % &amp; * ( ) - _ + = / \ | ? &lt; &gt;
+        </p>
+
+    </section>
+
+
+    <!-- TESTE DE CORES -->
+
+    <section class="teste-cores">
+
+        <h2>Teste de cores</h2>
+
+        <div class="circulos">
+
+            <svg width="200" height="200" viewBox="0 0 32 32" class="grafico-svg">
+                <circle class="fatia" stroke="#000000" stroke-dasharray="25 100" stroke-dashoffset="00" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#0000FF" stroke-dasharray="25 100" stroke-dashoffset="-25" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#00FF00" stroke-dasharray="25 100" stroke-dashoffset="-50" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#FF0000" stroke-dasharray="25 100" stroke-dashoffset="-75" cx="16" cy="16" r="16" />
+            </svg>
+
+            <svg width="200" height="200" viewBox="0 0 32 32" class="grafico-svg">
+                <circle class="fatia" stroke="#EC008C" stroke-dasharray="25 100" stroke-dashoffset="00" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#CCCCCC" stroke-dasharray="25 100" stroke-dashoffset="-25" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#FFF200" stroke-dasharray="25 100" stroke-dashoffset="-50" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#00ADEF" stroke-dasharray="25 100" stroke-dashoffset="-75" cx="16" cy="16" r="16" />
+            </svg>
+
+            <svg width="200" height="200" viewBox="0 0 32 32" class="grafico-svg">
+                <circle class="fatia" stroke="#E6E6E6" stroke-dasharray="10 100" stroke-dashoffset="00" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#CCCCCC" stroke-dasharray="10 100" stroke-dashoffset="-10" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#B3B3B3" stroke-dasharray="10 100" stroke-dashoffset="-20" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#999999" stroke-dasharray="10 100" stroke-dashoffset="-30" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#808080" stroke-dasharray="10 100" stroke-dashoffset="-40" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#666666" stroke-dasharray="10 100" stroke-dashoffset="-50" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#4C4C4C" stroke-dasharray="10 100" stroke-dashoffset="-60" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#333333" stroke-dasharray="10 100" stroke-dashoffset="-70" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#191919" stroke-dasharray="10 100" stroke-dashoffset="-80" cx="16" cy="16" r="16" />
+                <circle class="fatia" stroke="#000000" stroke-dasharray="10 100" stroke-dashoffset="-90" cx="16" cy="16" r="16" />
+            </svg>
+
+        </div>
+
+    </section>
+
+
+    <!-- TESTE DE LINHAS -->
+
+    <section class="linhas">
+
+        <h2>Teste de linhas</h2>
+
+        <div class="linha linha-fina"></div>
+
+        <div class="linha linha-media"></div>
+
+        <div class="linha linha-grossa"></div>
+
+    </section>
+
+
+    <!-- TUTORIAL NODE.JS -->
+
+    <section class="tutorial">
+
+        <h2>Verificação do Node.js</h2>
+
+        <p>
+            Para identificar o computador, esta página utiliza um
+            pequeno serviço local executado pelo Node.js.
+        </p>
+
+        <p>
+            Antes de realizar o teste, verifique se o Node.js está
+            instalado no computador.
+        </p>
+
+        <ol>
+
+            <li>
+                Abra o <strong>Prompt de Comando (CMD)</strong> do Windows.
+            </li>
+
+            <li>
+                Digite o comando abaixo:
+            </li>
+
+        </ol>
+
+        <div class="comando">
+            node -v
+        </div>
+
+        <p>
+            Pressione <strong>Enter</strong>.
+        </p>
+
+        <p>
+            Se o Node.js estiver instalado, será exibida uma versão,
+            por exemplo:
+        </p>
+
+        <div class="resultado">
+            v24.21.0
+        </div>
+
+        <p>
+            Caso apareça uma mensagem informando que
+            <strong>"node não é reconhecido como um comando"</strong>,
+            o Node.js não está instalado ou não está configurado no
+            PATH do Windows.
+        </p>
+
+    </section>
+
+
+    <!-- BOTÕES -->
+
+    <section class="acoes">
+
+        <a class="botao botao-node" href="https://nodejs.org/pt-br/download" target="_blank" rel="noopener noreferrer" > Node.js </a>
+        <a class="botao botao-download" href="server.js" download="server.js" > BAIXAR SERVER.JS </a>
+        <button id="btnImprimir" class="botao botao-imprimir" type="button" > IMPRIMIR TESTE </button>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            Desenvolvido por
+            <a
+                href="https://tthiagocarlosdev.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                tthiagocarlosdev
+            </a>
+        </p>
+
+    </footer>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
