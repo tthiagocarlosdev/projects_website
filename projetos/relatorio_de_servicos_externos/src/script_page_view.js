@@ -1,3 +1,4 @@
+var imprimir = document.getElementById("btnImprimir")
 window.onload = function() {
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
@@ -12,9 +13,13 @@ window.onload = function() {
     
     let content = '';
     for (let i = 0; i < dados.techniciansData.names.length; i++) {
-        content += `<span style="font-weight: bold; font-size: 1.2rem;">Nome:</span> ${dados.techniciansData.names[i].toUpperCase()}, <span style="font-weight: bold; font-size: 1.2rem;">Matrícula:</span> ${dados.techniciansData.enrollment[i].toUpperCase()}<br>`;
+        content += `<p> <span style="font-weight: bold; font-size: 1.2rem;">Nome:</span> ${dados.techniciansData.names[i].toUpperCase()}, <span style="font-weight: bold; font-size: 1.2rem;">Matrícula:</span> ${dados.techniciansData.enrollment[i].toUpperCase()} </p>`;
         list.innerHTML = content;
     }
     document.getElementById('user_name').innerHTML = dados.userName.toUpperCase();
     document.getElementById('user_registration').innerHTML = dados.userRegistration.toUpperCase();
 }
+
+imprimir.addEventListener("click",() => {
+    window.print();
+});

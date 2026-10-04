@@ -66,7 +66,7 @@ function updateTechniciansList() {
         <span>Nome:</span> ${technical.names[i]},
         <span>Matrícula:</span> ${technical.enrollment[i]}
         <a class="remove-link" data-index="${i}">
-            <i class="fa-solid fa-rectangle-xmark"></i>
+            X </i>
         </a>
         </p>`;
     }
@@ -85,7 +85,7 @@ function updateTechniciansList() {
 }
 
 function addTechnicians(){
-    console.log(technical)
+    // console.log(technical)
     let name = document.querySelector('#name_technician').value;
     let registration = document.querySelector('#registration_technician').value;
     
@@ -146,8 +146,8 @@ function toView(){
         alert("ATENÇÃO! Informe o nome completo do usuário!")
     } else if (pageData.userRegistration.length == 0) {
         alert("ATENÇÃO! Informe o número de matrícula do usuário!")
-    } else if (!validUserRegistration) {
-        alert("ATENÇÃO! Informe um número válido de matrícula do usuário!")
+    /*} else if (!validUserRegistration) {
+        alert("ATENÇÃO! Informe um número válido de matrícula do usuário!")*/
     } else {
         var dados_str = JSON.stringify(pageData);
         window.location.href = "./pages/page_view.html?pageData=" + encodeURIComponent(dados_str);

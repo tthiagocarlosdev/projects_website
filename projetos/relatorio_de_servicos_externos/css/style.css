@@ -1,6 +1,7 @@
 :root{
     --black-color: black;
     --white-color: white;
+    --red-color:red;
     --hover-color: lightgray;
     --container-color: whitesmoke;
     --blue-buttons-hover: rgb(0, 132, 255);
@@ -69,13 +70,13 @@
 }
 
 .header img {
-    position: absolute;
-    top: 0;
+    /* position: absolute;
+    top: 0; */
     height: 10rem;
     width: 15rem;   
 }
 
-#bandeira-pernambuco {
+.bandeira {
     border: 1px solid var(--black-color);
     right: -1px;
 }
@@ -272,22 +273,28 @@ form{
 
 .list_of_technicians,
 .list-technical-and-registration,
-.list-technical-and-registration span{
+.list-technical-and-registration span {
     font-size: 1.3rem;
+    margin-top: 0.8rem;
 }
 
-.list-technical-and-registration span{
+.list-technical-and-registration span {
     font-weight: bold;
 }
 
-.list-technical-and-registration i{
-    margin-left: 0.938rem;
-    font-size: 1.7rem;
+.list-technical-and-registration a {
+    color: var(--red-color);
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid var(--red-color);
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
 }
 
-.list-technical-and-registration i:hover{
-    color: red;
-    font-size: 2rem;
+.list-technical-and-registration a:hover{
+    color: var(--white-color);
+    background-color: var(--red-color);
 }
 
 /* section-user section-user section-user section-user section-user */

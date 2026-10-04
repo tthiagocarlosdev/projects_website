@@ -1,5 +1,8 @@
 :root{
     --black-color: black;
+    --white-color: #ffffff;
+    --blue-buttons-hover: rgb(0, 132, 255);
+    --hover-color: lightgray;
 }
 
 
@@ -78,7 +81,7 @@
     width: 15rem;
 }
 
-#bandeira-pernambuco {
+.bandeira {
     border: 1px solid var(--black-color);
 }
 
@@ -155,4 +158,37 @@ label{
 
 #signature label{
     margin-left: 0.5rem;
+}
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.botao-imprimir {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 170px;
+    padding: 11px 20px;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--hover-color);
+    color: var(--black-color);
+}
+
+.botao-imprimir:hover {
+    background: var(--blue-buttons-hover);
+}
+
+@media print {
+    .acoes {
+        display:none;
+    }
 }
