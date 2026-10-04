@@ -732,6 +732,6 @@ const options = [
     "9ª Equipe de Plantão da CEPLANC (PCPE - DIM - CEPLANC - EQ 9)"
 ];
 
-export{
+export {
     options
 }
