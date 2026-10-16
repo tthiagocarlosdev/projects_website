@@ -40,13 +40,45 @@ let bancoDados = [];
       filtrados.forEach(item => {
         const itemDiv = document.createElement('div');
         itemDiv.className = 'resultado-item';
+        
         itemDiv.innerHTML = `
-          <div class="unidade-nome">${item.unidade}</div>
+
+          <div class="unidade-container" >
+            <div class="unidade-nome">${item.unidade}</div>
+            <button class="btn-copiar" type="button"> Copiar </button>
+          </div>
+
           <div class="diretoria-container">
             <span class="diretoria-label">Diretoria / Regional</span>
             <div class="diretoria-nome">${item.diretoria}</div>
           </div>
         `;
+
+      const botaoCopiar = itemDiv.querySelector('.btn-copiar');
+    
+      // Lógica de clique para copiar o texto
+      botaoCopiar.addEventListener('click', () => {
+      navigator.clipboard.writeText(item.unidade)
+        .then(() => {
+              // Feedback visual temporário no botão
+              botaoCopiar.textContent = 'Copiado!';
+              botaoCopiar.style.backgroundColor = '#4CAF50'; // Verde de sucesso
+              botaoCopiar.style.color = '#fff';
+              botaoCopiar.style.border = '1px solid black'
+              
+              // Restaura o botão após 1.5 segundos
+              setTimeout(() => {
+                  botaoCopiar.textContent = 'Copiar';
+                  botaoCopiar.style.backgroundColor = '';
+                  botaoCopiar.style.color = '';
+              }, 1500);
+          })
+          .catch(err => {
+              console.error('Erro ao copiar: ', err);
+              alert('Não foi possível copiar o texto.');
+          });
+        })
+
         resultadosDiv.appendChild(itemDiv);
       });
     }

@@ -106,11 +106,28 @@
       background: #f1f3f5;
     }
 
+    .unidade-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
     .unidade-nome {
       font-weight: 500;
       color: var(--secondary-color);
       font-size: 16px;
       margin-bottom: 6px;
+    }
+
+    .btn-copiar {
+      padding: 4px 8px;
+      border: 1px solid var(--primary-color);
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .btn-copiar:hover {
+      background-color: var(--card-bg);
     }
 
     .diretoria-label {
