@@ -2959,8 +2959,8 @@ const unidadesPoliciais = [
             "(81) 3685-2906"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-8.8279061",
+            "longitude": "-36.0127617"
         }
     },
     {
@@ -3811,14 +3811,14 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 139ª CIRC - CANHOTINHO",
-        "enderecoDaUnidade": "Rua Marechal Deodoro, nº 121, Centro, Canhotinho/PE - CEP:55420-999",
+        "enderecoDaUnidade": "R. Quintino Bocaituva, 500 - Canhotinho PE, 55420-000",
         "telefoneDaUnidade": [
             "(87) 3781-2811",
             "(87) 3781-2808"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-8.878978",
+            "longitude": "-36.197957"
         }
     },
     {
@@ -3907,14 +3907,14 @@ const unidadesPoliciais = [
     },
     {
         "nomeDaUnidade": "DP 148ª CIRC - CALÇADOS",
-        "enderecoDaUnidade": "Rua Euclides Basílio dos Santos, n° 18, Centro, Calçado/PE - CEP: 55375-000",
+        "enderecoDaUnidade": "R. Raimundo Atanásio de Moreis, 11 Calçado - PE, 55375-000",
         "telefoneDaUnidade": [
             "(87) 3793-1807",
             "(87) 3793-1804"
         ],
         "coordenadasDaUnidade": {
-            "latitude": "",
-            "longitude": ""
+            "latitude": "-8.7402297",
+            "longitude": "-36.3335499"
         }
     },
     {
