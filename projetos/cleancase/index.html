@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransformaTexto - Case Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>TransformaTexto</h1>
+        <p class="subtitle">Insira seu texto e modifique o formato instantaneamente</p>
+
+        <!-- Entrada de Texto -->
+        <div class="group">
+            <label for="inputText">Texto de Entrada:</label>
+            <textarea id="inputText" placeholder="Cole ou digite seu texto aqui..."></textarea>
+        </div>
+
+        <!-- Seção de Botões -->
+        <div class="group">
+            <label>Transformar para:</label>
+            <div class="buttons-section">
+                <button class="btn-case" onclick="convertText('snake_case')">snake_case</button>
+                <button class="btn-case" onclick="convertText('kebab-case')">kebab-case</button>
+                <button class="btn-case" onclick="convertText('CONSTANT_CASE')">CONSTANT_CASE</button>
+            </div>
+        </div>
+
+        <!-- Saída de Texto Modificado -->
+        <div class="group">
+            <label>Texto Modificado:</label>
+            <div class="output-container">
+                <div id="outputText" class="output-text">O resultado aparecerá aqui...</div>
+                <button id="btnCopy" class="btn-copy" onclick="copyToClipboard()">
+                    <span>Copiar</span>
+                </button>
+            </div>
+            
+            <!-- Botão Limpar posicionado abaixo do texto modificado -->
+            <div class="action-footer">
+                <button class="btn-clear" onclick="clearFields()">Limpar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
