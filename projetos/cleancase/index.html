@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TransformaTexto - Case Converter</title>
+    <title> Clean Case </title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>TransformaTexto</h1>
-        <p class="subtitle">Insira seu texto e modifique o formato instantaneamente</p>
+        <h1>Clean Case</h1>
+        <p class="subtitle">TransformaTexto - Insira seu texto e modifique o formato instantaneamente</p>
 
         <!-- Entrada de Texto -->
         <div class="group">
@@ -25,6 +25,17 @@
                 <button class="btn-case" onclick="convertText('snake_case')">snake_case</button>
                 <button class="btn-case" onclick="convertText('kebab-case')">kebab-case</button>
                 <button class="btn-case" onclick="convertText('CONSTANT_CASE')">CONSTANT_CASE</button>
+                <button class="btn-case" onclick="convertText('camelCase')">camelCase</button> <!--Today--> 
+                <button class="btn-case" onclick="convertText('PascalCase')">PascalCase</button>
+                <button class="btn-case" onclick="convertText('Pascal_Snake_Case')">Pascal_Snake_Case</button>
+                <button class="btn-case" onclick="convertText('dot.case')">dot.case</button>
+                <button class="btn-case" onclick="convertText('Train-Case')">Train-Case</button>
+                <button class="btn-case" onclick="convertText('sWAP_cASE')">sWAP cASE</button>
+                <button class="btn-case" onclick="convertText('Sentence_case')">Sentence case</button>
+                <button class="btn-case" onclick="convertText('path/case')">path/case</button>
+                <button class="btn-case" onclick="convertText('Capital_Case')">Capital Case</button> 
+                <button class="btn-case" onclick="convertText('UPPERCASE')">UPPERCASE</button>
+                <button class="btn-case" onclick="convertText('lowercase')">lowercase</button> 
             </div>
         </div>
 
@@ -40,11 +51,13 @@
             
             <!-- Botão Limpar posicionado abaixo do texto modificado -->
             <div class="action-footer">
+                <div id="charCounter" class="char-counter">Caracteres: 0</div>
                 <button class="btn-clear" onclick="clearFields()">Limpar</button>
             </div>
+
         </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
