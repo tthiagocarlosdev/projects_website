@@ -283,18 +283,3 @@ Esta função lida com processos assíncronos modernos para injetar o texto gera
     *   Fecha o escopo principal da função `copyToClipboard`.
 
 
-
-
-
-```tex
-- archive
-	|__ cleanCaseFirstVersion.js
-- css
-	|__ style.css
-- DOCUMENTATION.MD
-- index.html
-- README.md
-- script.js
-
-```
-
