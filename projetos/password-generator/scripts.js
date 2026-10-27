@@ -114,11 +114,34 @@ function passwordGenerator(){
 }
 
    /* function button copy */
-  function copyToClipboard(){
-    navigator.clipboard.writeText(passwordModal.innerHTML).then(() => {
-      alert(`Copied text: ${passwordModal.innerHTML}`)
-    }) 
-  }
+  // function copyToClipboard(){
+  //   navigator.clipboard.writeText(passwordModal.innerHTML).then(() => {
+  //     alert(`Copied text: ${passwordModal.innerHTML}`)
+  //   }) 
+  // }
+
+   function copyToClipboard(btn) {
+     const btnCopy = btn instanceof HTMLElement ? btn : document.getElementById('copy-password-button');
+     const passwordEl = document.getElementById('password_modal');
+     const outputText = passwordEl ? passwordEl.innerText.trim() : '';
+
+     if (!outputText || outputText === '') {
+       return;
+     }
+
+     navigator.clipboard.writeText(outputText).then(() => {
+       const originalText = btnCopy.innerHTML;
+       btnCopy.classList.add('success');
+       btnCopy.innerHTML = '<span>Copiado!</span>';
+
+       setTimeout(() => {
+         btnCopy.classList.remove('success');
+         btnCopy.innerHTML = originalText;
+       }, 2000);
+     }).catch(err => {
+       console.error('Erro ao copiar texto: ', err);
+     });
+   }
    
   const modal = document.querySelector('.modal')
 

@@ -13,7 +13,8 @@
 	--black-color: #000;
 	--white: #ffffff;
 	--modal-button: rgb(242, 129, 129);
-	--modal-button-hover: rgb(0, 128, 0);
+	--modal-button-hover: red;
+	--copied-color: #22c55e;
     --background-model: rgba(0,0,0,0.8);
     --background-box-model:rgb(68, 103, 246);
 }
@@ -229,7 +230,7 @@
 	border: none;
 	width: 5rem;
 	padding: 0.5rem;
-	background-color: var(--modal-button);
+	background-color: var(--grey-D);
 	color: var(--black);
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -273,16 +274,22 @@
 /* button copy */
 .container .modal-password .box-modal-password .result-password #copy-password-button {
 	text-decoration: none;
-  border: none;
-  width: 5rem;
-  padding: 0.5rem;
-  background-color: var(--modal-button);
-  color: var(--black-color);
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-radius: 5px;
-  opacity: 1;
-  cursor: pointer;
+	border: none;
+	min-width: 7rem;
+	padding: 0.5rem;
+	background-color: var(--grey-D);
+	color: var(--black-color);
+	font-size: 1.2rem;
+	font-weight: bold;
+	border-radius: 5px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.container .modal-password .box-modal-password .result-password #copy-password-button.success {
+	background-color: var(--copied-color) !important;
+	color: #fff !important;
+	transition: all 0.2s ease-in-out;
 }
 
 .container .modal-password .box-modal-password .result-password #copy-password-button:hover {
@@ -304,6 +311,7 @@
 	font-size: 1.2rem;
 	font-weight: bold;
 }
+
 
 /* BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER - BOX-FOOTER */
 .box-footer {
