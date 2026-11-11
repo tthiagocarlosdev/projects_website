@@ -1,32 +1,20 @@
 /* variable declaration */
 const numberOfCharactersTyped = document.querySelector('#number_of_characters_typed')
 
-const modal_password = document.querySelector('.modal-password')
-const numberOfCharactersModal = document.querySelector('#number_of_characters_modal')
-const symbolsModal = document.querySelector('#symbols_modal')
-const numbersModal = document.querySelector('#numbers_modal')
-const smallLettersModal = document.querySelector('#small_letters_modal')
-const capitalLettersModal = document.querySelector('#capital_letters_modal')
-const passwordModal = document.querySelector('#password_modal')
-
-/* functions declaration */
-//function close modal
-function closeModalPassword() {
-  modal_password.classList.add('closeModalPassword')
-}
-
-//function open modal
-function openModalPassword(){
-  modal_password.classList.add('openModalPassword')
-  modal_password.classList.remove('closeModalPassword')
-}
+const boxResult = document.querySelector('#box-result')
+const numberOfCharactersResult = document.querySelector('#number_of_characters_result')
+const symbolsResult = document.querySelector('#symbols_result')
+const numbersResult = document.querySelector('#numbers_result')
+const smallLettersResult = document.querySelector('#small_letters_result')
+const capitalLettersResult = document.querySelector('#capital_letters_result')
+const passwordResult = document.querySelector('#password_result')
 
 /* function regular expression */
 function isRegularExpression(stringValue, regex){
   return regex.test(stringValue) ? true : false
 }
 
-// // function generating a random integer between two values, inclusive
+// function generating a random integer between two values, inclusive
 function getRandomIntInclusive(min, max){
   min = Math.ceil(min)
   max = Math.floor(max)
@@ -102,51 +90,45 @@ function passwordGenerator(){
 			passwordInCharacter += String.fromCharCode(passwordInNumber[contador])
 		}
 
-    numberOfCharactersModal.innerHTML = numberOfCharacters
-    symbolsModal.innerHTML = symbols
-    numbersModal.innerHTML = numbers
-    smallLettersModal.innerHTML = smallLetters
-    capitalLettersModal.innerHTML = capitalLetters
-    passwordModal.innerHTML = passwordInCharacter
-    openModalPassword()
+    numberOfCharactersResult.innerHTML = numberOfCharacters
+    symbolsResult.innerHTML = symbols
+    numbersResult.innerHTML = numbers
+    smallLettersResult.innerHTML = smallLetters
+    capitalLettersResult.innerHTML = capitalLetters
+    passwordResult.innerHTML = passwordInCharacter
+
+    boxResult.hidden = false
+    boxResult.scrollIntoView({ behavior: 'smooth', block: 'center' })
   }
   
 }
 
-   /* function button copy */
-  // function copyToClipboard(){
-  //   navigator.clipboard.writeText(passwordModal.innerHTML).then(() => {
-  //     alert(`Copied text: ${passwordModal.innerHTML}`)
-  //   }) 
-  // }
+/* function button copy */
+function copyToClipboard(btn) {
+  const btnCopy = btn instanceof HTMLElement ? btn : document.getElementById('copy-password-button');
+  const passwordEl = document.getElementById('password_result');
+  const outputText = passwordEl ? passwordEl.innerText.trim() : '';
 
-   function copyToClipboard(btn) {
-     const btnCopy = btn instanceof HTMLElement ? btn : document.getElementById('copy-password-button');
-     const passwordEl = document.getElementById('password_modal');
-     const outputText = passwordEl ? passwordEl.innerText.trim() : '';
-
-     if (!outputText || outputText === '') {
-       return;
-     }
-
-     navigator.clipboard.writeText(outputText).then(() => {
-       const originalText = btnCopy.innerHTML;
-       btnCopy.classList.add('success');
-       btnCopy.innerHTML = '<span>Copiado!</span>';
-
-       setTimeout(() => {
-         btnCopy.classList.remove('success');
-         btnCopy.innerHTML = originalText;
-       }, 2000);
-     }).catch(err => {
-       console.error('Erro ao copiar texto: ', err);
-     });
-   }
-   
-  const modal = document.querySelector('.modal')
-
-  function closeModal() {
-    modal.classList.add('closeModal')
+  if (!outputText || outputText === '') {
+    return;
   }
-  
-  
+
+  navigator.clipboard.writeText(outputText).then(() => {
+    const originalText = btnCopy.innerHTML;
+    btnCopy.classList.add('success');
+    btnCopy.innerHTML = '<span>Copiado!</span>';
+
+    setTimeout(() => {
+      btnCopy.classList.remove('success');
+      btnCopy.innerHTML = originalText;
+    }, 2000);
+  }).catch(err => {
+    console.error('Erro ao copiar texto: ', err);
+  });
+}
+
+const modal = document.querySelector('.modal')
+
+function closeModal() {
+  modal.classList.add('closeModal')
+}

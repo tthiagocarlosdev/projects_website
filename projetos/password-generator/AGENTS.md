@@ -5,9 +5,11 @@ Gerador de senhas seguras desenvolvido em HTML, CSS e JavaScript puro. O sistema
 
 ## Estado atual
 - Projeto funcional em sua 2ª versão
-- Interface com instruções, campo para quantidade de caracteres e botão "Gerar senha"
+- Layout em coluna centralizada: `box-instructions`, `box-input-generator`, `box-result` (oculto até gerar) e `box-test-links`
+- Resultado exibido em uma seção abaixo do gerador (não mais em modal), com breakdown dos tipos de caracteres e botão para copiar
+- Nova seção com links de sites para testar a senha gerada (Password Monster, NordPass, Bitwarden, Security.org, Kaspersky)
+- Layout responsivo (desktop, tablet e celular) com `meta viewport` e media queries
 - Gera senha garantindo no mínimo: letras maiúsculas, minúsculas, números e símbolos
-- Exibe resultado em modal com breakdown dos tipos de caracteres e botão para copiar
 - Possui modal informativo sobre a versão
 - Evita caracteres repetidos na senha gerada
 
@@ -18,9 +20,9 @@ Gerador de senhas seguras desenvolvido em HTML, CSS e JavaScript puro. O sistema
 - `images/` - Pasta com imagens (vazia ou com assets)
 
 ## Arquivos alterados
-- `index.html` - Botão de copiar no modal passa `this` para `copyToClipboard`
-- `scripts.js` - Função `copyToClipboard` reescrita para aceitar botão, copiar do `#password_modal`, mostrar feedback "Copiado!" com classe `.success` e tratamento defensivo
-- `style.css` - Ajuste da regra `.success` para maior especificidade (sobrescrever cores do botão)
+- `index.html` - Layout em coluna com seções centralizadas (`box-instructions`, `box-input-generator`, `box-result`, `box-test-links`); resultado movido do modal para a seção `box-result` (oculta via atributo `hidden`); link de teste trocado para NordPass
+- `style.css` - Estilos das seções/cards, nova seção de resultado `.box-result`/`.result-password`/`#password_result` e animação de entrada; removidos estilos do antigo modal de senha; media query para telas <= 600px
+- `scripts.js` - Geração preenche os IDs `*_result` e revela `#box-result` com `scrollIntoView`; `copyToClipboard` copia de `#password_result`; removidas funções do modal de senha
 
 ## Decisões importantes
 - Geração baseada em códigos ASCII (33-126) com filtragem por faixa
@@ -33,9 +35,11 @@ Gerador de senhas seguras desenvolvido em HTML, CSS e JavaScript puro. O sistema
 - [x] Validação de entrada (apenas números, entre 8 e 40)
 - [x] Geração com todos os 4 tipos de caracteres
 - [x] Evitar repetições
-- [x] Exibir detalhes da senha no modal
+- [x] Exibir detalhes da senha em seção de resultado
 - [x] Copiar senha para clipboard
-- [x] Modais abertos/fechados
+- [x] Modal informativo sobre a versão
+- [x] Layout responsivo centralizado
+- [x] Seção de links para testar a senha gerada
 
 ## Próximos passos
 - [ ] Definir se há melhorias desejadas (ex: opção de excluir símbolos, permitir repetições, etc.)
@@ -51,4 +55,6 @@ xdg-open index.html  # Linux
 
 ## Histórico de sessões
 - Sessão 1: Mapeamento e criação do arquivo de contexto
-- Sessão 2 (atual): Implementação da função `copyToClipboard` com feedback visual "Copiado!" no modal, ajustes no JS/CSS/HTML
+- Sessão 2: Implementação da função `copyToClipboard` com feedback visual "Copiado!" no modal, ajustes no JS/CSS/HTML
+- Sessão 3: Reestruturação do layout (seções empilhadas e centralizadas), nova seção de links para testar a senha e responsividade para múltiplos dispositivos
+- Sessão 4 (atual): Resultado da senha movido do modal para uma seção abaixo do gerador (com cópia e breakdown); link de teste trocado para NordPass

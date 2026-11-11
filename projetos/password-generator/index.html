@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="./images/user-lock-solid-full.svg">
 		<link rel="stylesheet" href="style.css">
 		<title> password generator </title>
@@ -13,35 +14,63 @@
 			<h1> PASSWORD GENERATOR </h1>
 		</header>
 
-		<div class="sub-titles">
-			<h2 id="title-instructions"> Instruções </h2>
-			<h2 id="title-generator">Gerar Senha</h2>
-		</div>
-
 		<main class="main">
-			<div class="box-instructions">
+			<section class="box-instructions">
+				<h2 class="section-title" id="title-instructions"> Instruções </h2>
 				<p> Este sistema foi desenvolvido para gerar senhas seguras.</p>
 				<p> Para uma senha ser considerada segura, ela deve apresentar: </p>
 				<ul>
 					<li> <i class="fa-solid fa-key"></i> Mínimo de 8 caracteres; </li>
 					<li> <i class="fa-solid fa-key"></i> Letras maiúsculas; </li>
-					<li> <i class="fa-solid fa-key"></i> Letras minusculas; </li>
+					<li> <i class="fa-solid fa-key"></i> Letras minúsculas; </li>
 					<li> <i class="fa-solid fa-key"></i> Números; </li>
 					<li> <i class="fa-solid fa-key"></i> Símbolos. </li>
 				</ul>
-			</div>
+			</section>
 
-			<div class="box-input-generator">
+			<section class="box-input-generator">
+				<h2 class="section-title" id="title-generator">Gerar Senha</h2>
 				<p> Digite a quantidade de caracteres de sua senha: </p>
-				<p> [ATENÇÃO]! Digite valores de 8 a 40.</p>
-				<input type="number" name="number-of-characters" id="number_of_characters_typed" placeholder="Digite aqui">
-				<button value="generate" onclick="passwordGenerator()"> Gerar senha </button>
-			</div>
+				<p class="warning"> [ATENÇÃO]! Digite valores de 8 a 40.</p>
+				<div class="input-group">
+					<input type="number" name="number-of-characters" id="number_of_characters_typed" placeholder="Digite aqui">
+					<button value="generate" onclick="passwordGenerator()"> Gerar senha </button>
+				</div>
+			</section>
 
+			<section class="box-result" id="box-result" hidden>
+				<h2 class="section-title">Senha Gerada</h2>
+				<div class="text-result">
+					<p> Sua senha tem <span id="number_of_characters_result"></span> caracteres, sendo: </p>
+					<ul>
+						<li> <span id="symbols_result"></span> símbolos;</li>
+						<li> <span id="numbers_result"></span> números;</li>
+						<li> <span id="capital_letters_result"></span> letras maiúsculas;</li>
+						<li> <span id="small_letters_result"></span> letras minúsculas.</li>
+					</ul>
+					<div class="result-password">
+						<p>Sua senha é:</p>
+						<button id="copy-password-button" onclick="copyToClipboard(this)"> Copiar </button>
+					</div>
+					<p id="password_result"></p>
+				</div>
+			</section>
+
+			<section class="box-test-links">
+				<h2 class="section-title">Teste sua senha</h2>
+				<p> Verifique a força da senha gerada em um dos sites abaixo: </p>
+				<ul class="test-links">
+					<li> <a href="https://www.passwordmonster.com/" target="_blank" rel="noopener noreferrer"> Password Monster </a></li>
+					<li> <a href="https://nordpass.com/secure-password/" target="_blank" rel="noopener noreferrer"> NordPass </a></li>
+					<li> <a href="https://bitwarden.com/password-strength/" target="_blank" rel="noopener noreferrer"> Bitwarden </a></li>
+					<li> <a href="https://www.security.org/how-secure-is-my-password/" target="_blank" rel="noopener noreferrer"> Security.org </a></li>
+					<li> <a href="https://password.kaspersky.com/" target="_blank" rel="noopener noreferrer"> Kaspersky </a></li>
+				</ul>
+			</section>
 		</main>
 
 		<footer class="box-footer">
-			<p class="footer-title"> Desenvolvido por tthiagocarlosdev <p>
+			<p class="footer-title"> Desenvolvido por tthiagocarlosdev </p>
 			<ul class="links-social-media">
 				<li> <a href="https://github.com/tthiagocarlosdev" target="_blank"> GitHub </a></li>
 				<li> <a href="mailto:tthiagocarlos.dev@gmail.com" target="_blank"> Gmail </a></li>
@@ -50,33 +79,6 @@
 				<li> <a href="https://www.linkedin.com/in/thiago-carlos-80a480244" target="_blank"> LinkedIn </a></li>
 			</ul>
 		</footer>
-
-		<div class="modal-password">
-			<div class="box-modal-password">
-				<div class="header-modal">
-					<h1 class="title-modal-password"> Senha Gerada </h1>
-					<button class="botton-close-modal" onclick="closeModalPassword()" > X </button>
-				</div>
-
-				<div class="text-modal-password">
-					<p> Sua senha tem <span id="number_of_characters_modal"></span> caracteres, sendo: </p>
-					<ul>
-						<li> <span id="symbols_modal"></span> símbolos;</li>
-						<li> <span id="numbers_modal"></span> números;</li>
-						<li> <span id="capital_letters_modal"></span> letras maiúsculas;</li>
-						<li> <span id="small_letters_modal"></span> letras minúsculas.</li>
-					</ul>
-					<div class="result-password">
-						<p>Sua senha é:</p>	
-						<button id="copy-password-button" onclick="copyToClipboard(this)"> Copiar </button>	
-					</div>
-					<p id="password_modal" > {'0137z$\PyaW`2bQldL.4M!6t5UGCVi8c9?p*rN </p>
-				
-				</div>
-				
-			</div>
-		
-		</div>
 
 		<div id="open-modal" class="modal">
 			<div class="box-modal">
